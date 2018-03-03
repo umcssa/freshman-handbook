@@ -4,7 +4,7 @@ import json
 from collections import OrderedDict
 
 
-@fh.app.route('/api/freshman-handbook/get-hierarchy',
+@fh.app.route('/api/freshman-handbook/get-hierarchy/',
                 methods=['GET'])
 def get_hierarchy():
     hierarchy = [
@@ -75,7 +75,7 @@ def get_hierarchy():
     return json.dumps(hierarchy, ensure_ascii=False).encode('utf8')
 
 
-@fh.app.route('/api/freshman-handbook/get-article-content', methods=['GET'])
+@fh.app.route('/api/freshman-handbook/get-article-content/', methods=['GET'])
 def get_article_content():
     title = flask.request.args.get('title')
     return fh.model.get_article_content(title)

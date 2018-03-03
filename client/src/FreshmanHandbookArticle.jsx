@@ -17,7 +17,7 @@ export default class FreshmanHandbookArticle extends React.Component {
     const title = this.props.match.params.topicId;
     $.ajax({
       method: 'GET',
-      url: `${apiRootPath}get-article-content?title=${encodeURIComponent(title)}`,
+      url: `${apiRootPath}get-article-content/?title=${encodeURIComponent(title)}`,
     }).done((msg) => {
       const contentDict = Object.assign({}, this.state.contentDict);
       contentDict[title] = msg;
@@ -33,7 +33,7 @@ export default class FreshmanHandbookArticle extends React.Component {
       this.setState({ content: '', loading: true });
       $.ajax({
         method: 'GET',
-        url: `${apiRootPath}get-article-content?title=${encodeURIComponent(title)}`,
+        url: `${apiRootPath}get-article-content/?title=${encodeURIComponent(title)}`,
       }).done((msg) => {
         const contentDict = Object.assign({}, this.state.contentDict);
         contentDict[title] = msg;
