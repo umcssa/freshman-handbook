@@ -4,9 +4,9 @@ import {
   Route,
 } from 'react-router-dom';
 import {Layout} from 'antd';
-import 'antd/dist/antd.css';
 import FreshmanHandbookSidebar from './FreshmanHandbookSidebar';
 import FreshmanHandbookArticle from './FreshmanHandbookArticle';
+import FreshmanHandbookContact from './FreshmanHandbookContact';
 
 const $ = require('jquery');
 const Header = Layout.Header;
@@ -179,6 +179,7 @@ export default class FreshmanHandbook extends React.Component {
                 history={this.props.history}
               />
             </Sider>
+            <FreshmanHandbookContact/>
             <Content style={{ padding: 50 }}>
               <Route path={`${this.props.match.url}/:topicId`}
                      component={FreshmanHandbookArticle} />

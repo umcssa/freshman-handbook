@@ -1,9 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Menu from 'antd/lib/menu';
-import 'antd/lib/menu/style/css';
-import Icon from 'antd/lib/icon';
-import 'antd/lib/icon/style/css';
 
 const $ = require('jquery');
 

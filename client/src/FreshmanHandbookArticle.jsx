@@ -1,6 +1,5 @@
 import React from 'react';
 import {Spin} from 'antd';
-import 'antd/lib/icon/style/css';
 
 const $ = require('jquery');
 const apiRootPath = '/api/freshman-handbook/';
