@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import RateMyProfessor from './RateMyProfessor';
+import FreshmanHandbook from './FreshmanHandbook';
 
 class App extends Component {
   render() {
     return (
         <Router>
             <div>
-                <Route strict path="/rate-my-professor/" component={RateMyProfessor} />
+                <Route strict path="/freshman-handbook/" component={FreshmanHandbook} />
             </div>
         </Router>
     );
