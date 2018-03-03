@@ -1,0 +1,16 @@
+.idea/
+*~
+*.log
+*.egg-info/
+*.db
+*.pyc
+.DS_Store
+__pycache__/
+env/
+var/
+node_modules/
+bundle.js
+bundle.js.map
+cookies.txt
+*.pem
+helper/fetch/data/*/*.html
