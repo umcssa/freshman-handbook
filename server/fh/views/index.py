@@ -13,8 +13,7 @@ def index(path):
     return flask.render_template('index.html')
 
 @fh.app.route(fh.app.config['APPLICATION_ROOT'] + 'static/<path:filename>')
-def file(filename):
+def static(filename):
     """Display /static/<path:filename> route."""
-    print('here')
     return flask.send_from_directory(
         fh.app.config['STATIC_FOLDER'], filename)
