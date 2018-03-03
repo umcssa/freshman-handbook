@@ -1,0 +1,15 @@
+#!/bin/bash
+# fhrun
+
+# Stop on errors, print commands
+set -e
+set -x
+
+if [ ! -f var/fh.sqlite3 ]; then
+    ./bin/fhdb "create"
+fi
+
+export FLASK_DEBUG=True
+export FLASK_APP=fh
+export FH_SETTINGS=config.py
+flask run --host 0.0.0.0 --port 8002

@@ -1,11 +1,11 @@
-"""Insta485 python package configuration."""
+"""Freshman Handbook python package configuration."""
 
 from setuptools import setup
 
 setup(
-    name='rmp',
+    name='fh',
     version='0.1.0',
-    packages=['rmp'],
+    packages=['fh'],
     include_package_data=True,
     install_requires=[
         'Flask==0.12.2',
