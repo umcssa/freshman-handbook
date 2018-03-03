@@ -3,8 +3,8 @@ import {Spin} from 'antd';
 import 'antd/lib/icon/style/css';
 
 const $ = require('jquery');
-// const apiRootPath = '/api/freshman-handbook/';
-const apiRootPath = 'http://localhost:8002/api/freshman-handbook/';
+const apiRootPath = '/api/freshman-handbook/';
+// const apiRootPath = 'http://localhost:8002/api/freshman-handbook/';
 
 
 export default class FreshmanHandbookArticle extends React.Component {
