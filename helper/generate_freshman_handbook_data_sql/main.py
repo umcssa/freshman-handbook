@@ -1,3 +1,10 @@
+import glob
+import codecs
+
+
+content_files = list(glob.iglob('content/**/*.txt', recursive=True))
+print(content_files)
+
 hierarchy = [
     ['出国前准备', [
         ['签证', [
@@ -70,20 +77,31 @@ def getTitles(hierarchy, titles):
         if not item[1]:
             titles.append(item[0])
         else:
-            getTitles(item[1],titles)
+            getTitles(item[1], titles)
 
 
 titles = []
-getTitles(hierarchy,titles)
+getTitles(hierarchy, titles)
 
 sql = 'INSERT INTO article VALUES '
 
 for title in titles:
-    sql += "('{}', '{}'),\n".format(title,title+'\n文章内容')
+    found = False
+    for content_file in content_files:
+        if title in content_file:
+            found = True
+            break
+    if not found:
+        # print(title)
+        pass
+    else:
+        print(content_file)
+        file = codecs.open(content_file, "r", "GB2312")
+        print(file.read())
+        sql += "('{}', '{}'),\n".format(title, title + '\n文章内容')
 
 sql = sql[:-2] + ';\n'
 
-import codecs
 
 file = codecs.open("freshman_handbook_data.sql", "w", "utf-8")
 file.write(sql)
