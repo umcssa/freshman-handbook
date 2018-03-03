@@ -96,7 +96,7 @@ for title in titles:
         pass
     else:
         print(content_file)
-        file = codecs.open(content_file, "r", "GB2312")
+        file = codecs.open(content_file, "r", "GB18030")
         print(file.read())
         sql += "('{}', '{}'),\n".format(title, title + '\n文章内容')
 
