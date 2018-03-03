@@ -109,7 +109,7 @@ export default class FreshmanHandbook extends React.Component {
 
   getDefaultKeys(props) {
     const split = props.location.pathname.split(/\//);
-    const uri = split[split.length - 1];
+    const uri = split[split.length - 2];
     let menuKey = 0;
     let subMenuKey = 0;
     let optionKey = 0;
@@ -160,7 +160,7 @@ export default class FreshmanHandbook extends React.Component {
 
   render() {
     return (
-      <Router>
+      <div>
         <Layout>
           <Header style={{ color: '#ffffff' }}>新生手册</Header>
           <Layout>
@@ -181,12 +181,12 @@ export default class FreshmanHandbook extends React.Component {
             </Sider>
             <FreshmanHandbookContact/>
             <Content style={{ padding: 50 }}>
-              <Route path={`${this.props.match.url}/:topicId`}
+              <Route strict exact path={`${this.props.match.url}:topicId/`}
                      component={FreshmanHandbookArticle} />
             </Content>
           </Layout>
         </Layout>
-      </Router>
+      </div>
     );
   }
 }
