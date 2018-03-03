@@ -1,2 +1,2 @@
-# umcssa-rate-my-professor
-UMCSSA Rate My Professor
+# freshman-handbook
+UMCSSA Freshman Handbook
