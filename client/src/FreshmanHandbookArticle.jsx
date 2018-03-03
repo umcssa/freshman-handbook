@@ -13,7 +13,7 @@ export default class FreshmanHandbookArticle extends React.Component {
   }
 
   componentDidMount() {
-    const title = this.props.match.params.topicId;
+    const title = this.props.match.params.title;
     $.ajax({
       method: 'GET',
       url: `${apiRootPath}get-article-content/?title=${encodeURIComponent(title)}`,
@@ -25,7 +25,7 @@ export default class FreshmanHandbookArticle extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    const title = nextProps.match.params.topicId;
+    const title = nextProps.match.params.title;
     if (title in this.state.contentDict) {
       this.setState({ content: this.state.contentDict[title], loading: false });
     } else {
@@ -45,7 +45,7 @@ export default class FreshmanHandbookArticle extends React.Component {
     return (
       <div>
         <h1>
-          {this.props.match.params.topicId}
+          {this.props.match.params.title}
           <Spin spinning={this.state.loading} style={{ marginLeft: 20 }} />
         </h1>
         <p>{this.state.content}</p>

@@ -24,7 +24,7 @@ export default class FreshmanHandbookSidebar extends React.Component {
             optionKey += 1;
             return (
               <Menu.Item key={optionKey}>
-                <Link to={`${this.props.match.url}${option[0]}/`}>
+                <Link to={`${this.props.match.url}${menu[0]}/${subMenu[0]}/${option[0]}/`}>
                   {option[0]}
                 </Link>
               </Menu.Item>);
@@ -35,7 +35,7 @@ export default class FreshmanHandbookSidebar extends React.Component {
           optionKey += 1;
           return (
             <Menu.Item key={optionKey}>
-              <Link to={`${this.props.match.url}${subMenu[0]}/`}>
+              <Link to={`${this.props.match.url}${menu[0]}/${subMenu[0]}/`}>
                 {subMenu[0]}
               </Link>
             </Menu.Item>);
