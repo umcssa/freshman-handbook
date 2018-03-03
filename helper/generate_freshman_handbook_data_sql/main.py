@@ -1,7 +1,6 @@
 import glob
 import codecs
 
-
 content_files = list(glob.iglob('content/**/*.txt', recursive=True))
 print(content_files)
 
@@ -95,13 +94,13 @@ for title in titles:
         # print(title)
         pass
     else:
+        print(title)
         print(content_file)
-        file = codecs.open(content_file, "r", "GB18030")
-        print(file.read())
+        file = open(content_file)
+        # print(file.read())
         sql += "('{}', '{}'),\n".format(title, title + '\n文章内容')
 
 sql = sql[:-2] + ';\n'
-
 
 file = codecs.open("freshman_handbook_data.sql", "w", "utf-8")
 file.write(sql)

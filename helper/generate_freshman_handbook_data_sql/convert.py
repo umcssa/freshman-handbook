@@ -1,8 +1,10 @@
 import glob
 import codecs
+import re
 
-content_files = list(glob.iglob('content/**/*.txt', recursive=True))
+content_files = list(glob.iglob('raw/**/*.txt', recursive=True))
 
 for content_file in content_files:
-    content = codecs.open(content_file, "r", "GB18030").read()
-    codecs.open(content_file, "w", "utf-8").write(content)
+    content = open(content_file).read()
+    new_filename = re.findall(r'(/\d+\. (.+?))+\.txt', content_file)[0][1] + '.txt'
+    open('content/' + new_filename,'w').write(content)
