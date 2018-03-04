@@ -114,10 +114,10 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <br />
 <p>除了选课以外，Wolverine Access 还可以用来修改个人地址和电话信息，查看成绩，要求成绩单，支付学费保险等。</p>
 <p>进入Wolverine Access的页面（www.wolverineaccess.umich.edu）之后，选择Students，便可以看到与学生生活息息相关的几大版块啦，如下图所示：</p>
-<img src="/freshman-handbook/uploads/qw2.jpg" alt="qw2" style="width:100%" />
+<img src="/freshman-handbook/uploads/qw2.png" alt="qw2" style="width:100%" />
 <p>根据自己需要选择点击链接进入，一般常用的就是Student Business啦。这里给大家简单介绍一下里面的主要内容：</p>
 <p> 1. 点Student Business之后就是这样啦~</p>
-<img src="/freshman-handbook/uploads/qw3.jpg" alt="qw3" style="width:100%" />
+<img src="/freshman-handbook/uploads/qw3.png" alt="qw3" style="width:100%" />
 <p>2. Student Center里面有各种基本信息，比如选课课表、账户余额、个人信息等等。</p>
 <p>3. Payroll and Compensation的功能通常只有有校内工作的才会需要点击，可以查看自己的工资条以及绑定账户等信息。</p>
 <p>4. Class Search/Browses Catalog是选课必须用的网站。</p>
@@ -137,7 +137,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>地址：100 Observatory Street</p>
 <p>简介：设施很新，环境很好很温馨，study lounge 和休息室大气宽敞，房间大小适中，配备空调。宿舍没有自己的食堂，吃饭要去旁边的 Mojo 的 Market Place。有两个6人套间和一个8人套间提供。有舞蹈教室，音乐练习室等。</p>
 <p>推荐指数：四星半</p>
-<img src="/freshman-handbook/uploads/qa10.jpg" alt="qa10" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa10.tiff" alt="qa10" style="width:100%" />
 <p>（图片来源：ids-troy.com/）</p>
 <br />
 <br />
@@ -145,7 +145,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>地址：1300 E. Ann Street</p>
 <p>简介：和 Alice Lloyd 一样，也是翻新过不久，娱乐设施齐全，乒乓球，台球，桌上足球，游戏机应有尽有，房间舒适，大小适中，只有double和single，拥有公用厨房，但没有自己的食堂。门口有直达北校的公交车，也有到中校的commuter south，走到中校大概也只需要10min。是 Health Sciences Scholars Program (HSSP)项目的宿舍。</p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/qa11.jpg" alt="qa11" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa11.tiff" alt="qa11" style="width:100%" />
 <p>（图片来源：ur.umich.edu）</p>
 <br />
 <br />
@@ -153,14 +153,14 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>地址：200 Observatory Street</p>
 <p>简介：环境舒适，设施齐全，可以在 Market Place 和 Victors 用餐，靠近 CCRB 健身房，房间配备空调，Michigan Research Community 的同学都住在此宿舍，宿舍还提供公用厨房。</p>
 <p>推荐指数：四星半</p>
-<img src="/freshman-handbook/uploads/qa12.jpg" alt="qa12" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa12.tiff" alt="qa12" style="width:100%" />
 <p>（图片来源：goodyclancy.com）</p>
 <p> </p>
 <p>13. Mary Markley Hall</p>
 <p>地址：1503 Washington Heights</p>
 <p>简介：专门给大一新生提供宿舍，设施齐全，不是很新，周末随处可见去 party 的美国人，有自己的食堂，但因为提供数量有限，所以先到先得。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa13.jpg" alt="qa13" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa13.tiff" alt="qa13" style="width:100%" />
 <p>（图片来源：campusinfo.umich.edu）</p>
 <br />
 <br />
@@ -168,14 +168,14 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>地址：324 Observatory</p>
 <p>简介：公共区域和房间都很温馨舒适，60%的房间是 single，但不提供给大一学生。有公用厨房，study lounge 数个，没有自己的食堂，但离 Mojo 很近，离CCRB 也非常近。</p>
 <p>推荐指数：五颗星</p>
-<img src="/freshman-handbook/uploads/qa14.jpg" alt="qa14" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa14.tiff" alt="qa14" style="width:100%" />
 <p>（图片来源：goodyclancy.com）</p>
 <br />
 <br />
 <p>15. Oxford Houses</p>
 <p>地址：623 Oxford Road 简介：由八幢小楼组成的学生宿舍，主要是新生住在这里，房型主要是 double 和 suite。附近可以乘 Oxford 线的 Blue Bus 去中校，如果走路需要五到十分钟。有自己新装修的食堂，而且伙食不错。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa15.jpg" alt="qa15" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa15.tiff" alt="qa15" style="width:100%" />
 <p>(图片来源：freshmansupport.com)</p>
 <p> </p>
 '),
@@ -201,7 +201,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>缺点：房价偏贵。</p>
 <p>网址：http://www.zaragonplace.com </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as1.jpg" alt="as1" style="width:100%" />
+<img src="/freshman-handbook/uploads/as1.tiff" alt="as1" style="width:100%" />
 <p>（图片来源：http://collegestudentapartments.com）</p>
 <br />
 <p>02. Zaragon West</p>
@@ -212,7 +212,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>缺点：房价偏贵。</p>
 <p>网址：http://www.zaragonwest.com </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as2.jpg" alt="as2" style="width:100%" />
+<img src="/freshman-handbook/uploads/as2.tiff" alt="as2" style="width:100%" />
 <p>（图片来源：http://www.secondwavemedia.com）</p>
 <br />
 <p>03. University Towers 地址：536 S. Forest Ave.</p>
@@ -223,7 +223,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>缺点：设施比较旧，内部环境较差。</p>
 <p>网址：http://u-towers.com/ </p>
 <p>推荐指数：三颗星</p>
-<img src="/freshman-handbook/uploads/as3.jpg" alt="as3" style="width:100%" />
+<img src="/freshman-handbook/uploads/as3.tiff" alt="as3" style="width:100%" />
 <p>（图片来源：https://www.apartments.com）</p>
 <br />
 <p>04. Landmark</p>
@@ -241,7 +241,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>缺点：价格偏高，到周末周围会比较吵闹，不适合喜欢安静的人居住。</p>
 <p>网址：https://www.americancampus.com/student-apartments/mi/ann-arbor/landmark </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as4.jpg" alt="as4" style="width:100%" />
+<img src="/freshman-handbook/uploads/as4.tiff" alt="as4" style="width:100%" />
 <p>（图片来源：http://www.annarbor.com）</p>
 <br />
 <p>05. Sterling 411 Lofts</p>
@@ -256,7 +256,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>缺点：周围没有 Blue Bus 车站。</p>
 <p>网址：http://www.4elevenlofts.com/</p>
 <p>推荐指数：四星半</p>
-<img src="/freshman-handbook/uploads/as5.jpg" alt="as5" style="width:100%" />
+<img src="/freshman-handbook/uploads/as5.tiff" alt="as5" style="width:100%" />
 <p>（图片来源：https://offcampushousing.umich.edu）</p>
 <br />
 <p>06. Tower Plaza</p>
@@ -268,7 +268,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>缺点：设施比较旧，但不影响美观和使用，价格贵。</p>
 <p>网址：http://www.towerplaza.net/index.html </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as6.jpg" alt="as6" style="width:100%" />
+<img src="/freshman-handbook/uploads/as6.tiff" alt="as6" style="width:100%" />
 <p>（图片来源：https://en.m.wikipedia.org）</p>
 <br />
 <p>07. Varsity</p>
@@ -279,7 +279,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>缺点：价格偏高，周围没有 Blue Bus 车站。</p>
 <p>网址：http://www.varsityannarbor.com/ </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as7.jpg" alt="as7" style="width:100%" />
+<img src="/freshman-handbook/uploads/as7.tiff" alt="as7" style="width:100%" />
 <p>（图片来源：http://www.annarbor.com）</p>
 <br />
 <p>08. Foundry Lofts</p>
@@ -293,7 +293,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>缺点：离中校稍远，周围没有公交车站。</p>
 <p>网址：https://www.foundryloftsannarbor.com/</p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as8.jpg" alt="as8" style="width:100%" />
+<img src="/freshman-handbook/uploads/as8.tiff" alt="as8" style="width:100%" />
 <p>（图片来源：http://www.mlive.com）</p>
 <br />
 <p>09. Sterling Arbor Blu</p>
@@ -308,7 +308,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>缺点：价格偏高。</p>
 <p>网址：http://www.sterlinghousing.com/ann-arbor-mi/sterling-arbor-blu/ </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as9.jpg" alt="as9" style="width:100%" />
+<img src="/freshman-handbook/uploads/as9.tiff" alt="as9" style="width:100%" />
 <p>（图片来源：http://www.sterlinghousing.com）</p>
 <br />
 '),
@@ -321,7 +321,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>缺点：房屋位置有内圈和外圈，内圈只能看到 courtyard，采光差，房内灯光暗。</p>
 <p>网址：http://www.courtyardsapts.com/ </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as10.jpg" alt="as10" style="width:100%" />
+<img src="/freshman-handbook/uploads/as10.tiff" alt="as10" style="width:100%" />
 <p>（图片来源：https://www.apartments.com） </p>
 <p>11. Willowtree Apartment & Towers</p>
 <p>地址：1819 Willowtree Lane</p>
@@ -333,7 +333,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>缺点：离中校很远，没有 Blue Bus,但不远有 AATA 的车站可以到中校，价格不算便宜。</p>
 <p>网址：https://www.americancampus.com/student-apartments/mi/ann-arbor/willowtree-apartments-tower </p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/as11.jpg" alt="as11" style="width:100%" />
+<img src="/freshman-handbook/uploads/as11.tiff" alt="as11" style="width:100%" />
 <p>（图片来源：https://www.americancampus.com）</p>
 <br />
 <p>12. Huron Towers</p>
@@ -346,7 +346,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>缺点：离车站较远，价格偏高，房屋设施一般。</p>
 <p>网址：http://www.hurontowers.com/index.html</p>
 <p>推荐指数：三颗星</p>
-<img src="/freshman-handbook/uploads/as12.jpg" alt="as12" style="width:100%" />
+<img src="/freshman-handbook/uploads/as12.tiff" alt="as12" style="width:100%" />
 <p>（图片来源：http://www.michiganmodern.org）</p>
 '),
 ('校外租房信息', '<p>校外租房信息</p>
@@ -422,10 +422,10 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>若你有拥有美元账户的借记卡或者贷记卡，就可在网上购物。在繁忙的学习生活中，网购不失为一种省时省 力省钱的好途径。大型综合类网购网站中最为出色的两家可以总结为 amazon 和 ebay。</p>
 <br />
 <p>Amazon   是全球最大的   B2C   电商。货品齐全且价格公道。各种日用品，服装，电器，食物等都有供应。在美国 Amazon 网站上注册一个账号，并提供银行卡信息及送货信息就可开始购物了。需要注意的是这个 Amazon 与国内亚马逊不可混用。学生凭学校邮箱可以免费获得 6 个月的 Prime 服务，到期后可以以学生价 继续订购此项服务。具体参考： https://www.amazon.com/gp/student/signup/info/ref=lp_student/188-5790946-9340369</p>
-<img src="/freshman-handbook/uploads/zc1.jpg" alt="zc1" style="width:100%" />
+<img src="/freshman-handbook/uploads/zc1.png" alt="zc1" style="width:100%" />
 <br />
 <p>ebay 与淘宝类似，增加了 auction 功能，就是以竞价的方式进行购买，可以买到非常便宜的商品。另外它的二手商品交易也很成熟健全。在购物之前需要注册易趣账号以及 paypal 账号（相当于国内的支付宝），并提供银行卡信息和送货地址。</p>
-<img src="/freshman-handbook/uploads/zc2.jpg" alt="zc2" style="width:100%" />
+<img src="/freshman-handbook/uploads/zc2.png" alt="zc2" style="width:100%" />
 <br />
 <p>以上两个网站也是购买教科书的良好途径。Amazon 提供买与租两种方式。购买新书一般比书店便宜 20%以上，而二手书根据实际情况比新书进一步便宜 20%到 50%。学期末还可以将书卖回 amazon，账户内可以获 得一定量的现金券，用于下次购物。若是租的话就更加便宜了，须在截止日前将书寄回，邮费由 amazon 承 担。Ebay 一样有新书以及二手书的出售，有些还有国际版出售，价格通常便宜一半以上。</p>
 <br />
@@ -546,7 +546,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <p>Hong Kong student association aims to introduce Hong Kong culture to students, strengthens bonding between members and provides member with both cultural and social events.</p>
 <br />
 <p>香港學生會的宗旨是介紹香港文化，建立成員間的友誼，並提供文化和社交活動給會員。</p>
-<img src="/freshman-handbook/uploads/po5.jpg" alt="po5" style="width:100%" />
+<img src="/freshman-handbook/uploads/po5.tiff" alt="po5" style="width:100%" />
 '),
 ('Michigan Chinese Business Club (MCBC)', 'Michigan Chinese Business Club (MCBC)
 文章内容'),
@@ -571,7 +571,7 @@ INSERT INTO article VALUES ('签证申请流程', '签证申请流程
 <br />
 <p>	CUSA由多位密西根大学安娜堡分校的学生成立于2010年。我们主要针对本科的华人和其他国籍的国际学生，在繁忙学业之余，为校园生活更添娱乐精神，并且在密大这个大团体中结交更多的挚友。CUSA是一个非盈利目的的学生组织，注册于密西根大学下。</p>
 <p>	在过去的几年中，我们成功的创造和实践了许多大大小小的活动，给学生们带来欢乐。欢迎同学们在即将来临的秋天，参与我们的活动，或者加入CUSA，成为我们的一员。</p>
-<img src="/freshman-handbook/uploads/po11.jpg" alt="po11" style="width:100%" />
+<img src="/freshman-handbook/uploads/po11.png" alt="po11" style="width:100%" />
 <br />
 <br />
 ');
