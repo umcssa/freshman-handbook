@@ -1,7 +1,8 @@
 import glob
 import codecs
+import os
 
-content_files = list(glob.iglob('content/**/*.txt', recursive=True))
+content_files = os.listdir('content')
 print(content_files)
 
 hierarchy = [
@@ -86,18 +87,20 @@ sql = 'INSERT INTO article VALUES '
 
 for title in titles:
     found = False
-    for content_file in content_files:
-        if title in content_file:
-            found = True
-            break
-    if not found:
+    if title + '.txt' in content_files:
         # print(title)
-        pass
+        # file = open(content_file)
+        # print(file.read())
+
+        content = open('content/' + title + '.txt').read()
+
+        if "'" in content:
+            content = content.replace("'", "''")
+            print(content)
+
+        sql += "('{}', '{}'),\n".format(title, content)
     else:
         print(title)
-        print(content_file)
-        file = open(content_file)
-        # print(file.read())
         sql += "('{}', '{}'),\n".format(title, title + '\n文章内容')
 
 sql = sql[:-2] + ';\n'
