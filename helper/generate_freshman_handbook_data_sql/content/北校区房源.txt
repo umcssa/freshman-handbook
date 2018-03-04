@@ -1,36 +1,36 @@
-校外租房 -- 北校区房源
-  10. Courtyard
-地址：1780 Broadway
-主要房型：
-1 Bedroom 1 Bathroom $1535 2 Bedrooms 2 Bathrooms $975 3 Bedrooms 3 Bathrooms $809 4 Bedrooms 4 Bathrooms $809
-优点：靠近食堂、车站、Kroger 和中国超市、图书馆和北校教学楼。
-缺点：房屋位置有内圈和外圈，内圈只能看到 courtyard，采光差，房内灯光暗。
-网址：http://www.courtyardsapts.com/ 
-推荐指数：四颗星
-<as10.jpg>
-（图片来源：https://www.apartments.com） 
-11. Willowtree Apartment & Towers
-地址：1819 Willowtree Lane
-主要房型：
-Studio $859
-1 Bedroom 1 Bathroom $884-$974
-2 Bedrooms 1 Bathroom $984-$1288
-优点：朝向好的话可以看到小湖，离 Kroger 和中国超市近，安静舒适。
-缺点：离中校很远，没有 Blue Bus,但不远有 AATA 的车站可以到中校，价格不算便宜。
-网址：https://www.americancampus.com/student-apartments/mi/ann-arbor/willowtree-apartments-tower 
-推荐指数：三星半
-<as11.jpg>
-（图片来源：https://www.americancampus.com）
-
-12. Huron Towers
-地址：2200 Fuller Ct.
-主要房型：
-Studio $865-$950
-1 Bedroom 1 Bathroom $975-$1170
-2 Bedrooms 1 Bathroom $1225-$1520 3 Bedrooms 1 Bathroom $1575-$2210
-优点：环境安静，房间数量多,高层景色好，旁边有很大的足球场和森林公园,有游泳池。
-缺点：离车站较远，价格偏高，房屋设施一般。
-网址：http://www.hurontowers.com/index.html
-推荐指数：三颗星
-<as12.jpg>
-（图片来源：http://www.michiganmodern.org）
+<p>校外租房 -- 北校区房源</p>
+<p>  10. Courtyard</p>
+<p>地址：1780 Broadway</p>
+<p>主要房型：</p>
+<p>1 Bedroom 1 Bathroom $1535 2 Bedrooms 2 Bathrooms $975 3 Bedrooms 3 Bathrooms $809 4 Bedrooms 4 Bathrooms $809</p>
+<p>优点：靠近食堂、车站、Kroger 和中国超市、图书馆和北校教学楼。</p>
+<p>缺点：房屋位置有内圈和外圈，内圈只能看到 courtyard，采光差，房内灯光暗。</p>
+<p>网址：http://www.courtyardsapts.com/ </p>
+<p>推荐指数：四颗星</p>
+<p><as10.jpg></p>
+<p>（图片来源：https://www.apartments.com） </p>
+<p>11. Willowtree Apartment & Towers</p>
+<p>地址：1819 Willowtree Lane</p>
+<p>主要房型：</p>
+<p>Studio $859</p>
+<p>1 Bedroom 1 Bathroom $884-$974</p>
+<p>2 Bedrooms 1 Bathroom $984-$1288</p>
+<p>优点：朝向好的话可以看到小湖，离 Kroger 和中国超市近，安静舒适。</p>
+<p>缺点：离中校很远，没有 Blue Bus,但不远有 AATA 的车站可以到中校，价格不算便宜。</p>
+<p>网址：https://www.americancampus.com/student-apartments/mi/ann-arbor/willowtree-apartments-tower </p>
+<p>推荐指数：三星半</p>
+<p><as11.jpg></p>
+<p>（图片来源：https://www.americancampus.com）</p>
+<br />
+<p>12. Huron Towers</p>
+<p>地址：2200 Fuller Ct.</p>
+<p>主要房型：</p>
+<p>Studio $865-$950</p>
+<p>1 Bedroom 1 Bathroom $975-$1170</p>
+<p>2 Bedrooms 1 Bathroom $1225-$1520 3 Bedrooms 1 Bathroom $1575-$2210</p>
+<p>优点：环境安静，房间数量多,高层景色好，旁边有很大的足球场和森林公园,有游泳池。</p>
+<p>缺点：离车站较远，价格偏高，房屋设施一般。</p>
+<p>网址：http://www.hurontowers.com/index.html</p>
+<p>推荐指数：三颗星</p>
+<p><as12.jpg></p>
+<p>（图片来源：http://www.michiganmodern.org）</p>

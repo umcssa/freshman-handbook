@@ -1,24 +1,25 @@
-注册选课
-
-
-新生可通过 Wolverine Access 进行注册选课：Wolverine Access → Student Business → Enrollment 。LSA的课程介绍课请参考 LSA Course Guide：http://www.lsa.umich.edu/cg/
-新生是会在International orientation期间手把手教如何用Wolverine access的系统选课的哟，所以在到达之前都不必担心自己不会选课哒！
-
-本科生在 Orientation 期间会与 Academic Advisor 见面，讨论课程选择的事项，并会在统一时间在 orientation leader 的协助下注册选课。研究生在选课之前，可以向系里的 Graduate Advisor 咨询。有些系对本系研究生的选课有各自的要求，具体情况可参考研究生手册。（美国的advisor并不是很了解中国学生的需求，建议选课前尽量多跟学长学姐和周围小伙伴沟通选课情况。）
-对于已经选满的课，如果在 waitlist 上也不用着急，在开学正式上课的时候向 professor 说明一下，一般都能够选进。
-
-除了选课以外，Wolverine Access 还可以用来修改个人地址和电话信息，查看成绩，要求成绩单，支付学费保险等。
-进入Wolverine Access的页面（www.wolverineaccess.umich.edu）之后，选择Students，便可以看到与学生生活息息相关的几大版块啦，如下图所示：
-<qw2.jpg>
-根据自己需要选择点击链接进入，一般常用的就是Student Business啦。这里给大家简单介绍一下里面的主要内容：
- 1. 点Student Business之后就是这样啦~
-<qw3.jpg>
-2. Student Center里面有各种基本信息，比如选课课表、账户余额、个人信息等等。
-3. Payroll and Compensation的功能通常只有有校内工作的才会需要点击，可以查看自己的工资条以及绑定账户等信息。
-4. Class Search/Browses Catalog是选课必须用的网站。
-5. Academic Records中可以查看你的成绩单，已经转过去的学分等等，在投递简历寻找工作或实习的时候，很多公司要求提供的成绩单就可以在这里order。
-6. Degree Progress/Graduation中可以查看自己的学习情况，离成功毕业还有多少学分没有满足，还有哪些选修课、必修课没有上满等等。
-7. Late Drop/Add Request Status一般用的人较少，用于学期中途学生希望退课或者加课的需求。
-8. Campus Finance也是非常重要的链接，查看学费、保险费以及其他各种杂七杂八的费用就在这里了，缴费也在此处。
-
-其他链接不大常用，就不一一列举介绍了。新生们想要做准备可以从这个网站开始。
+<p>注册选课</p>
+<br />
+<br />
+<p>新生可通过 Wolverine Access 进行注册选课：Wolverine Access → Student Business → Enrollment 。LSA的课程介绍课请参考 LSA Course Guide：http://www.lsa.umich.edu/cg/</p>
+<p>新生是会在International orientation期间手把手教如何用Wolverine access的系统选课的哟，所以在到达之前都不必担心自己不会选课哒！</p>
+<br />
+<p>本科生在 Orientation 期间会与 Academic Advisor 见面，讨论课程选择的事项，并会在统一时间在 orientation leader 的协助下注册选课。研究生在选课之前，可以向系里的 Graduate Advisor 咨询。有些系对本系研究生的选课有各自的要求，具体情况可参考研究生手册。（美国的advisor并不是很了解中国学生的需求，建议选课前尽量多跟学长学姐和周围小伙伴沟通选课情况。）</p>
+<p>对于已经选满的课，如果在 waitlist 上也不用着急，在开学正式上课的时候向 professor 说明一下，一般都能够选进。</p>
+<br />
+<p>除了选课以外，Wolverine Access 还可以用来修改个人地址和电话信息，查看成绩，要求成绩单，支付学费保险等。</p>
+<p>进入Wolverine Access的页面（www.wolverineaccess.umich.edu）之后，选择Students，便可以看到与学生生活息息相关的几大版块啦，如下图所示：</p>
+<p><qw2.jpg></p>
+<p>根据自己需要选择点击链接进入，一般常用的就是Student Business啦。这里给大家简单介绍一下里面的主要内容：</p>
+<p> 1. 点Student Business之后就是这样啦~</p>
+<p><qw3.jpg></p>
+<p>2. Student Center里面有各种基本信息，比如选课课表、账户余额、个人信息等等。</p>
+<p>3. Payroll and Compensation的功能通常只有有校内工作的才会需要点击，可以查看自己的工资条以及绑定账户等信息。</p>
+<p>4. Class Search/Browses Catalog是选课必须用的网站。</p>
+<p>5. Academic Records中可以查看你的成绩单，已经转过去的学分等等，在投递简历寻找工作或实习的时候，很多公司要求提供的成绩单就可以在这里order。</p>
+<p>6. Degree Progress/Graduation中可以查看自己的学习情况，离成功毕业还有多少学分没有满足，还有哪些选修课、必修课没有上满等等。</p>
+<p>7. Late Drop/Add Request Status一般用的人较少，用于学期中途学生希望退课或者加课的需求。</p>
+<p>8. Campus Finance也是非常重要的链接，查看学费、保险费以及其他各种杂七杂八的费用就在这里了，缴费也在此处。</p>
+<br />
+<p>其他链接不大常用，就不一一列举介绍了。新生们想要做准备可以从这个网站开始。</p>
+<br />

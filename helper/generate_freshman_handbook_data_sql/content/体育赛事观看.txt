@@ -1,14 +1,15 @@
-体育赛事观看
-
-作为骄傲的 Michigan Wolverine，同学们可以在休息的时间去各种体育比赛为 Umich 呐喊助威。在所有运动中，最受欢迎的莫过于美国的传统项目 football，大家可以穿着我们经典的黄蓝 Tshirt 去 stadium 亲自感受狂热的橄榄球运动。
-
-经常看球的同学，也可以购买橄榄球、篮球、曲棍球等体育赛事的季票。
-
-买票方式
-Ticket Office
-地址：1000 S State St, North of Yost Ice Arena
-时间：周一至周五 8:30 a.m. - 5 p.m.
-
-官方网站
-官网地址：http://www.mgoblue.com/tickets/home.html 
-比赛时间表 ：http://www.mgoblue.com/calendar/events
+<p>体育赛事观看</p>
+<br />
+<p>作为骄傲的 Michigan Wolverine，同学们可以在休息的时间去各种体育比赛为 Umich 呐喊助威。在所有运动中，最受欢迎的莫过于美国的传统项目 football，大家可以穿着我们经典的黄蓝 Tshirt 去 stadium 亲自感受狂热的橄榄球运动。</p>
+<br />
+<p>经常看球的同学，也可以购买橄榄球、篮球、曲棍球等体育赛事的季票。</p>
+<br />
+<p>买票方式</p>
+<p>Ticket Office</p>
+<p>地址：1000 S State St, North of Yost Ice Arena</p>
+<p>时间：周一至周五 8:30 a.m. - 5 p.m.</p>
+<br />
+<p>官方网站</p>
+<p>官网地址：http://www.mgoblue.com/tickets/home.html </p>
+<p>比赛时间表 ：http://www.mgoblue.com/calendar/events</p>
+<br />

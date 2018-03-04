@@ -55,10 +55,6 @@ def get_article_content(title):
     cur = get_db().execute("SELECT content FROM article WHERE title=?", (title,))
     result = cur.fetchone()
     if result:
-        contents = result['content'].split('\n')
-        html = ''
-        for content in contents:
-            html += '<p>' + content + '</p>'
-        return html
+        return result['content']
     else:
         return ''
