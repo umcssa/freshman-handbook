@@ -9,10 +9,10 @@
 <br />
 <p>除了选课以外，Wolverine Access 还可以用来修改个人地址和电话信息，查看成绩，要求成绩单，支付学费保险等。</p>
 <p>进入Wolverine Access的页面（www.wolverineaccess.umich.edu）之后，选择Students，便可以看到与学生生活息息相关的几大版块啦，如下图所示：</p>
-<p><qw2.jpg></p>
+<img src="/freshman-handbook/uploads/qw2.jpg" alt="qw2" style="width:100%" />
 <p>根据自己需要选择点击链接进入，一般常用的就是Student Business啦。这里给大家简单介绍一下里面的主要内容：</p>
 <p> 1. 点Student Business之后就是这样啦~</p>
-<p><qw3.jpg></p>
+<img src="/freshman-handbook/uploads/qw3.jpg" alt="qw3" style="width:100%" />
 <p>2. Student Center里面有各种基本信息，比如选课课表、账户余额、个人信息等等。</p>
 <p>3. Payroll and Compensation的功能通常只有有校内工作的才会需要点击，可以查看自己的工资条以及绑定账户等信息。</p>
 <p>4. Class Search/Browses Catalog是选课必须用的网站。</p>

@@ -10,7 +10,7 @@
 <p>http://lsa.umich.edu/hssp/prospective-students/academic-offerings.html </p>
 <p>申请信息：</p>
 <p>http://lsa.umich.edu/hssp/prospective-students/how-to-apply.html </p>
-<p><qs1.jpg></p>
+<img src="/freshman-handbook/uploads/qs1.jpg" alt="qs1" style="width:100%" />
 <p>（图片来源：http://lsa.umich.edu/hssp）</p>
 <br />
 <p>02. Living Arts</p>
@@ -20,7 +20,7 @@
 <p>http://www.livingarts.umich.edu/requirements.php </p>
 <p>申请信息：</p>
 <p>http://www.livingarts.umich.edu/apply.php </p>
-<p><qs2.jpg></p>
+<img src="/freshman-handbook/uploads/qs2.jpg" alt="qs2" style="width:100%" />
 <p>（图片来源：http://www.livingarts.umich.edu/prospective.php）</p>
 <br />
 <p>03. Lloyd Hall Scholars Program (LHSP)</p>
@@ -30,7 +30,7 @@
 <p>http://lsa.umich.edu/lhsp/prospective-students/program-requirements.html </p>
 <p>申请信息：</p>
 <p>http://lsa.umich.edu/lhsp/prospective-students/how-to-apply.html </p>
-<p><qs3.jpg></p>
+<img src="/freshman-handbook/uploads/qs3.jpg" alt="qs3" style="width:100%" />
 <p>（图片来源：http://lsa.umich.edu/lhsp）</p>
 <br />
 <p>04. Michigan Community Scholars Program (MCSP) </p>
@@ -40,7 +40,7 @@
 <p>https://lsa.umich.edu/mcsp/prospective-students/program-requirements.html </p>
 <p>申请信息：</p>
 <p>https://lsa.umich.edu/mcsp/prospective-students/how-to-apply.html </p>
-<p><qs4.jpg></p>
+<img src="/freshman-handbook/uploads/qs4.jpg" alt="qs4" style="width:100%" />
 <p>（图片来源：https://lsa.umich.edu/mcsp）</p>
 <br />
 <p>05. Michigan Research Community (MRC)</p>
@@ -50,7 +50,7 @@
 <p>http://lsa.umich.edu/mrc/students/program-requirements.html </p>
 <p>申请信息：</p>
 <p>http://lsa.umich.edu/mrc/students/how-to-apply.html </p>
-<p><qs5.jpg></p>
+<img src="/freshman-handbook/uploads/qs5.jpg" alt="qs5" style="width:100%" />
 <p>（图片来源：http://lsa.umich.edu/mrc）</p>
 <br />
 <p>06. Women In Science and Engineering Residence Program (WISE RP)</p>
@@ -60,7 +60,7 @@
 <p>http://lsa.umich.edu/wiserp/prospective-students/program-requirements.html </p>
 <p>申请信息：</p>
 <p>http://lsa.umich.edu/wiserp/prospective-students/how-to-apply.html </p>
-<p><qs6.jpg></p>
+<img src="/freshman-handbook/uploads/qs6.jpg" alt="qs6" style="width:100%" />
 <p>（图片来源：http://lsa.umich.edu/wiserp）</p>
 <p> 07. LSA Honors Program</p>
 <p>面向：仅LSA学生</p>
@@ -69,7 +69,7 @@
 <p>http://lsa.umich.edu/honors/current-students/academic-information/honors-requirements.html </p>
 <p>申请信息：</p>
 <p>https://www.applytohonors.lsa.umich.edu/ </p>
-<p><qs7.jpg></p>
+<img src="/freshman-handbook/uploads/qs7.jpg" alt="qs7" style="width:100%" />
 <p>（图片来源：http://lsa.umich.edu/honors）</p>
 <br />
 <p>08. Residential College (RC)</p>
@@ -79,7 +79,7 @@
 <p>http://lsa.umich.edu/rc/current-students/curriculum/requirements.html </p>
 <p>申请信息：</p>
 <p>http://lsa.umich.edu/rc/prospective-students/apply.html </p>
-<p><qs8.jpg></p>
+<img src="/freshman-handbook/uploads/qs8.jpg" alt="qs8" style="width:100%" />
 <p>（图片来源：http://arts.umich.edu/museums-cultural-attractions/rc-gallery/）</p>
 <p> 09. Global Scholars Program (GSP)</p>
 <p>面向：全体大二、大三、大四学生</p>
@@ -87,7 +87,7 @@
 <p>http://lsa.umich.edu/globalscholars/students/requirements---application.html </p>
 <p>申请信息：</p>
 <p>http://lsa.umich.edu/globalscholars/students/requirements---application.html </p>
-<p><qs9.jpg></p>
+<img src="/freshman-handbook/uploads/qs9.jpg" alt="qs9" style="width:100%" />
 <p>（图片来源：http://lsa.umich.edu/globalscholars）</p>
 <br />
 <p>10. Max Kade German Residence</p>
@@ -97,7 +97,7 @@
 <p>http://lsa.umich.edu/german/undergraduate-students/max-kade-german-residence/how-to-apply.html </p>
 <p>申请信息：</p>
 <p>http://lsa.umich.edu/german/undergraduate-students/max-kade-german-residence/how-to-apply.html </p>
-<p><qs10.jpg></p>
+<img src="/freshman-handbook/uploads/qs10.jpg" alt="qs10" style="width:100%" />
 <p>（图片来源：http://lsa.umich.edu/german）</p>
 <br />
 <p>11. First Year Experience</p>
@@ -105,7 +105,7 @@
 <p>简介：First Year Experience 严格来说不算是 Learning Community。从Orientation，到宿舍的各种活动，都算是First Year Experience的一部分。其中，ALA 171 “Making the Most of Michigan” 是一个为大一新生提供的课程，课程通常在各个宿舍中进行，旨在帮助新生了解学校并更好地利用学校资源。</p>
 <p>项目要求：无</p>
 <p>FAQ：http://housing.umich.edu/fye/faq </p>
-<p><qs11.jpg></p>
+<img src="/freshman-handbook/uploads/qs11.jpg" alt="qs11" style="width:100%" />
 <p>（图片来源：https://www.facebook.com/LifeAtBarbourNewberry）</p>
 <br />
 <br />
@@ -118,7 +118,7 @@
 <p>http://lsa.umich.edu/csp/current-students/affiliating-with-csp.html </p>
 <p>申请信息：</p>
 <p>http://lsa.umich.edu/csp/current-students/affiliating-with-csp.html </p>
-<p><qs12.jpg></p>
+<img src="/freshman-handbook/uploads/qs12.jpg" alt="qs12" style="width:100%" />
 <p>（图片来源：http://lsa.umich.edu/csp）</p>
 <p> 13. University Undergraduate Research Program (UROP)</p>
 <p>面向：全体本科生</p>
@@ -127,7 +127,7 @@
 <p>http://lsa.umich.edu/urop/students.html </p>
 <p>申请信息：</p>
 <p>http://lsa.umich.edu/urop/students.html </p>
-<p><qs13.jpg></p>
+<img src="/freshman-handbook/uploads/qs13.jpg" alt="qs13" style="width:100%" />
 <p>（图片来源：http://lsa.umich.edu/urop/students/fall-winter-programs.html）</p>
 <br />
 <p>14. Mentorship Program</p>
@@ -137,7 +137,7 @@
 <p>http://onsp.umich.edu/mentorship/about </p>
 <p>申请信息：</p>
 <p>http://onsp.umich.edu/mentorship/apply </p>
-<p><qs14.jpg></p>
+<img src="/freshman-handbook/uploads/qs14.jpg" alt="qs14" style="width:100%" />
 <p>（图片来源：http://onsp.umich.edu/mentorship/events）</p>
 <br />
 <br />
