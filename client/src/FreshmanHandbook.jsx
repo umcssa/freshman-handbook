@@ -7,6 +7,7 @@ import {Layout} from 'antd';
 import FreshmanHandbookSidebar from './FreshmanHandbookSidebar';
 import FreshmanHandbookArticle from './FreshmanHandbookArticle';
 import FreshmanHandbookContact from './FreshmanHandbookContact';
+import FreshmanHandbookSection from './FreshmanHandbookSection';
 
 const $ = require('jquery');
 const Header = Layout.Header;
@@ -185,6 +186,8 @@ export default class FreshmanHandbook extends React.Component {
                                    component={FreshmanHandbookArticle}/>
                             <Route strict exact path={`${this.props.match.url}:menu/:submenu/:title/`}
                                    component={FreshmanHandbookArticle}/>
+                            <Route strict exact path={`${this.props.match.url}:menu/`}
+                                   component={FreshmanHandbookSection}/>
                         </Content>
                     </Layout>
                 </Layout>
