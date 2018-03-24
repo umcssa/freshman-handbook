@@ -14,16 +14,12 @@ class FreshmanHandbookSidebar extends React.Component {
     }
 
     render() {
-        let menuKey = 0;
-        let subMenuKey = 0;
-        let optionKey = 0;
         const menuList = this.props.hierarchy.map((menu) => {
             const menuTitle = menu[0];
             const subMenuList = menu[1].map((subMenu) => {
                 if (subMenu[1]) {
                     const subMenuTitle = subMenu[0];
                     const optionList = subMenu[1].map((option) => {
-                        optionKey += 1;
                         return (
                             <Menu.Item key={option[0]}>
                                 <Link to={`${this.props.match.url}${menu[0]}/${subMenu[0]}/${option[0]}/`}>
@@ -31,10 +27,8 @@ class FreshmanHandbookSidebar extends React.Component {
                                 </Link>
                             </Menu.Item>);
                     });
-                    subMenuKey += 1;
                     return <SubMenu key={subMenuTitle} title={subMenuTitle}>{optionList}</SubMenu>;
                 } else {
-                    optionKey += 1;
                     return (
                         <Menu.Item key={subMenu[0]}>
                             <Link to={`${this.props.match.url}${menu[0]}/${subMenu[0]}/`}>
@@ -43,7 +37,6 @@ class FreshmanHandbookSidebar extends React.Component {
                         </Menu.Item>);
                 }
             });
-            menuKey += 1;
             return <SubMenu key={menuTitle} title={menuTitle}>{subMenuList}</SubMenu>;
         });
         return (

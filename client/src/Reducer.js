@@ -8,21 +8,15 @@ export default (state, action) => {
             const {pathname} = action;
             const split = pathname.split(/\//);
             const uri = split[split.length - 2];
-            let menuKey = 0;
-            let subMenuKey = 0;
-            let optionKey = 0;
             let result = false;
             const BreakException = {};
             try {
                 state.hierarchy.forEach((menu) => {
-                    menuKey += 1;
                     try {
                         menu[1].forEach((subMenu) => {
                             if (subMenu[1]) {
-                                subMenuKey += 1;
                                 try {
                                     subMenu[1].forEach((option) => {
-                                        optionKey += 1;
                                         if (option[0] === uri) {
                                             result = [[menu[0], subMenu[0]], [option[0]]];
                                         }
@@ -34,7 +28,6 @@ export default (state, action) => {
                                     if (e !== BreakException) throw e;
                                 }
                             } else {
-                                optionKey += 1;
                                 if (subMenu[0] === uri) {
                                     result = [[menu[0]], [subMenu[0]]];
                                 }
