@@ -6,10 +6,6 @@ export default (state, action) => {
     const {counterCaption} = action;
 
     switch (action.type) {
-        case ActionTypes.INCREMENT:
-            return {...state, [counterCaption]: state[counterCaption] + 1};
-        case ActionTypes.DECREMENT:
-            return {...state, [counterCaption]: state[counterCaption] - 1};
         case ActionTypes.UPDATEKEYS:
             const {pathname} = action;
             const split = pathname.split(/\//);
@@ -60,9 +56,9 @@ export default (state, action) => {
                 if (e !== BreakException) throw e;
             }
             return {...state, openKeys: result[0], selectedKeys: result[1]};
-        case UPDATEOPENKEYS:
+        case ActionTypes.UPDATEOPENKEYS:
             return {...state, openKeys: action.openKeys};
-        case UPDATESELECTEDKEYS:
+        case ActionTypes.UPDATESELECTEDKEYS:
             return {...state, selectedKeys: action.selectedKeys};
         default:
             return state;

@@ -69,9 +69,6 @@ const initValues = {
             ['密西根大学中国本科学生会', 0]]]],
     openKeys: [],
     selectedKeys: [],
-    'First': 0,
-    'Second': 10,
-    'Third': 20
 };
 
 const store = createStore(reducer, initValues);

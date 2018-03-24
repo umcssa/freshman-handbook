@@ -14,7 +14,6 @@ import FreshmanHandbookArticle from './FreshmanHandbookArticle';
 import FreshmanHandbookContact from './FreshmanHandbookContact';
 import FreshmanHandbookSection from './FreshmanHandbookSection';
 import FreshmanHandbookPrevNext from './FreshmanHandbookPrevNext';
-import Counter from './Counter';
 
 const $ = require('jquery');
 
@@ -130,9 +129,6 @@ class FreshmanHandbook extends React.Component {
                 <Route strict exact path={`${this.props.match.url}:menu/`}
                        component={FreshmanHandbookSection}/>
                 <FreshmanHandbookContact/>
-                <Counter caption="First"/>
-                <Counter caption="Second"/>
-                <Counter caption="Third"/>
             </div>
         );
     }
