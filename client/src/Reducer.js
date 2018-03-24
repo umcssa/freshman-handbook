@@ -9,6 +9,8 @@ export default (state, action) => {
             const split = pathname.split(/\//);
             const uri = split[split.length - 2];
             let result = false;
+            let prev = false;
+            let next = false;
             const BreakException = {};
             try {
                 state.hierarchy.forEach((menu) => {
@@ -18,7 +20,9 @@ export default (state, action) => {
                                 try {
                                     subMenu[1].forEach((option) => {
                                         if (option[0] === uri) {
-                                            result = [[menu[0], subMenu[0]], [option[0]]];
+                                            result = [menu[0], subMenu[0], option[0]];
+                                        } else {
+                                            //prev = [[menu[0], subMenu[0]], [option[0]]];
                                         }
                                         if (result) {
                                             throw BreakException;
@@ -29,7 +33,7 @@ export default (state, action) => {
                                 }
                             } else {
                                 if (subMenu[0] === uri) {
-                                    result = [[menu[0]], [subMenu[0]]];
+                                    result = [menu[0], subMenu[0]];
                                 }
                             }
                             if (result) {
@@ -46,7 +50,11 @@ export default (state, action) => {
             } catch (e) {
                 if (e !== BreakException) throw e;
             }
-            return {...state, openKeys: result[0], selectedKey: result[1][0]};
+            if (result) {
+                return {...state, openKeys: result.slice(0, -1), selectedKey: result[result.length - 1]};
+            } else {
+                return state;
+            }
         case ActionTypes.UPDATEOPENKEYS:
             return {...state, openKeys: action.openKeys};
         case ActionTypes.UPDATECONTENT:
