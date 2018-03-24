@@ -6,16 +6,20 @@ const $ = require('jquery');
 const apiRootPath = '/api/freshman-handbook/';
 // const apiRootPath = 'http://localhost:8002/api/freshman-handbook/';
 
-const containerStyle = {
+
+const boxShadowStyle = {
+    boxShadow: '0 0 6px rgba(0,0,0,0.16)'
+};
+
+const containerStyle = Object.assign({
     position: 'absolute',
-    top: 96,
+    bottom: 50,
     right: 300,
     width: window.innerWidth - 720,
     height: window.innerHeight - 146,
     backgroundColor: '#ffffff',
-    boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
     padding: 50
-};
+},boxShadowStyle);
 
 
 export default class FreshmanHandbookArticle extends React.Component {

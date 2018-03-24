@@ -12,10 +12,12 @@ import FreshmanHandbookArticle from './FreshmanHandbookArticle';
 import FreshmanHandbookContact from './FreshmanHandbookContact';
 import FreshmanHandbookSection from './FreshmanHandbookSection';
 
+const $ = require('jquery');
+
 const Search = Input.Search;
 
 const boxShadowStyle = {
-    boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
+    boxShadow: '0 0 6px rgba(0,0,0,0.16)'
 };
 
 const centerParentStyle = {
@@ -100,13 +102,29 @@ export default class FreshmanHandbook extends React.Component {
                     ['密西根大学中国本科学生会', 0]]]],
             openKeys: [],
             selectedKeys: [],
+            width: '',
+            height: '',
         };
         this.getDefaultKeys = this.getDefaultKeys.bind(this);
+        this.updateDimensions = this.updateDimensions.bind(this);
+    }
+
+    updateDimensions() {
+        this.setState({width: $(window).width(), height: $(window).height()});
     }
 
     componentWillMount() {
         const defaultKeys = this.getDefaultKeys(this.props);
         this.setState({openKeys: defaultKeys[0], selectedKeys: defaultKeys[1]});
+        this.updateDimensions();
+    }
+
+    componentDidMount() {
+        window.addEventListener("resize", this.updateDimensions);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener("resize", this.updateDimensions);
     }
 
 
@@ -166,12 +184,19 @@ export default class FreshmanHandbook extends React.Component {
         return result;
     }
 
+
     render() {
         return (
-            <div style={{backgroundColor: '#f0f2f5', height: window.innerHeight}}>
-                {window.innerWidth < 992 ? <RateMyProfessorNavbarCollapse/> : <RateMyProfessorNavbar/>}
-                <div style={{height: '100%', width: 420, padding: 50, paddingTop: 96}}>
-                    <div style={Object.assign({height: 75, width: '100%', marginBottom: 50, backgroundColor: '#ffffff', padding: 25}, boxShadowStyle, centerParentStyle)}>
+            <div style={{backgroundColor: '#f0f2f5', height: this.state.height}}>
+                {this.state.width < 992 ? <RateMyProfessorNavbarCollapse/> : <RateMyProfessorNavbar/>}
+                <div style={{position: 'relative', height: '100%', width: 420, padding: 50, paddingTop: 96}}>
+                    <div style={Object.assign({
+                        height: 75,
+                        width: '100%',
+                        marginBottom: 50,
+                        backgroundColor: '#ffffff',
+                        padding: 25
+                    }, boxShadowStyle, centerParentStyle)}>
                         <Search
                             style={centerChildStyle}
                             placeholder="请输入搜索内容"
@@ -179,24 +204,33 @@ export default class FreshmanHandbook extends React.Component {
                             enterButton
                         />
                     </div>
-                    <Scrollbars style={Object.assign({
-                        height: 'calc(100% - 125px)',
-                        width: '100%'
-                    }, boxShadowStyle)} autoHide autoHideTimeout={0} autoHideDuration={250}>
-                        <FreshmanHandbookSidebar
-                            hierarchy={this.state.hierarchy}
-                            openKeys={this.state.openKeys}
-                            onOpenChange={(openKeys) => {
-                                this.setState({openKeys});
-                            }}
-                            selectedKeys={this.state.selectedKeys}
-                            onSelect={(key) => {
-                                this.setState({selectedKeys: key.selectedKeys});
-                            }}
-                            match={this.props.match}
-                            history={this.props.history}
-                        />
-                    </Scrollbars>
+                    <div style={{
+                        position: 'absolute',
+                        bottom: 0,
+                        left: 0,
+                        height: 'calc(100% - 175px)',
+                        width: '100%',
+                        padding: 50
+                    }}>
+                        <Scrollbars style={Object.assign({
+                            height: '100%',
+                            width: '100%'
+                        }, boxShadowStyle)} autoHide autoHideTimeout={0} autoHideDuration={250}>
+                            <FreshmanHandbookSidebar
+                                hierarchy={this.state.hierarchy}
+                                openKeys={this.state.openKeys}
+                                onOpenChange={(openKeys) => {
+                                    this.setState({openKeys});
+                                }}
+                                selectedKeys={this.state.selectedKeys}
+                                onSelect={(key) => {
+                                    this.setState({selectedKeys: key.selectedKeys});
+                                }}
+                                match={this.props.match}
+                                history={this.props.history}
+                            />
+                        </Scrollbars>
+                    </div>
                 </div>
 
                 <Route strict exact path={`${this.props.match.url}:menu/:title/`}
