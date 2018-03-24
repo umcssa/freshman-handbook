@@ -11,6 +11,7 @@ import FreshmanHandbookSidebar from './FreshmanHandbookSidebar';
 import FreshmanHandbookArticle from './FreshmanHandbookArticle';
 import FreshmanHandbookContact from './FreshmanHandbookContact';
 import FreshmanHandbookSection from './FreshmanHandbookSection';
+import FreshmanHandbookPrevNext from './FreshmanHandbookPrevNext';
 
 const $ = require('jquery');
 
@@ -21,13 +22,14 @@ const boxShadowStyle = {
 };
 
 const centerParentStyle = {
-    display: 'table'
+    position: 'relative'
 };
 
 const centerChildStyle = {
-    display: 'table-cell',
-    verticalAlign: 'middle',
-    textAlign: 'center',
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
 };
 
 
@@ -189,28 +191,30 @@ export default class FreshmanHandbook extends React.Component {
         return (
             <div style={{backgroundColor: '#f0f2f5', height: this.state.height}}>
                 {this.state.width < 992 ? <RateMyProfessorNavbarCollapse/> : <RateMyProfessorNavbar/>}
-                <div style={{position: 'relative', height: '100%', width: 420, padding: 50, paddingTop: 96}}>
+                <div style={{
+                    display: 'inline-block',
+                    height: '100%',
+                    width: 420,
+                    padding: 50,
+                    paddingTop: 96,
+                    verticalAlign: 'top'
+                }}>
                     <div style={Object.assign({
                         height: 75,
                         width: '100%',
                         marginBottom: 50,
                         backgroundColor: '#ffffff',
-                        padding: 25
                     }, boxShadowStyle, centerParentStyle)}>
                         <Search
-                            style={centerChildStyle}
+                            style={Object.assign({width: 'calc(100% - 50px)'}, centerChildStyle)}
                             placeholder="请输入搜索内容"
                             onSearch={value => console.log(value)}
                             enterButton
                         />
                     </div>
                     <div style={{
-                        position: 'absolute',
-                        bottom: 0,
-                        left: 0,
-                        height: 'calc(100% - 175px)',
-                        width: '100%',
-                        padding: 50
+                        height: 'calc(100% - 125px)',
+                        width: '100%'
                     }}>
                         <Scrollbars style={Object.assign({
                             height: '100%',
@@ -233,11 +237,24 @@ export default class FreshmanHandbook extends React.Component {
                         </Scrollbars>
                     </div>
                 </div>
+                <div style={{
+                    display: 'inline-block',
+                    height: '100%',
+                    width: this.state.width-420-200,
+                    paddingTop: 96,
+                    paddingBottom: 50,
+                    verticalAlign: 'top',
+                }}>
+                    <Route strict exact path={`${this.props.match.url}:menu/:title/`}
+                           component={FreshmanHandbookArticle}/>
+                    <Route strict exact path={`${this.props.match.url}:menu/:submenu/:title/`}
+                           component={FreshmanHandbookArticle}/>
 
+                </div>
                 <Route strict exact path={`${this.props.match.url}:menu/:title/`}
-                       component={FreshmanHandbookArticle}/>
+                       component={FreshmanHandbookPrevNext}/>
                 <Route strict exact path={`${this.props.match.url}:menu/:submenu/:title/`}
-                       component={FreshmanHandbookArticle}/>
+                       component={FreshmanHandbookPrevNext}/>
                 <Route strict exact path={`${this.props.match.url}:menu/`}
                        component={FreshmanHandbookSection}/>
                 <FreshmanHandbookContact/>

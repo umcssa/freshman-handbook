@@ -12,11 +12,8 @@ const boxShadowStyle = {
 };
 
 const containerStyle = Object.assign({
-    position: 'absolute',
-    bottom: 50,
-    right: 300,
-    width: window.innerWidth - 720,
-    height: window.innerHeight - 146,
+    width: '100%',
+    height: '100%',
     backgroundColor: '#ffffff',
     padding: 50
 },boxShadowStyle);
