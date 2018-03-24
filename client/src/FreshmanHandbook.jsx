@@ -3,23 +3,30 @@ import {
     BrowserRouter as Router,
     Route,
 } from 'react-router-dom';
-import {Layout} from 'antd';
+import {Scrollbars} from 'react-custom-scrollbars';
+import {Input} from 'antd';
+import RateMyProfessorNavbar from './RateMyProfessorNavbar';
+import RateMyProfessorNavbarCollapse from './RateMyProfessorNavbarCollapse';
 import FreshmanHandbookSidebar from './FreshmanHandbookSidebar';
 import FreshmanHandbookArticle from './FreshmanHandbookArticle';
 import FreshmanHandbookContact from './FreshmanHandbookContact';
 import FreshmanHandbookSection from './FreshmanHandbookSection';
 
-const $ = require('jquery');
-const Header = Layout.Header;
-const Sider = Layout.Sider;
-const Content = Layout.Content;
-const Footer = Layout.Footer;
+const Search = Input.Search;
 
-const Topic = ({match}) => (
-    <div>
-        <h3>{match.params.topicId}</h3>
-    </div>
-);
+const boxShadowStyle = {
+    boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
+};
+
+const centerParentStyle = {
+    display: 'table'
+};
+
+const centerChildStyle = {
+    display: 'table-cell',
+    verticalAlign: 'middle',
+    textAlign: 'center',
+};
 
 
 export default class FreshmanHandbook extends React.Component {
@@ -161,36 +168,45 @@ export default class FreshmanHandbook extends React.Component {
 
     render() {
         return (
-            <div>
-                <Layout>
-                    <Header style={{color: '#ffffff'}}>新生手册</Header>
-                    <Layout>
-                        <Sider breakpoint="sm" collapsedWidth={0} width={320}>
-                            <FreshmanHandbookSidebar
-                                hierarchy={this.state.hierarchy}
-                                openKeys={this.state.openKeys}
-                                onOpenChange={(openKeys) => {
-                                    this.setState({openKeys});
-                                }}
-                                selectedKeys={this.state.selectedKeys}
-                                onSelect={(key) => {
-                                    this.setState({selectedKeys: key.selectedKeys});
-                                }}
-                                match={this.props.match}
-                                history={this.props.history}
-                            />
-                        </Sider>
-                        <FreshmanHandbookContact/>
-                        <Content style={{padding: 50}}>
-                            <Route strict exact path={`${this.props.match.url}:menu/:title/`}
-                                   component={FreshmanHandbookArticle}/>
-                            <Route strict exact path={`${this.props.match.url}:menu/:submenu/:title/`}
-                                   component={FreshmanHandbookArticle}/>
-                            <Route strict exact path={`${this.props.match.url}:menu/`}
-                                   component={FreshmanHandbookSection}/>
-                        </Content>
-                    </Layout>
-                </Layout>
+            <div style={{backgroundColor: '#f0f2f5', height: window.innerHeight}}>
+                {window.innerWidth < 992 ? <RateMyProfessorNavbarCollapse/> : <RateMyProfessorNavbar/>}
+                <div style={{height: '100%', width: 420, padding: 50, paddingTop: 96}}>
+                    <div style={Object.assign({height: 75, width: '100%', marginBottom: 50, backgroundColor: '#ffffff', padding: 25}, boxShadowStyle, centerParentStyle)}>
+                        <Search
+                            style={centerChildStyle}
+                            placeholder="请输入搜索内容"
+                            onSearch={value => console.log(value)}
+                            enterButton
+                        />
+                    </div>
+                    <Scrollbars style={Object.assign({
+                        height: 'calc(100% - 125px)',
+                        width: '100%'
+                    }, boxShadowStyle)} autoHide autoHideTimeout={0} autoHideDuration={250}>
+                        <FreshmanHandbookSidebar
+                            hierarchy={this.state.hierarchy}
+                            openKeys={this.state.openKeys}
+                            onOpenChange={(openKeys) => {
+                                this.setState({openKeys});
+                            }}
+                            selectedKeys={this.state.selectedKeys}
+                            onSelect={(key) => {
+                                this.setState({selectedKeys: key.selectedKeys});
+                            }}
+                            match={this.props.match}
+                            history={this.props.history}
+                        />
+                    </Scrollbars>
+                </div>
+
+                <Route strict exact path={`${this.props.match.url}:menu/:title/`}
+                       component={FreshmanHandbookArticle}/>
+                <Route strict exact path={`${this.props.match.url}:menu/:submenu/:title/`}
+                       component={FreshmanHandbookArticle}/>
+                <Route strict exact path={`${this.props.match.url}:menu/`}
+                       component={FreshmanHandbookSection}/>
+                <FreshmanHandbookContact/>
+
             </div>
         );
     }

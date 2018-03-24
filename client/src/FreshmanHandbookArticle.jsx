@@ -1,9 +1,21 @@
 import React from 'react';
 import {Spin} from 'antd';
+import {Scrollbars} from 'react-custom-scrollbars';
 
 const $ = require('jquery');
 const apiRootPath = '/api/freshman-handbook/';
 // const apiRootPath = 'http://localhost:8002/api/freshman-handbook/';
+
+const containerStyle = {
+    position: 'absolute',
+    top: 96,
+    right: 300,
+    width: window.innerWidth - 720,
+    height: window.innerHeight - 146,
+    backgroundColor: '#ffffff',
+    boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
+    padding: 50
+};
 
 
 export default class FreshmanHandbookArticle extends React.Component {
@@ -43,12 +55,18 @@ export default class FreshmanHandbookArticle extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>
-                    {this.props.match.params.title}
-                    <Spin spinning={this.state.loading} style={{marginLeft: 20}}/>
-                </h1>
-                <div dangerouslySetInnerHTML={{__html: this.state.content}}></div>
+            <div style={containerStyle}>
+                <div style={{width: '100%', height: 80}}>
+                    <h1>
+                        {this.props.match.params.title}
+                        <Spin spinning={this.state.loading} style={{marginLeft: 20}}/>
+                    </h1>
+                </div>
+                <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
+                    <Scrollbars style={{width: '100%', height: '100%'}}>
+                        <div dangerouslySetInnerHTML={{__html: this.state.content}}></div>
+                    </Scrollbars>
+                </div>
             </div>
         );
     }

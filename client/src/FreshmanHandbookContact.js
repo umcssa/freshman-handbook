@@ -6,7 +6,7 @@ import QueueAnim from 'rc-queue-anim';
 const contactStyle = {
     position: 'fixed',
     right: 20,
-    bottom: 20,
+    bottom: 30,
     height: 300
 };
 
