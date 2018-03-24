@@ -214,7 +214,8 @@ export default class FreshmanHandbook extends React.Component {
                     }}>
                         <Scrollbars style={Object.assign({
                             height: '100%',
-                            width: '100%'
+                            width: '100%',
+                            backgroundColor: '#ffffff'
                         }, boxShadowStyle)} autoHide autoHideTimeout={0} autoHideDuration={250}>
                             <FreshmanHandbookSidebar
                                 hierarchy={this.state.hierarchy}
