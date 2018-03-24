@@ -40,12 +40,9 @@ class FreshmanHandbook extends React.Component {
     constructor(props, context) {
         super(props, context);
         this.state = {
-            openKeys: [],
-            selectedKeys: [],
             width: '',
             height: '',
         };
-        this.getDefaultKeys = this.getDefaultKeys.bind(this);
         this.updateDimensions = this.updateDimensions.bind(this);
     }
 
@@ -54,8 +51,7 @@ class FreshmanHandbook extends React.Component {
     }
 
     componentWillMount() {
-        const defaultKeys = this.getDefaultKeys(this.props);
-        this.setState({openKeys: defaultKeys[0], selectedKeys: defaultKeys[1]});
+        this.props.updateKeys(this.props.location.pathname);
         this.updateDimensions();
     }
 
@@ -67,61 +63,8 @@ class FreshmanHandbook extends React.Component {
         window.removeEventListener("resize", this.updateDimensions);
     }
 
-
     componentWillReceiveProps(nextProps) {
-        const defaultKeys = this.getDefaultKeys(nextProps);
-        this.setState({openKeys: defaultKeys[0], selectedKeys: defaultKeys[1]});
-    }
-
-    getDefaultKeys(props) {
-        const split = props.location.pathname.split(/\//);
-        const uri = split[split.length - 2];
-        let menuKey = 0;
-        let subMenuKey = 0;
-        let optionKey = 0;
-        let result = false;
-        const BreakException = {};
-        try {
-            this.props.hierarchy.forEach((menu) => {
-                menuKey += 1;
-                try {
-                    menu[1].forEach((subMenu) => {
-                        if (subMenu[1]) {
-                            subMenuKey += 1;
-                            try {
-                                subMenu[1].forEach((option) => {
-                                    optionKey += 1;
-                                    if (option[0] === uri) {
-                                        result = [[`menu${menuKey}`, `sub${subMenuKey}`], [`${optionKey}`]];
-                                    }
-                                    if (result) {
-                                        throw BreakException;
-                                    }
-                                });
-                            } catch (e) {
-                                if (e !== BreakException) throw e;
-                            }
-                        } else {
-                            optionKey += 1;
-                            if (subMenu[0] === uri) {
-                                result = [[`menu${menuKey}`], [`${optionKey}`]];
-                            }
-                        }
-                        if (result) {
-                            throw BreakException;
-                        }
-                    });
-                } catch (e) {
-                    if (e !== BreakException) throw e;
-                }
-                if (result) {
-                    throw BreakException;
-                }
-            });
-        } catch (e) {
-            if (e !== BreakException) throw e;
-        }
-        return result;
+        this.props.updateKeys(nextProps.location.pathname);
     }
 
 
@@ -160,14 +103,6 @@ class FreshmanHandbook extends React.Component {
                             backgroundColor: '#ffffff'
                         }, boxShadowStyle)} autoHide autoHideTimeout={0} autoHideDuration={250}>
                             <FreshmanHandbookSidebar
-                                openKeys={this.state.openKeys}
-                                onOpenChange={(openKeys) => {
-                                    this.setState({openKeys});
-                                }}
-                                selectedKeys={this.state.selectedKeys}
-                                onSelect={(key) => {
-                                    this.setState({selectedKeys: key.selectedKeys});
-                                }}
                                 match={this.props.match}
                                 history={this.props.history}
                             />
@@ -206,12 +141,16 @@ class FreshmanHandbook extends React.Component {
 
 function mapStateToProps(state) {
     return {
-        hierarchy: state.hierarchy
+
     }
 }
 
-function mapDispatchToProps(dispatch, ownProps) {
-    return {}
+function mapDispatchToProps(dispatch) {
+    return {
+        updateKeys: (pathname) => {
+            dispatch(Actions.updateKeys(pathname));
+        }
+    }
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(FreshmanHandbook);

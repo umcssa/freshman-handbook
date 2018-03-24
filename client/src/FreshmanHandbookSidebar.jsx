@@ -50,13 +50,9 @@ class FreshmanHandbookSidebar extends React.Component {
             <Menu
                 mode="inline"
                 openKeys={this.props.openKeys}
-                onOpenChange={(openKeys) => {
-                    this.props.onOpenChange(openKeys);
-                }}
+                onOpenChange={this.props.onUpdateOpenKeys}
                 selectedKeys={this.props.selectedKeys}
-                onSelect={(key) => {
-                    this.props.onSelect(key);
-                }}
+                onSelect={this.props.onUpdateSelectedKeys}
             >{menuList}</Menu>
         );
     }
@@ -64,12 +60,21 @@ class FreshmanHandbookSidebar extends React.Component {
 
 function mapStateToProps(state) {
     return {
-        hierarchy: state.hierarchy
+        hierarchy: state.hierarchy,
+        openKeys: state.openKeys,
+        selectedKeys: state.selectedKeys,
     }
 }
 
-function mapDispatchToProps(dispatch, ownProps) {
-    return {}
+function mapDispatchToProps(dispatch) {
+    return {
+        onUpdateOpenKeys: (openKeys) => {
+            dispatch(Actions.updateOpenKeys(openKeys));
+        },
+        onUpdateSelectedKeys: (selectedKeys) => {
+            dispatch(Actions.updateSelectedKeys(selectedKeys));
+        }
+    }
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(FreshmanHandbookSidebar);

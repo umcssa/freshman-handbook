@@ -14,3 +14,23 @@ export const decrement = (counterCaption) => {
     };
 };
 
+export const updateKeys = (pathname) => {
+    return {
+        type: ActionTypes.UPDATEKEYS,
+        pathname: pathname
+    }
+};
+
+export const updateOpenKeys = (openKeys) => {
+    return {
+        type: ActionTypes.UPDATEOPENKEYS,
+        openKeys: openKeys
+    }
+};
+
+export const updateSelectedKeys = (selectedKeys) => {
+    return {
+        type: ActionTypes.UPDATESELECTEDKEYS,
+        selectedKeys: selectedKeys
+    }
+};

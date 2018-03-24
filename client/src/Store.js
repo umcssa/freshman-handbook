@@ -67,6 +67,8 @@ const initValues = {
             ['安城文化沙龙', 0],
             ['VeryUS', 0],
             ['密西根大学中国本科学生会', 0]]]],
+    openKeys: [],
+    selectedKeys: [],
     'First': 0,
     'Second': 10,
     'Third': 20
