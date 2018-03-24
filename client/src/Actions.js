@@ -28,9 +28,10 @@ export const updateOpenKeys = (openKeys) => {
     }
 };
 
-export const updateSelectedKeys = (selectedKeys) => {
+export const updateContent = (title, content) => {
     return {
-        type: ActionTypes.UPDATESELECTEDKEYS,
-        selectedKeys: selectedKeys
+        type: ActionTypes.UPDATECONTENT,
+        title: title,
+        content: content
     }
 };

@@ -25,18 +25,18 @@ class FreshmanHandbookSidebar extends React.Component {
                     const optionList = subMenu[1].map((option) => {
                         optionKey += 1;
                         return (
-                            <Menu.Item key={optionKey}>
+                            <Menu.Item key={option[0]}>
                                 <Link to={`${this.props.match.url}${menu[0]}/${subMenu[0]}/${option[0]}/`}>
                                     {option[0]}
                                 </Link>
                             </Menu.Item>);
                     });
                     subMenuKey += 1;
-                    return <SubMenu key={`sub${subMenuKey}`} title={subMenuTitle}>{optionList}</SubMenu>;
+                    return <SubMenu key={subMenuTitle} title={subMenuTitle}>{optionList}</SubMenu>;
                 } else {
                     optionKey += 1;
                     return (
-                        <Menu.Item key={optionKey}>
+                        <Menu.Item key={subMenu[0]}>
                             <Link to={`${this.props.match.url}${menu[0]}/${subMenu[0]}/`}>
                                 {subMenu[0]}
                             </Link>
@@ -44,15 +44,14 @@ class FreshmanHandbookSidebar extends React.Component {
                 }
             });
             menuKey += 1;
-            return <SubMenu key={`menu${menuKey}`} title={menuTitle}>{subMenuList}</SubMenu>;
+            return <SubMenu key={menuTitle} title={menuTitle}>{subMenuList}</SubMenu>;
         });
         return (
             <Menu
                 mode="inline"
                 openKeys={this.props.openKeys}
                 onOpenChange={this.props.onUpdateOpenKeys}
-                selectedKeys={this.props.selectedKeys}
-                onSelect={this.props.onUpdateSelectedKeys}
+                selectedKeys={[this.props.selectedKey]}
             >{menuList}</Menu>
         );
     }
@@ -62,7 +61,7 @@ function mapStateToProps(state) {
     return {
         hierarchy: state.hierarchy,
         openKeys: state.openKeys,
-        selectedKeys: state.selectedKeys,
+        selectedKey: state.selectedKey,
     }
 }
 
@@ -70,9 +69,6 @@ function mapDispatchToProps(dispatch) {
     return {
         onUpdateOpenKeys: (openKeys) => {
             dispatch(Actions.updateOpenKeys(openKeys));
-        },
-        onUpdateSelectedKeys: (selectedKeys) => {
-            dispatch(Actions.updateSelectedKeys(selectedKeys));
         }
     }
 }

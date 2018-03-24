@@ -1,8 +1,11 @@
 import React from 'react';
+import * as Actions from './Actions.js';
+import {connect} from 'react-redux';
 import {Spin} from 'antd';
 import {Scrollbars} from 'react-custom-scrollbars';
 
 const $ = require('jquery');
+
 const apiRootPath = '/api/freshman-handbook/';
 // const apiRootPath = 'http://localhost:8002/api/freshman-handbook/';
 
@@ -16,40 +19,41 @@ const containerStyle = Object.assign({
     height: '100%',
     backgroundColor: '#ffffff',
     padding: 50
-},boxShadowStyle);
+}, boxShadowStyle);
 
 
-export default class FreshmanHandbookArticle extends React.Component {
+class FreshmanHandbookArticle extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {content: '', contentDict: {}, loading: true};
+        this.state = {content: '', contentDict: {}, loading: false};
     }
 
     componentDidMount() {
-        const title = this.props.match.params.title;
-        $.ajax({
-            method: 'GET',
-            url: `${apiRootPath}get-article-content/?title=${encodeURIComponent(title)}`,
-        }).done((msg) => {
-            const contentDict = Object.assign({}, this.state.contentDict);
-            contentDict[title] = msg;
-            this.setState({contentDict, content: msg, loading: false});
-        });
-    }
-
-    componentWillReceiveProps(nextProps) {
-        const title = nextProps.match.params.title;
-        if (title in this.state.contentDict) {
-            this.setState({content: this.state.contentDict[title], loading: false});
-        } else {
-            this.setState({content: '', loading: true});
+        const title = this.props.selectedKey;
+        const content = title in this.props.contentDict ? this.props.contentDict[title] : '';
+        if (content === '') {
+            this.setState({loading: true});
             $.ajax({
                 method: 'GET',
                 url: `${apiRootPath}get-article-content/?title=${encodeURIComponent(title)}`,
             }).done((msg) => {
-                const contentDict = Object.assign({}, this.state.contentDict);
-                contentDict[title] = msg;
-                this.setState({contentDict, content: msg, loading: false});
+                this.props.onUpdateContent(title, msg);
+                this.setState({loading: false});
+            });
+        }
+    }
+
+    componentWillReceiveProps(nextProps) {
+        const title = nextProps.selectedKey;
+        const content = title in nextProps.contentDict ? nextProps.contentDict[title] : '';
+        if (content === '') {
+            this.setState({loading: true});
+            $.ajax({
+                method: 'GET',
+                url: `${apiRootPath}get-article-content/?title=${encodeURIComponent(title)}`,
+            }).done((msg) => {
+                this.props.onUpdateContent(title, msg);
+                this.setState({loading: false});
             });
         }
     }
@@ -59,16 +63,33 @@ export default class FreshmanHandbookArticle extends React.Component {
             <div style={containerStyle}>
                 <div style={{width: '100%', height: 80}}>
                     <h1>
-                        {this.props.match.params.title}
+                        {this.props.selectedKey}
                         <Spin spinning={this.state.loading} style={{marginLeft: 20}}/>
                     </h1>
                 </div>
                 <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
                     <Scrollbars style={{width: '100%', height: '100%'}}>
-                        <div dangerouslySetInnerHTML={{__html: this.state.content}}></div>
+                        <div dangerouslySetInnerHTML={{__html: this.props.selectedKey in this.props.contentDict ? this.props.contentDict[this.props.selectedKey] : ''}}></div>
                     </Scrollbars>
                 </div>
             </div>
         );
     }
 }
+
+function mapStateToProps(state) {
+    return {
+        selectedKey: state.selectedKey,
+        contentDict: state.contentDict
+    }
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        onUpdateContent: (title, content) => {
+            dispatch(Actions.updateContent(title, content));
+        }
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(FreshmanHandbookArticle);

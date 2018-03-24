@@ -6,4 +6,4 @@ export const UPDATEKEYS = 'updateKeys';
 
 export const UPDATEOPENKEYS = 'updateOpenKeys';
 
-export const UPDATESELECTEDKEYS = 'updateSelectedKeys';
+export const UPDATECONTENT = 'updateContent';
