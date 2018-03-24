@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactStretchableButton from 'react-stretchable-button';
 import Icon from 'antd/lib/icon';
+import QueueAnim from 'rc-queue-anim';
 
 const contactStyle = {
     position: 'fixed',
     right: 20,
-    bottom: 20
+    bottom: 20,
+    height: 300
 };
 
 const reactStretchableButtonStyles = {
@@ -19,18 +21,20 @@ const reactStretchableButtonStyles = {
 
 const FreshmanHandbookContact = () => (
     <div style={contactStyle}>
-        <ReactStretchableButton {...reactStretchableButtonStyles}
-                                componentDisplayed={<Icon type="wechat" style={{fontSize: 22}}/>}
-                                componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>微信公众号</span>}/>
-        <ReactStretchableButton {...reactStretchableButtonStyles}
-                                componentDisplayed={<Icon type="usergroup-add" style={{fontSize: 22}}/>}
-                                componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>加入新生群</span>}/>
-        <ReactStretchableButton {...reactStretchableButtonStyles} stretchPadding={20}
-                                componentDisplayed={<Icon type="share-alt" style={{fontSize: 22}}/>}
-                                componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>分享本文链接</span>}/>
-        <ReactStretchableButton {...reactStretchableButtonStyles} stretchPadding={20}
-                                componentDisplayed={<Icon type="download" style={{fontSize: 22}}/>}
-                                componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>下载新生手册</span>}/>
+        <QueueAnim>
+            <ReactStretchableButton key="wechat" {...reactStretchableButtonStyles}
+                                    componentDisplayed={<Icon type="wechat" style={{fontSize: 22}}/>}
+                                    componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>微信公众号</span>}/>
+            <ReactStretchableButton key="group" {...reactStretchableButtonStyles}
+                                    componentDisplayed={<Icon type="usergroup-add" style={{fontSize: 22}}/>}
+                                    componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>加入新生群</span>}/>
+            <ReactStretchableButton key="share" {...reactStretchableButtonStyles} stretchPadding={20}
+                                    componentDisplayed={<Icon type="share-alt" style={{fontSize: 22}}/>}
+                                    componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>分享本文链接</span>}/>
+            <ReactStretchableButton key="download" {...reactStretchableButtonStyles} stretchPadding={20}
+                                    componentDisplayed={<Icon type="download" style={{fontSize: 22}}/>}
+                                    componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>下载新生手册</span>}/>
+        </QueueAnim>
     </div>
 );
 
