@@ -17,7 +17,7 @@ const buttonStyle = {
     display: 'inline-block',
     height: '100%',
     width: '50%',
-    backgroundColor: '#85bafc',
+    backgroundColor: '#3d94ff',
     opacity: 0.6,
     transition: 'opacity 0.25s'
 };
@@ -55,7 +55,7 @@ class FreshmanHandbookPrevNext extends React.Component {
                 <Link to={this.props.prevLink}>
                     <div
                         style={Object.assign({}, buttonStyle, this.state.hoverLeft && buttonHoverStyle, centerParentStyle)}
-                        onMouseEnter={() => {
+                        onMouseOver={() => {
                             this.setState({hoverLeft: true});
                         }}
                         onMouseLeave={() => {
@@ -68,7 +68,7 @@ class FreshmanHandbookPrevNext extends React.Component {
                 <Link to={this.props.nextLink}>
                     <div
                         style={Object.assign({}, buttonStyle, this.state.hoverRight && buttonHoverStyle, centerParentStyle)}
-                        onMouseEnter={() => {
+                        onMouseOver={() => {
                             this.setState({hoverRight: true});
                         }}
                         onMouseLeave={() => {

@@ -37,7 +37,13 @@ class FreshmanHandbookSidebar extends React.Component {
                         </Menu.Item>);
                 }
             });
-            return <SubMenu key={menuTitle} title={menuTitle}>{subMenuList}</SubMenu>;
+            return <SubMenu
+                key={menuTitle}
+                title={menuTitle}
+                style={this.props.openKeys[0] === menuTitle ? {color: '#1890ff'} : {}}
+                onTitleClick={() => {
+                    this.props.history.push(`${this.props.match.url}${menuTitle}/`);
+                }}>{subMenuList}</SubMenu>;
         });
         return (
             <Menu
