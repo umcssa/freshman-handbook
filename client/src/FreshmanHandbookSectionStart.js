@@ -11,13 +11,12 @@ const sectionStartStyle = {
     height: 80,
     width: 280,
     transform: 'translate(0, -50%)',
-    backgroundColor: '#3d94ff',
-    opacity: 0.6,
-    transition: 'opacity 0.25s'
+    backgroundColor: 'rgba(61,148,255,0.6)',
+    transition: 'background-color 0.25s'
 };
 
 const sectionStartHoverStyle = {
-    opacity: 1,
+    backgroundColor: 'rgba(61,148,255,1)',
 };
 
 const titleContainerStyle = {
@@ -46,6 +45,7 @@ const centerChildStyle = {
 const titleStyle = {
     fontSize: 30,
     color: '#ffffff',
+    opacity: 1,
     margin: 0,
     padding: 0,
     whiteSpace:'nowrap'
@@ -53,7 +53,8 @@ const titleStyle = {
 
 const iconStyle = {
     fontSize: 45,
-    color: '#ffffff'
+    color: '#ffffff',
+    opacity: 1
 };
 
 

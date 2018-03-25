@@ -72,6 +72,8 @@ class FreshmanHandbook extends React.Component {
         return (
             <div style={{backgroundColor: '#f0f2f5', height: this.state.height}}>
                 {this.state.width < 992 ? <RateMyProfessorNavbarCollapse/> : <RateMyProfessorNavbar/>}
+                <Route strict exact path={`${this.props.match.url}:menu/`}
+                       component={FreshmanHandbookSection}/>
                 <div style={{
                     display: 'inline-block',
                     height: '100%',
@@ -127,8 +129,6 @@ class FreshmanHandbook extends React.Component {
                        component={FreshmanHandbookPrevNext}/>
                 <Route strict exact path={`${this.props.match.url}:menu/:submenu/:title/`}
                        component={FreshmanHandbookPrevNext}/>
-                <Route strict exact path={`${this.props.match.url}:menu/`}
-                       component={FreshmanHandbookSection}/>
                 <Route strict exact path={`${this.props.match.url}:menu/`}
                        component={FreshmanHandbookSectionStart}/>
                 <FreshmanHandbookContact/>
