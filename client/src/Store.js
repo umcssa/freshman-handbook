@@ -71,6 +71,8 @@ const initValues = {
     selectedKey: '',
     content: '',
     contentDict: {},
+    prevLink: '',
+    nextLink: '',
 };
 
 const store = createStore(reducer, initValues);

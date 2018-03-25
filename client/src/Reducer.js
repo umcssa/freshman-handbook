@@ -22,9 +22,13 @@ export default (state, action) => {
                                         if (option[0] === uri) {
                                             result = [menu[0], subMenu[0], option[0]];
                                         } else {
-                                            //prev = [[menu[0], subMenu[0]], [option[0]]];
+                                            if (result) {
+                                                next = [menu[0], subMenu[0], option[0]];
+                                            } else {
+                                                prev = [menu[0], subMenu[0], option[0]];
+                                            }
                                         }
-                                        if (result) {
+                                        if (next) {
                                             throw BreakException;
                                         }
                                     });
@@ -34,16 +38,22 @@ export default (state, action) => {
                             } else {
                                 if (subMenu[0] === uri) {
                                     result = [menu[0], subMenu[0]];
+                                } else {
+                                    if (result) {
+                                        next = [menu[0], subMenu[0]];
+                                    } else {
+                                        prev = [menu[0], subMenu[0]];
+                                    }
                                 }
                             }
-                            if (result) {
+                            if (next) {
                                 throw BreakException;
                             }
                         });
                     } catch (e) {
                         if (e !== BreakException) throw e;
                     }
-                    if (result) {
+                    if (next) {
                         throw BreakException;
                     }
                 });
@@ -51,7 +61,29 @@ export default (state, action) => {
                 if (e !== BreakException) throw e;
             }
             if (result) {
-                return {...state, openKeys: result.slice(0, -1), selectedKey: result[result.length - 1]};
+                let prevLink = '';
+                let nextLink = '';
+                if (prev && prev[0] === result[0]) {
+                    // prevLink goes to the previous article in the same section
+                    prevLink = ['', 'freshman-handbook', ...prev, ''].join('/');
+                } else {
+                    // prevLink goes to this section's homepage
+                    prevLink = ['', 'freshman-handbook', result[0], ''].join('/');
+                }
+                if (next && next[0] === result[0]) {
+                    // prevLink goes to the next article in the same section
+                    nextLink = ['', 'freshman-handbook', ...next, ''].join('/');
+                } else {
+                    // prevLink goes to next section's homepage or the credits page
+                    nextLink = ['', 'freshman-handbook', next ? next[0] : 'credits', ''].join('/');
+                }
+                return {
+                    ...state,
+                    openKeys: result.slice(0, -1),
+                    selectedKey: result[result.length - 1],
+                    prevLink: prevLink,
+                    nextLink: nextLink
+                };
             } else {
                 return state;
             }

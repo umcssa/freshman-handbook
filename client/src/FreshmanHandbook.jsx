@@ -87,7 +87,7 @@ class FreshmanHandbook extends React.Component {
                     }, boxShadowStyle, centerParentStyle)}>
                         <Search
                             style={Object.assign({width: 'calc(100% - 50px)'}, centerChildStyle)}
-                            placeholder="请输入搜索内容"
+                            placeholder="请输入关键词"
                             onSearch={value => console.log(value)}
                             enterButton
                         />

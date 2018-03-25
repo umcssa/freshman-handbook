@@ -1,5 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import * as Actions from './Actions.js';
+import {connect} from 'react-redux';
 import Icon from 'antd/lib/icon';
 
 const prevNextStyle = {
@@ -41,7 +43,7 @@ const iconStyle = {
 };
 
 
-export default class FreshmanHandbookPrevNext extends React.Component {
+class FreshmanHandbookPrevNext extends React.Component {
     constructor(props) {
         super(props);
         this.state = {hoverLeft: false, hoverRight: false};
@@ -50,7 +52,7 @@ export default class FreshmanHandbookPrevNext extends React.Component {
     render() {
         return (
             <div style={prevNextStyle}>
-                <Link to="/freshman-handbook/超市购物/日常用品/外国超市/">
+                <Link to={this.props.prevLink}>
                     <div
                         style={Object.assign({}, buttonStyle, this.state.hoverLeft && buttonHoverStyle, centerParentStyle)}
                         onMouseEnter={() => {
@@ -63,7 +65,7 @@ export default class FreshmanHandbookPrevNext extends React.Component {
                         <Icon type="left" style={Object.assign({}, iconStyle, centerChildStyle)}/>
                     </div>
                 </Link>
-                <Link to="/freshman-handbook/超市购物/日常用品/外国超市/">
+                <Link to={this.props.nextLink}>
                     <div
                         style={Object.assign({}, buttonStyle, this.state.hoverRight && buttonHoverStyle, centerParentStyle)}
                         onMouseEnter={() => {
@@ -80,3 +82,17 @@ export default class FreshmanHandbookPrevNext extends React.Component {
         );
     }
 }
+
+function mapStateToProps(state) {
+    return {
+        prevLink: state.prevLink,
+        nextLink: state.nextLink
+    }
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(FreshmanHandbookPrevNext);
