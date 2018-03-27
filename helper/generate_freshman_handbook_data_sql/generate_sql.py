@@ -87,12 +87,12 @@ sql = 'INSERT INTO article VALUES '
 
 for title in titles:
     found = False
-    if title + '.txt' in content_files:
+    if title + '.html' in content_files:
         # print(title)
         # file = open(content_file)
         # print(file.read())
 
-        content = open('content/' + title + '.txt').read()
+        content = codecs.open('content/' + title + '.html','r','utf-8').read()
 
         if "'" in content:
             content = content.replace("'", "''")
@@ -106,5 +106,5 @@ for title in titles:
 sql = sql[:-2] + ';\n'
 
 file = codecs.open("data.sql", "w", "utf-8")
-file.write(sql)
+file.write(sql.replace('img src="./uploads/','img src="/freshman-handbook/uploads/'))
 file.close()
