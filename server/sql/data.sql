@@ -1,104 +1,118 @@
-INSERT INTO article VALUES ('签证申请流程', '<p>1、填写在线DS-160非移民签证申请表，并打印出带有条形码“确认页”。</p>
-<p>DS-160在线填写网址：https://ceac.state.gov/genniv/default.aspx </p>
+INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange">1、填写在线DS-160非移民签证申请表，并打印出带有条形码“确认页”。</span></p>
+<p>DS-160在线填写网址：<a href="https://ceac.state.gov/genniv/default.aspx">https://ceac.state.gov/genniv/default.aspx</a></p>
 <p>【注意事项】：所有申请人包括儿童都必须在线提交DS-160表，并在去使领馆面谈的时候带好打印清楚的“确认页”。 确保所有信息均填写完整且正确无误再提交，提交后无法进行任何更改，要牢记DS-160编号以便预约面谈时间。</p>
 <br />
-<p>2、支付签证申请费。</p>
-<p>支付信息网址：http://www.ustraveldocs.com/cn_zh/cn-niv-paymentinfo.asp </p>
+<p><span style="color: orange">2、支付签证申请费。</span></p>
+<p>支付信息网址：<a href="http://www.ustraveldocs.com/cn_zh/cn-niv-paymentinfo.asp">http://www.ustraveldocs.com/cn_zh/cn-niv-paymentinfo.asp</a></p>
 <p>【注意事项】：支付完成后，要打印收据编号并妥善保管。一旦丢失，将无法替换。如不提供收据编号，将无法进行预约。</p>
 <br />
-<p>3、预约面谈时间。</p>
+<p><span style="color: orange">3、预约面谈时间。</span></p>
 <p>通过支付费用时用到的凭证登录个人资料页面。</p>
 <p>登录一下网址，进入系统之后，即可看到控制面板。</p>
-<p>https://cgifederal.secure.force.com/?language=Chinese%20%28Simplified%29&country=China </p>
+<p><a href="https://cgifederal.secure.force.com/?language=Chinese%20%28Simplified%29&country=China">https://cgifederal.secure.force.com/?language=Chinese%20%28Simplified%29&country=China</a></p>
 <p>点击左手 侧菜单上的“安排面谈时间”(ScheduleAppointment)，启动预约安排流程。</p>
 <p>预约需要提供的材料：</p>
 <p>（1）护照号码；（2）签证申请缴费收据上的编号；（3）DS-160确认页上的十(10)位条形码编号。</p>
 <p>在接下来的流程中，需要依次选择签证类型、输入个人信息、添加亲属、选择文件送达地址、确认签证费用的缴纳状态，最后一步是安排面谈时间。</p>
 <br />
-<p>4、到预约地点进行面试。</p>
+<p><span style="color: orange">4、到预约地点进行面试。</span></p>
 <p>按照约定的时间到使/领事馆进行面谈。请随身携带一份预约单打印件、DS-160确认页打印件、（一张最近六个月内的近照以及所有新旧护照）。如缺少上述任何材料，申请将不予受理。符合条件的申请人可以申请免面谈，详细情况参见网页：</p>
-<p>http://www.ustraveldocs.com/cn_zh/cn-niv-visarenew.asp </p>
+<p><a href="http://www.ustraveldocs.com/cn_zh/cn-niv-visarenew.asp">http://www.ustraveldocs.com/cn_zh/cn-niv-visarenew.asp</a></p>
 <p>注意：面签当天不可以带手机书包等除签证材料以外的任何物品。可以找人同行，在使馆外帮忙拿随身物品；或者找门口私人存包处代保管。</p>
 <br />
-<p>5、领取护照和签证。</p>
+<p><span style="color: orange">5、领取护照和签证。</span></p>
 <p>如果签证获批，护照和签证将寄送至预约面谈时选择的指定地点。</p>
 <br />
 '),
 ('签证所需材料', '<p>1、非移民签证电子申请表(DS-160)。</p>
-<br />
 <p>2、前往美国旅行的有效护照，有效期需超出在美预定停留期至少六个月。如果护照中包含的人数多于一人，则每个签证申请人都需要提交单独的申请。</p>
-<br />
-<p>3、一张在最近六个月内拍摄的2英寸x2英寸（5厘米x5厘米）照片。有关照片格式的说明，参见网页：http://www.ustraveldocs.com/cn_zh/cn-niv-photoinfo.asp （也可以在网页提交电子版）</p>
-<br />
+<p>3、一张在最近六个月内拍摄的2英寸x2英寸（5厘米x5厘米）照片。有关照片格式的说明，参见网页：<a href="http://www.ustraveldocs.com/cn_zh/cn-niv-photoinfo.asp">http://www.ustraveldocs.com/cn_zh/cn-niv-photoinfo.asp</a> （也可以在网页提交电子版）</p>
 <p>4、美国学校或项目提供的I-20表。</p>
-<br />
 <p>5、SEVIS(I-901)缴费收据（证明申请人已缴纳SEVIS费用），具体见网址：</p>
-<p>http://www.ustraveldocs.com/cn_zh/cn-niv-visafeeinfo.asp#SEVIS%E8%B4%B9 </p>
-<br />
+<p><a href="http://www.ustraveldocs.com/cn_zh/cn-niv-visafeeinfo.asp#SEVIS%E8%B4%B9"> http://www.ustraveldocs.com/cn_zh/cn-niv-visafeeinfo.asp#SEVIS%E8%B4%B9 </a></p>
 <p>6、 除上述材料以外，申请人还应出示面谈预约单。</p>
-<p>具体准备材料内容，以官网给出清单为准。</p>
+<p style="color: red">具体准备材料内容，以官网给出清单为准。</p>
 <br />
-<p>【支持性文件】</p>
+<p style="color: orange">【支持性文件】</p>
 <p>还可以向签证官提供其他支持性文件，支持性文件是签证官在面谈时需要考虑的因素之一。</p>
-<p>点击下面网址查看所需支持性文件详情：http://www.ustraveldocs.com/cn_zh/cn-niv-typefandm.asp#%E6%94%AF%E6%8C%81%E6%80%A7%E6%96%87%E4%BB%B6 </p>
-<p>注意：请勿使用虚假材料。欺骗或歪曲事实可能导致永久拒签。</p>
-<p>（资料来自：http://jingyan.baidu.com/article/d3b74d64bec95e1f77e609b3.html）</p>
+<p>点击下面网址查看所需支持性文件详情：<a href="http://www.ustraveldocs.com/cn_zh/cn-niv-typefandm.asp#%E6%94%AF%E6%8C%81%E6%80%A7%E6%96%87%E4%BB%B6">http://www.ustraveldocs.com/cn_zh/cn-niv-typefandm.asp#%E6%94%AF%E6%8C%81%E6%80%A7%E6%96%87%E4%BB%B6</a></p>
+<p style="color: red">注意：请勿使用虚假材料。欺骗或歪曲事实可能导致永久拒签。</p>
+<p style="font-size:50%;">（资料来自：http://jingyan.baidu.com/article/d3b74d64bec95e1f77e609b3.html）</p>
 <br />
 '),
-('机场', '<p>离安娜堡最近的两个大型机场为底特律机场——DTW 和芝加哥奥黑尔机场——ORD。底特律机场离安娜堡约半个小时车程, 芝加哥奥黑尔机场离安娜堡将近4个小时火车车程。从底特律到北京或上海有达美航空Delta Air Lines直达的航班,也可以在首尔或东京转机去底特律。从芝加哥到北京，上海或香港有美国航空American Airlines、美联航United Airlines直达的航班，也可以在首尔或东京转机去芝加哥然后再乘坐美国铁路Amtrak到安娜堡。 美国铁路Amtrak网址：www.amtrak.com </p>
-<p>（特别提示：初来乍到的大家对美国交通情况不大了解的，还是选择直飞比较保险一点）</p>
+('机场', '<p>离安娜堡最近的两个大型机场为<span style="color: orange">底特律机场——DTW</span>和<span style="color: orange">芝加哥奥黑尔机场——ORD</span>。底特律机场离安娜堡约半个小时车程, 芝加哥奥黑尔机场离安娜堡将近4个小时火车车程。从底特律到北京或上海有达美航空Delta Air Lines直达的航班,也可以在首尔或东京转机去底特律。从芝加哥到北京，上海或香港有美国航空American Airlines、美联航United Airlines直达的航班，也可以在首尔或东京转机去芝加哥然后再乘坐美国铁路Amtrak到安娜堡。 美国铁路Amtrak网址：<a href="www.amtrak.com">www.amtrak.com</a></p>
+<p>（<span style="color: red">特别提示</span>：初来乍到的大家对美国交通情况不大了解的，还是选择直飞比较保险一点）</p>
 '),
 ('机票预订', '<p>常见的订机票网站包括：</p>
-<p>(1) Expedia：www.expedia.com </p>
-<p>(2) Travelocity：www.travelocity.com </p>
-<p>(3) Kayak：www.kayak.com </p>
-<p>(4) Student Universe（经常会有低价学生票放出，需要注册并证明学生身份）：www.studentuniverse.com </p>
-<p>(5) Skyscannner：www.skyscanner.com </p>
-<p>(6) Google flight: https://www.google.com/flights/</p>
+<p>(1) <span style="color: orange">Expedia</span>：<a href="www.expedia.com">www.expedia.com</a></p>
+<p>(2) <span style="color: orange">Travelocity</span>：<a href="www.travelocity.com">www.travelocity.com</a></p>
+<p>(3) <span style="color: orange">Kayak</span>：<a href="www.kayak.com">www.kayak.com</a></p>
+<p>(4) <span style="color: orange">Student Universe</span>（经常会有低价学生票放出，需要注册并证明学生身份）：<a href="www.studentuniverse.com">www.studentuniverse.com</a></p>
+<p>(5) <span style="color: orange">Skyscannner</span>：<a href="www.skyscanner.com">www.skyscanner.com</a></p>
+<p>(6) <span style="color: orange">Google flight</span>: <a href="www.google.com/flights/">www.google.com/flights/</a></p>
 '),
-('行李规格', '<p>各航空公司对于托运行李数量及大小均有不同的限制： 国内的航空公司（国航，东航，南航，海航）：经济舱一般可以免费托运两件行李，如果有航空公司金卡或乘坐公务或头等舱则可以托运三件。 美国的航空公司（达美航空Delta，美国航空American Airlines，美国联合航空United Airlines）： 经济舱一般可以免费托运一至两件行李，超出的第一件一般收取100美元左右的费用，第二件则会收取200美元左右。如果有航空公司金卡或乘坐公务或头等舱一般可以额外托运一件。 各大航空公司行李规格的链接： · 达美航空: http://www.delta.com/content/www/en_US/traveling-with-us/baggage/before-your-trip/checked.html  · 美国航空: http://www.aa.com/i18n/travelInformation/baggage/baggageAllowance.jsp  · 美国联合航空: http://www.united.com/CMS/en-US/travel/Pages/BaggageChecked.aspx </p>
-<p>特别提示: 航空公司的行李政策会发生变动，在每次出行之前请仔细阅读行李政策;</p>
-<p>行李超重罚款非常严格，大家务必根据官网查清重量，按规定收拾自己的行李。很多生活用品美帝买的又便宜又好用，如果不确定是不是需要的话，可以在新生群里询问学长学姐。</p>
+('行李规格', '<p style="color: orange">各航空公司对于托运行李数量及大小均有不同的限制： </p>
+<p>国内的航空公司（国航，东航，南航，海航）：经济舱一般可以免费托运两件行李，如果有航空公司金卡或乘坐公务或头等舱则可以托运三件。 </p>
+<p><span style="color: orange">美国的航空公司</span>（达美航空Delta，美国航空American Airlines，美国联合航空United Airlines）： <span style="color: red">经济舱一般可以免费托运一至两件行李</span>，超出的第一件一般收取100美元左右的费用，第二件则会收取200美元左右。如果有航空公司金卡或乘坐公务或头等舱一般可以额外托运一件。 </p>
+<p style="color: orange">各大航空公司行李规格的链接： </p>
+<p>· 达美航空: <a href="http://www.delta.com/content/www/en_US/traveling-with-us/baggage/before-your-trip/checked.html">http://www.delta.com/content/www/en_US/traveling-with-us/baggage/before-your-trip/checked.html</a></p>
+<p>· 美国航空: <a href="http://www.aa.com/i18n/travelInformation/baggage/baggageAllowance.jsp">http://www.aa.com/i18n/travelInformation/baggage/baggageAllowance.jsp</a></p>
+<p>· 美国联合航空: <a href="http://www.united.com/CMS/en-US/travel/Pages/BaggageChecked.aspx">http://www.united.com/CMS/en-US/travel/Pages/BaggageChecked.aspx</a></p>
+<p><span style="color: red">特别提示</span>: 航空公司的行李政策会发生变动，在每次出行之前请仔细阅读行李政策;</p>
+<p><span style="color: red">行李超重罚款非常严格，大家务必根据官网查清重量，按规定收拾自己的行李。</span>很多生活用品美帝买的又便宜又好用，如果不确定是不是需要的话，可以在新生群里询问学长学姐。</p>
 <br />
 '),
-('起飞时建议随身携带的物品', '<p>(1) 轻量的书或随身的游戏机(用于长途飞行中的解闷) (2) 独立包装的少量零食(用于长途飞行中的解闷)</p>
-<p>特别提示：由于食物在美国入境环节存在风险, 建议零食量主要用于飞行途中使用。</p>
-<p>(3) 长袖上衣(飞机上保暖用)</p>
-<p> (4) 文件包用于存放下面各项（此文件包的设置目的在于, 尽量少地在旅程当中翻动包裹好的行李）:</p>
-<p>· 登机牌(填写入境卡须用到登机牌上信息, 如航班号,出发地等, 填写时注意大小写的要求) · 护照 · I-20表格 · 国际信用卡(如有) · 少量美金纸币和硬币(如有) · 抵美后即时联系人的联系方式</p>
+('起飞时建议随身携带的物品', '<p>(1) <span style="color: red">轻量的书或随身的游戏机</span>(用于长途飞行中的解闷)</p>
+<p> (2) <span style="color: red">独立包装的少量零食</span>(用于长途飞行中的解闷)</p>
+<p><span style="color: red">特别提示</span>：由于食物在美国入境环节存在风险, 建议零食量主要用于飞行途中使用。</p>
+<p>(3) <span style="color: red">长袖上衣</span>(飞机上保暖用)</p>
+<p> (4) <span style="color: red">文件包用于存放下面各项</span>（此文件包的设置目的在于, 尽量少地在旅程当中翻动包裹好的行李）:</p>
+<p>· 登机牌(填写入境卡须用到登机牌上信息, 如航班号,出发地等, 填写时注意大小写的要求) </p>
+<p>· 护照 · I-20表格 </p>
+<p>· 国际信用卡(如有) </p>
+<p>· 少量美金纸币和硬币(如有) </p>
+<p>· 抵美后即时联系人的联系方式</p>
 <br />
 '),
-('非随身携带的日用品', '<p>(1) 牙膏牙刷漱口水(转机和抵美后可在机场的洗手间使用，韩国、日本、香港特区的机场洗手间非常干净,可用于梳洗。但请谨记牙膏,漱口水需托运) (2) 建议餐具(筷子汤匙比较推荐, 因为有别于刀/叉，筷子、汤匙可随身携带不需托运), 主要用于抵美后临时住宿的不时之需。 (3) 自己较为偏好夏装, 能装的话尽量多带, 由于刚到美国, 日程较为忙乱, 洗衣计划有别于在国内, 而且夏装较冬装轻便, 可以多带以备不时之需。 (4) 必要的冬装, 羽绒服和外套均可。不要带太厚的毛衣和毛裤。可以带羊毛衫之类的东西。 (5) 对寒假不打算回国的同学来说, 保暖内衣较为推荐. 如寒假回国, 可考虑届时回美再携带以减轻第一程的行李负担。</p>
-<p>(6) 长/短袜都建议多带</p>
-<p>(7) 牛仔裤可以适量带</p>
-<p>特别提示：美国的牛仔裤(如Levi’s, Armani Exchange)的确比国内便宜(Levi’s正价大概在25-45美元不等), 但如遇上比如穿两次便需清洗的习惯, 牛仔裤磨损和下缘形变很快。国内带来的牛仔裤相对质量较好。另外, Versace, Evisu等一些品牌在学校的Shopping Mall均没有设置门店, 有特别偏好的同学或许需要自带, 否则或许要到Chicago或New York购买。 (8) 男生可带登山用的鞋(如Lafuma, Timberland, Columbia等牌子的鞋), 女生也可以参照男生。</p>
-<p>特别提示：在美国, 白人女生主要以UGG, BearPaw等的毛质表面靴鞋为主流。女生可以考虑到美国后再选购冬季用鞋。如寒假有回国打算, 冬季用鞋可在届时再考虑, 12月中前学校内的积雪并不算严重。 (9) 专业书籍建议抵达美国后再购买。</p>
-<p>(10) 常用的药品可带, 但必须保证独立包装妥当, 如在包装表面有内容相关描述更好, 以备海关人员检查并防他们拆包。(此处提及的药品, 有别于药材。药材在海关环节, 与食物, 如牛肉干等, 均属于相当敏感的物品, 不建议携带。一旦被确认违反相关入境条例, 罚款会不低于250美元, 并在入境记录系统里面留有案底, 假若违者是SSN持有者, SS记录也会受到影响。)</p>
-<p>(11) 电器方面。 因电压为110V, 携带国内电器则需要配套变压器, 所以不建议携带。美国的电器比较便宜, 而且覆盖面广, 电饭锅等都会在超市有售, 不必担心。手提电脑的配套充电器内, 全部自带了变压器适应各个地区电压, 因此手提电脑并不需要额外的变压器。</p>
-<p>(12) 电器的配套物品: 网线(有需要的同学可以带), 转换插头, 插座托板(对于合租校外住宅的同学尤其重要)。</p>
-<p>(13) 雨伞, 雨靴。(8, 9月依然会有不定量降水)</p>
-<p>(14) 拖鞋, 运动鞋。(一般来说一双即可, 假若没有款式上特别要求, 美国市场的价格要比国内的低很多, 折扣也更为常见)</p>
+('非随身携带的日用品', '<p>(1) <span style="color: orange">牙膏牙刷漱口水</span>(转机和抵美后可在机场的洗手间使用，韩国、日本、香港特区的机场洗手间非常干净,可用于梳洗。但请谨记牙膏,漱口水需托运) </p>
+<p>(2) <span style="color: orange">建议餐具</span>(筷子汤匙比较推荐, 因为有别于刀/叉，筷子、汤匙可随身携带不需托运), 主要用于抵美后临时住宿的不时之需。 </p>
+<p>(3) 自己较为偏好<span style="color: orange">夏装</span>, 能装的话尽量多带, 由于刚到美国, 日程较为忙乱, 洗衣计划有别于在国内, 而且夏装较冬装轻便, 可以多带以备不时之需。 </p>
+<p>(4) <span style="color: orange">必要的冬装</span>, 羽绒服和外套均可。不要带太厚的毛衣和毛裤。可以带羊毛衫之类的东西。</p>
+<p> (5) 对寒假不打算回国的同学来说, <span style="color: orange">保暖内衣</span>较为推荐. 如寒假回国, 可考虑届时回美再携带以减轻第一程的行李负担。</p>
+<p>(6) <span style="color: orange">长/短袜</span>都建议多带</p>
+<p>(7) <span style="color: orange">牛仔裤</span>可以适量带</p>
+<p><span style="color: red">特别提示</span>：美国的牛仔裤(如Levi’s, Armani Exchange)的确比国内便宜(Levi’s正价大概在25-45美元不等), 但如遇上比如穿两次便需清洗的习惯, 牛仔裤磨损和下缘形变很快。国内带来的牛仔裤相对质量较好。另外, Versace, Evisu等一些品牌在学校的Shopping Mall均没有设置门店, 有特别偏好的同学或许需要自带, 否则或许要到Chicago或New York购买。 </p>
+<p>(8) <span style="color: orange">男生可带登山用的鞋</span>(如Lafuma, Timberland, Columbia等牌子的鞋), 女生也可以参照男生。</p>
+<p><span style="color: red">特别提示</span>：在美国, 白人女生主要以UGG, BearPaw等的毛质表面靴鞋为主流。女生可以考虑到美国后再选购冬季用鞋。如寒假有回国打算, 冬季用鞋可在届时再考虑, 12月中前学校内的积雪并不算严重。 </p>
+<p>(9) <span style="color: orange">专业书籍建议抵达美国后再购买。</span></p>
+<p>(10) <span style="color: orange">常用的药品可带, 但必须保证独立包装妥当, 如在包装表面有内容相关描述更好, 以备海关人员检查并防他们拆包。</span>(此处提及的药品, 有别于药材。药材在海关环节, 与食物, 如牛肉干等, 均属于相当敏感的物品, 不建议携带。一旦被确认违反相关入境条例, 罚款会不低于250美元, 并在入境记录系统里面留有案底, 假若违者是SSN持有者, SS记录也会受到影响。)</p>
+<p>(11) <span style="color: orange">电器方面。</span> 因电压为110V, 携带国内电器则需要配套变压器, 所以不建议携带。美国的电器比较便宜, 而且覆盖面广, 电饭锅等都会在超市有售, 不必担心。手提电脑的配套充电器内, 全部自带了变压器适应各个地区电压, 因此手提电脑并不需要额外的变压器。</p>
+<p>(12) <span style="color: orange">电器的配套物品:</span> 网线(有需要的同学可以带), 转换插头, 插座托板(对于合租校外住宅的同学尤其重要)。</p>
+<p>(13) <span style="color: orange">雨伞, 雨靴。</span>(8, 9月依然会有不定量降水)</p>
+<p>(14) <span style="color: orange">拖鞋, 运动鞋。</span>(一般来说一双即可, 假若没有款式上特别要求, 美国市场的价格要比国内的低很多, 折扣也更为常见)</p>
 <br />
 '),
-('选带项', '<p>(1) 计算器。计算器包括两种: 只能四则运算的简单计算器, 和功能较为强大的科学计算器或工程计算器。后者以我们常见的德州科技TI-83, TI-89等为例。有些课程限制考生只能携带前者, 有些却不设限制。Ross BBA, 统计系, 数学系, 经济系的同学在此问题上较为切身。前者在国内比较便宜, 在乎差价的同学可带, 但在学校里面的书店也有售。关于后者, 假若你在考SAT和AP时已配有, 即可携带.假若没有,可到美国等开学后买。这边网上购买一手或二手都非常便宜。Google, Walfram Alpha, 及一些特定的网站也可用于各种计算, 一般计算器只在考试时, 教授特别要求下才是必须的。 (2) 西装。在美国出席正规场合必备。Michigan的订做服务相对国内大城市来说比较稀少, 如需特别订做, 请尽量在国内完成。同时, 高级的西服在Michigan内门店也非常少。但一般的西装, 学校附近的Mall有售, 价格合理。 (3) 羽绒服在outlet购买或者网购都比国内便宜。</p>
+('选带项', '<p>(1) 计算器。计算器包括两种: 只能四则运算的简单计算器, 和功能较为强大的科学计算器或工程计算器。后者以我们常见的德州科技TI-83, TI-89等为例。有些课程限制考生只能携带前者, 有些却不设限制。<span style="color: red">Ross BBA, 统计系, 数学系, 经济系的同学在此问题上较为切身。</span>前者在国内比较便宜, 在乎差价的同学可带, 但在学校里面的书店也有售。关于后者, 假若你在考SAT和AP时已配有, 即可携带.假若没有,可到美国等开学后买。这边网上购买一手或二手都非常便宜。Google, Walfram Alpha, 及一些特定的网站也可用于各种计算, 一般计算器只在考试时, 教授特别要求下才是必须的。 </p>
+<p>(2) 西装。<span style="color: red">在美国出席正规场合必备。</span>Michigan的订做服务相对国内大城市来说比较稀少, 如需特别订做, 请尽量在国内完成。同时, 高级的西服在Michigan内门店也非常少。但一般的西装, 学校附近的Mall有售, 价格合理。 </p>
+<p>(3) 羽绒服在outlet购买或者网购都比国内便宜。</p>
 <br />
 '),
 ('体检和疫苗', '<p>一般来说，在拿到大使馆的签证以后就可以开始办理出境体检表和疫苗表了。密西根大学并没有强制要求的疫苗。</p>
-<p>体检的地点一般是当地的国际旅行健康中心（出入境检验检疫），体检项目包括：X光检查、心电图、血液检查和全身检查等。体检完成后健康中心会出具健康检查证明书（即“小红本”）。而“小黄本”则是指国际疫苗接种证明（密西根大学对小黄本没有强制要求）。</p>
+<p>体检的地点一般是当地的<span style="color: red">国际旅行健康中心（出入境检验检疫）</span>，体检项目包括：X光检查、心电图、血液检查和全身检查等。体检完成后健康中心会出具<span style="color: red">健康检查证明书</span>（即“小红本”）。而“小黄本”则是指国际疫苗接种证明（密西根大学对小黄本没有强制要求）。</p>
 <img src="/freshman-handbook/uploads/qw1.tiff" alt="qw1" style="width:100%" />
 <p>图为“小红本”和“小黄本”</p>
 <br />
 '),
-('医疗保险', '<p>密西根大学要求所有学生拥有医疗保险。如果你在入学之前没有医疗保险，到学校报到当天学校会把你自动加入到学校为国际学生提供的医疗保险里边 (U-M International Student/Scholar Health Insurance Plan)。 如果你在入学之前有保险并且不打算再加入到学校提供的保险里, 那么你现有的保险需要符合学校的规定, 请详见: http://internationalcenter.umich.edu/healthins/waiver.html#standards </p>
-<p>并且完成不参加医疗保险计划的申请表格, 详见: http://internationalcenter.umich.edu/healthins/forms/IntlIns_WaiverForm.pdf </p>
+('医疗保险', '<p>密西根大学要求所有学生拥有医疗保险。如果你在入学之前没有医疗保险，到学校报到当天学校会把你自动加入到学校为国际学生提供的医疗保险里边 (U-M International Student/Scholar Health Insurance Plan)。 如果你在入学之前有保险并且不打算再加入到学校提供的保险里, 那么你现有的保险需要符合学校的规定, 请详见: <a href="http://internationalcenter.umich.edu/healthins/waiver.html#standards">http://internationalcenter.umich.edu/healthins/waiver.html#standards</a> </p>
+<p>并且完成不参加医疗保险计划的申请表格, 详见: <a href="http://internationalcenter.umich.edu/healthins/forms/IntlIns_WaiverForm.pdf">http://internationalcenter.umich.edu/healthins/forms/IntlIns_WaiverForm.pdf</a> </p>
 <br />
 <p>学校提供的医疗保险计划不包含牙科咨询所产生的费用, 同学们可以根据自己的需要额外购买相应的保险。</p>
 '),
 ('学费', '<p>密西根大学每一个学院收取不同金额的学费，具体请详见：</p>
-<p>http://www.ro.umich.edu/tuition/tuition-fees.php#fullterm</p>
+<p><a href="http://www.ro.umich.edu/tuition/tuition-fees.php#fullterm">http://www.ro.umich.edu/tuition/tuition-fees.php#fullterm</a></p>
 <p>缴费的最好方式是到安娜堡之后开户转账，学费截止日期大约在选课后一个月。</p>
 <p>另外,学校还会向学生强制收取一部分Mandatory Fees,其中包括选课费,学生政府费用等等。缴费的方法有几种, 网上转账, 当面提交现金/支票, 或者邮寄支票。</p>
-<p>具体请详见: http://www.finance.umich.edu/finops/student/payments</p>
+<p>具体请详见: <a href="http://www.finance.umich.edu/finops/student/payments">http://www.finance.umich.edu/finops/student/payments</a></p>
 '),
 ('Mandatory Immigration Check-In', '<p>所有学生和访问学者到达 Ann Arbor 之后都需要完成 immigration check-in 的手续（除了持有非 UM 签发的 DS-2019 的 J-1 student）。研究生和访问学者都需要提前与 I-Center 预约，再前往 I-Center 办理 Check-In。本科生不需要特别前往 I-Center 因为 Check-In 已包含在 Orientation 的活动中。</p>
 <br />
@@ -757,22 +771,22 @@ INSERT INTO article VALUES ('签证申请流程', '<p>1、填写在线DS-160非�
 ('服装', '<p>对于那些穿衣服比较随性的同学来说，可以就近到 Meijer 和 Walmart 购买服装。这些超市服装种类款式 都比较少，主要以休闲运动装为主，很耐穿，价格也相对便宜。</p>
 <p>另外在S. StateSt. 附近有American Apparel, Urban Outfitters, Bivouac, Orchid Lane, Sole Sisters, Pitaya等服装店。</p>
 <br />
-<p>如果需要买比较漂亮的衣服，可以去比较近的 Briarwood Mall ，位于 Elsenhower Rd，可以在 Michigan Union 乘坐 AATA 的 6 路公车到 Briarwood Mall 站下车。 这个 Mall 内有四家比较大的 店，Sears, JCpenny, Marshll Field, Von Maur，也有 Gap, Sunglass hut, Coach, J. Crew, D.O.C., Body Shop 等品牌的专卖店。Store directory 可以在以下链接查到 http://www.shopbriarwood.com/IM/。</p>
+<p>如果需要买比较漂亮的衣服，可以去比较近的 Briarwood Mall ，位于 Elsenhower Rd，可以在 Michigan Union 乘坐 AATA 的 6 路公车到 Briarwood Mall 站下车。 这个 Mall 内有四家比较大的 店，Sears, JCpenny, Marshll Field, Von Maur，也有 Gap, Sunglass hut, Coach, J. Crew, D.O.C., Body Shop 等品牌的专卖店。Store directory 可以在以下链接查到 <a href="http://www.shopbriarwood.com/IM/">http://www.shopbriarwood.com/IM/</a>。</p>
 <br />
-<p>开车沿着  23  号  Highway 一直往北开上大约一个小时，就能看到美国中西部最大的服装  Birch  Run  Outlet 。那里集中了 170 多家品牌的专卖店，如 Adidas, Gap, Nautica, Nike, Polo, Timberland, Sony, Reebok， GNC 等。各种服装，皮具，化妆品，床上用品，厨具，药品，礼品，体育用品等都可以在那里买到。除了种 类齐全以外，Birch Run 的东西的价格也大大低于 local 店。在那里，几乎每天都有各种 sale。尤其是法定节 假日，Birch Run 更是购物的理想场所。具体信息可以查阅以下链接 http://www.primeoutlets.com/cntrdefault.asp?cntrid=1015。</p>
+<p>开车沿着  23  号  Highway 一直往北开上大约一个小时，就能看到美国中西部最大的服装  Birch  Run  Outlet 。那里集中了 170 多家品牌的专卖店，如 Adidas, Gap, Nautica, Nike, Polo, Timberland, Sony, Reebok， GNC 等。各种服装，皮具，化妆品，床上用品，厨具，药品，礼品，体育用品等都可以在那里买到。除了种 类齐全以外，Birch Run 的东西的价格也大大低于 local 店。在那里，几乎每天都有各种 sale。尤其是法定节 假日，Birch Run 更是购物的理想场所。具体信息可以查阅以下链接 <a href="http://www.primeoutlets.com/cntrdefault.asp?cntrid=1015">http://www.primeoutlets.com/cntrdefault.asp?cntrid=1015</a>。</p>
 <br />
-<p>另外一家比较高档的大型购物中心是 Somerset ，它是美国中西部最大的购物中心之一，位于 2800 W BigBeaver Rd, Troy, MI 48084。由于比较远，需要自行开车才能到达。具体可登陆 http://www.thesomersetcollection.com/directory。</p>
+<p>另外一家比较高档的大型购物中心是 Somerset ，它是美国中西部最大的购物中心之一，位于 2800 W BigBeaver Rd, Troy, MI 48084。由于比较远，需要自行开车才能到达。具体可登陆 <a href="http://www.thesomersetcollection.com/directory">http://www.thesomersetcollection.com/directory</a>。</p>
 '),
 ('电器和文具', '<p>Circuit City，Best Buy 和 COMPUSA 是专门经营家用电器，电脑及相关电子产品的连锁店。如果你喜欢看 电视或者球赛，别忘记在这里 check out 一台大电视哦。Circuit City 在 Washtenaw Ave 上的 Arborland Mall 里，Best Buy 和 Compusa 都在Lohr Rd上。</p>
-<p>网址分别是：http://www.circuitcity.com</p>
-<p>		http://www.bestbuy.com</p>
-<p>		http://www.compusa.com</p>
+<p>网址分别是：<a href="http://www.circuitcity.com">http://www.circuitcity.com</a></p>
+<p>		<a href="http://www.bestbuy.com">http://www.bestbuy.com</a></p>
+<p>		<a href="http://www.compusa.com">http://www.compusa.com</a></p>
 <p>在中校 union 旁边有 computer showcase，主营笔记本电脑及配件。若 Apple, H, Dell 品牌的电脑需要维修也可以在这里维修。</p>
-<p>网址为：http://showcase.itcs.umich.edu/contact/</p>
+<p>网址为：<a href="http://showcase.itcs.umich.edu/contact/">http://showcase.itcs.umich.edu/contact/</a></p>
 <p>如果你想买文具，办公用品等呢，可以去 OfficeMax, Staples, OfficeDepot。</p>
-<p>其具体地址参见它们的网站：http://www.officemax.com</p>
-<p>				    http://www.staples.com</p>
-<p>			   	    http://www.officedepot.com。</p>
+<p>其具体地址参见它们的网站：<a href="http://www.officemax.com">http://www.officemax.com</a></p>
+<p>				    <a href="http://www.staples.com">http://www.staples.com</a></p>
+<p>			   	    <a href="http://www.officedepot.com">http://www.officedepot.com</a>。</p>
 '),
 ('网购', '<p>若你有拥有美元账户的借记卡或者贷记卡，就可在网上购物。在繁忙的学习生活中，网购不失为一种省时省 力省钱的好途径。大型综合类网购网站中最为出色的两家可以总结为 amazon 和 ebay。</p>
 <br />
