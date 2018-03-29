@@ -33,7 +33,8 @@ const initValues = {
                 ['校内宿舍信息补充', 0]]],
             ['Learning Communities', [
                 ['Residential Communities', 0],
-                ['Non-Residential Communities', 0]]],
+                ['Non-Residential Communities', 0],
+                ['Learning Communities 信息补充', 0]]],
             ['校外租房', [
                 ['中校区房源', 0],
                 ['北校区房源', 0],
@@ -54,7 +55,7 @@ const initValues = {
         ['交通', [
             ['驾照考试', 0],
             ['Blue Bus & AATA Bus', 0],
-            ['Safe Ride & Taxi', 0]]],
+            ['Safe Ride & Taxi & 租车', 0]]],
         ['社团介绍', [
             ['安娜说话剧社 (Thus Spoke Ann Arbor)', 0],
             ['Dream Crops', 0],

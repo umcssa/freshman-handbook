@@ -509,6 +509,12 @@ INSERT INTO article VALUES ('签证申请流程', '<p>1、填写在线DS-160非�
 <p style="font-size:50%;">（图片来源：http://onsp.umich.edu/mentorship/events）</p>
 <br />
 '),
+('Learning Communities 信息补充', '<p>· 各个项目要求中的大部分课程可以在LSA Course Guide上找到，有兴趣的同学可以搜索课程名称进行了解：<a target="_blank" href="http://www.lsa.umich.edu/cg/">http://www.lsa.umich.edu/cg/</a> </p>
+<p>· 申请 Learning Communities 时，请注意不同的申请方式，有些 Learning Communities 要求在宿舍申请中勾选特定选项。</p>
+<p>· ⼤部分 Learning Communities 可以中途退出。</p>
+<p>· 部分 Learning Communities 对课程有特定要求，申请前请在MLC网站上仔细了解。</p>
+<br />
+'),
 ('中校区房源', '<p></p>
 <p>01. Zaragon Place</p>
 <p>地址：619 East University Avenue</p>
@@ -786,9 +792,31 @@ INSERT INTO article VALUES ('签证申请流程', '<p>1、填写在线DS-160非�
 <br />
 <p>若需买药品，可以去 CVS pharmacy, Walgreen 等药店。一些普通的药品也可以在 Walmart 和 Meijer 等大型超市内购买。</p>
 '),
-('电影院', '电影院
-文章内容'),
-('健身场所', '<p>密大的学习强度和难度在美国都是非常有名的，因此，拥有一个健康的身体成了每个密大学子在前往知识道 路上的必要条件。学校提供了各种体育设施供同学们在课余时间锻炼身体，其中，CCRB 和 NCRB 是最完善 的，同学们最常去的室内综合性运动场地。里面有室内跑道，器械健身，游泳池，篮球，排球，羽毛球，乒 乓球，壁球场等等。作为密大的学生，同学们只要交了学费即可持 Mcard 免费进入这些场馆锻炼身体。各个 场馆的开放时间请参见以下网址：http://www.recsports.umich.edu/facilities/bldghours.html</p>
+('电影院', '<p>安娜堡有多家电影院可以让同学们欣赏不同类型的电影。其中 Rave Motion Pictures 和 Quality 16 是上映 最新电影的影院，而 State Theater 和 Michigan theater 则是上映经典电影的影院，同学们可以依据自己的 喜好来选择。请记得带好学生证（Mcard）去看电影，会有 student discount 哟。</p>
+<br />
+<p>1. 上映最新电影的影院</p>
+<p>Rave Motion Pictures</p>
+<p>地址: 4100 Carpenter Road</p>
+<p>价格：5-20 美元</p>
+<p>Web Page: <a href="http://www.movietickets.com/house_detail.asp?house_id=34592#.UdPILz7N-sc">http://www.movietickets.com/house_detail.asp?house_id=34592#.UdPILz7N-sc</a></p>
+<br />
+<p>Quality 16</p>
+<p>地址: 3686 Jackson Road, Ann Arbor, MI</p>
+<p>价格：5-20 美元</p>
+<p>Web Page: <a href="http://www.gqti.com">http://www.gqti.com</a></p>
+<br />
+<p>2. 上映经典电影的影院</p>
+<p>State Theater</p>
+<p>地址: 233 S State St, Ann Arbor, MI</p>
+<p>价格：2-7 美元</p>
+<p>Web Page: <a href="www.michtheater.org/state">www.michtheater.org/state</a></p>
+<br />
+<p>Michigan Theater</p>
+<p>地址: 603 E Liberty St, Ann Arbor, MI</p>
+<p>价格：2-7美元</p>
+<p>Web Page: <a href="www.michtheater.org">www.michtheater.org</a></p>
+'),
+('健身场所', '<p>密大的学习强度和难度在美国都是非常有名的，因此，拥有一个健康的身体成了每个密大学子在前往知识道 路上的必要条件。学校提供了各种体育设施供同学们在课余时间锻炼身体，其中，CCRB 和 NCRB 是最完善 的，同学们最常去的室内综合性运动场地。里面有室内跑道，器械健身，游泳池，篮球，排球，羽毛球，乒 乓球，壁球场等等。作为密大的学生，同学们只要交了学费即可持 Mcard 免费进入这些场馆锻炼身体。各个 场馆的开放时间请参见以下网址：<a href="http://www.recsports.umich.edu/facilities/bldghours.html">http://www.recsports.umich.edu/facilities/bldghours.html</a></p>
 <br />
 <br />
 <p>中校区</p>
@@ -798,12 +826,12 @@ INSERT INTO article VALUES ('签证申请流程', '<p>1、填写在线DS-160非�
 <br />
 <br />
 <p>北校区</p>
-<p>North Campus Recreation Building (NCRB) 目前正在重新装修，暂不开放</p>
+<p>North Campus Recreation Building (NCRB) <span style="color:red">目前正在重新装修，暂不开放</span></p>
 <p>2375 Hubbard Rd Ann Arbor, MI 48109-2375</p>
 <p>(734) 763-4560</p>
 <br />
 <br />
-<p>场馆开放时间请参考 ：http://recsports.umich.edu/facilities/bldghours.html</p>
+<p>场馆开放时间请参考 ：<a href="http://recsports.umich.edu/facilities/bldghours.html">http://recsports.umich.edu/facilities/bldghours.html</a></p>
 <br />
 <p>南校区</p>
 <p>Intramural Sports Building (IM Building) </p>
@@ -820,18 +848,18 @@ INSERT INTO article VALUES ('签证申请流程', '<p>1、填写在线DS-160非�
 <br />
 <p>买票方法： </p>
 <p>ＵMS官网购票</p>
-<p>官网地址：http://ums.org/tickets </p>
-<p>注：需要额外付service fee</p>
+<p>官网地址：<a target="_blank" href="http://ums.org/tickets">http://ums.org/tickets</a> </p>
+<p><span style="color:red">注：需要额外付service fee</span></p>
 <br />
 <p>电话购票</p>
 <p>电话：(734) 764-2538</p>
-<p>注：需要额外付service fee</p>
+<p><span style="color:red">注：需要额外付service fee</span></p>
 <br />
 <p>Michigan Union Ticket Office (MUTO)</p>
 <p>League地址: 911 N. University Avenue，近北门</p>
 <p>Union地址: 530 S. State Street，地下楼梯旁</p>
-<p>官网地址：http://muto.umich.edu/ </p>
-<p>注：无需额外付service fee</p>
+<p>官网地址：<a target="_blank" href="http://muto.umich.edu/">http://muto.umich.edu/</a></p>
+<p><span style="color:red">注：无需额外付service fee</span></p>
 <br />
 <br />
 '),
@@ -845,14 +873,14 @@ INSERT INTO article VALUES ('签证申请流程', '<p>1、填写在线DS-160非�
 <p>时间：周一至周五 8:30 a.m. - 5 p.m.</p>
 <br />
 <p>官方网站</p>
-<p>官网地址：http://www.mgoblue.com/tickets/home.html </p>
-<p>比赛时间表 ：http://www.mgoblue.com/calendar/events</p>
+<p>官网地址：<a target="_blank" href="http://www.mgoblue.com/tickets/home.html">http://www.mgoblue.com/tickets/home.html</a></p>
+<p>比赛时间表 ：<a target="_blank" href="http://www.mgoblue.com/calendar/events">http://www.mgoblue.com/calendar/events</a></p>
 <br />
 '),
-('驾照考试', '<p>网站： http://michigan.gov/sos/0,4670,7-127-1627_8669_9040---,00.html </p>
+('驾照考试', '<p>网站： <a target="_blank" href="http://michigan.gov/sos/0,4670,7-127-1627_8669_9040---,00.html">http://michigan.gov/sos/0,4670,7-127-1627_8669_9040---,00.html</a></p>
 <p>这是密西根 State Of Secretary 关于驾照考试的网站，所有驾照考试的信息都可以在网站上找到。</p>
 <br />
-<p>申请驾照时的所需文件清单： http://michigan.gov/documents/sos/Applying_for_lic_or_ID_SOS_428_222146_7.pdf?2013070504363</p>
+<p>申请驾照时的所需文件清单： <a target="_blank" href="http://michigan.gov/documents/sos/Applying_for_lic_or_ID_SOS_428_222146_7.pdf?2013070504363">http://michigan.gov/documents/sos/Applying_for_lic_or_ID_SOS_428_222146_7.pdf?2013070504363</a></p>
 <br />
 <p>申领驾照有“笔试”和“路考”两部分。参加笔试的费用是$25，如果第一次没有通过可以当时现场考第二次笔试，无需另交费用。总共 44 题，错 10 道以内大概可以通过了。如果两次都没有通过，就只好下次再来了，不过费用是不会返还的。SOS 只接受 Mastercard，现金和支票支付。建议使用现金或者支票。Ann Arbor 附近有两个 SOS 可以申请驾照考试。想要学习交规可以到学校的 International Center 领取免费的交规书。</p>
 <br />
@@ -871,8 +899,45 @@ INSERT INTO article VALUES ('签证申请流程', '<p>1、填写在线DS-160非�
 <img src="/freshman-handbook/uploads/pl1.png" alt="pl1" style="width:100%" />
 <img src="/freshman-handbook/uploads/pl2.png" alt="pl2" style="width:100%" />
 '),
-('Safe Ride & Taxi', 'Safe Ride & Taxi
-文章内容'),
+('Safe Ride & Taxi & 租车', '<p>对于没有车的同学，夜间出行或者去较远的地方，Safe Ride 和 Taxi 是合理的选择。</p>
+<br />
+<p>1. Safe Ride</p>
+<br />
+<p>Safe Ride 是由学校提供给学生和教职工的免费夜间交通工具，接送范围限于校区及临近周边，服务时间是从 10:00  p.m. 到 7:00  a.m.，搭乘 Safe  Ride 需要出示 UM  ID</p>
+<p>电话：(734) 647 - 8000 </p>
+<br />
+<p>更多关于Safe Ride的信息请参见：<a target="_blank" href="https://deanofstudents.umich.edu/article/late-night-transportation">https://deanofstudents.umich.edu/article/late-night-transportation</a></p>
+<br />
+<br />
+<p>2. Taxi</p>
+<br />
+<p>安娜堡有很多出租车服务，在这里列举几个常用的出租车公司的联系方式和信息：</p>
+<br />
+<p>Blue Cab</p>
+<p>电话：(734) 846-0007</p>
+<p>网址：<a target="_blank" href="http://www.amazingbluetaxi.com/">http://www.amazingbluetaxi.com/</a> </p>
+<br />
+<p>Ann Arbor Cab</p>
+<p>电话：(734) 272-8009/ (734) 709-5454</p>
+<p>网址：<a target="_blank" href="http://www.annarbortaxitransport.4t.com/">http://www.amazingbluetaxi.com/</a></p>
+<br />
+<br />
+<p>3. Uber/Lift</p>
+<br />
+<p>非常方便的两款叫车软件，校园周边打车费用大致在4-20美元。</p>
+<br />
+<br />
+<p>4. 租车 </p>
+<br />
+<p>安娜堡地区主要面对学校学生和教职工的租车公司有 Zipcar 和 Maven。</p>
+<br />
+<p>Zipcar 实行会员制，加入需要叫 25 美元的申请费和每年 50 美元的年费。加入后会获得加油卡、保险和最多 180 英里的 free mile/day。会员可以通过手机 App 预约车辆。在安娜堡有多处 Zipcar 的租车地点，十分方便。</p>
+<p>详情请见：<a target="_blank" href="http://www.zipcar.com/?redirect_p=0">http://www.zipcar.com/?redirect_p=0</a></p>
+<br />
+<p>Marven 的租车服务与 Zipcar 类似。</p>
+<p>详情请见：<a target="_blank" href="https://www.maven.com/us/">https://www.maven.com/us/</a> </p>
+<br />
+'),
 ('安娜说话剧社 (Thus Spoke Ann Arbor)', '<p>	密西根大学安娜说话剧社成立于2013年11月，旨在采用话剧的艺术表现手法，打造中国文化品牌。我社是密西根大学的非营利性学生话剧社团，也是密西根大学最大的华人社团之一。这里聚集了一批热爱话剧并且投身于话剧艺术的人们。从演出到宣传稿，从幕后制作到活动组织，我们欢迎各个专业的才子。安娜说为大家提供了一个了解参与话剧并且一起进行课余活动的平台，社团不仅每学期举办Acting Workshop, 剧本朗读会，戏剧观摩等活动，并在每年举办小剧场和年度大戏的演出。我社成立至今出品了《恋爱的犀牛》、《思凡》、《日出》、《无人生还》的年度大戏，且在小剧场演出中出品过近十部作品。安娜说给密西根安娜堡地区的华人群体带来了精彩的文化盛宴，也吸引了各国观众更多的了解中文话剧。在安娜说，我们不仅是一个精彩出色的社团，更是一个温暖的大家庭。在日后，我们将呈现更多风格和更精致的作品，也期待更多话剧爱好者加入我们的大家庭。</p>
 <img src="/freshman-handbook/uploads/po1-1.tiff" alt="po1-1" style="width:100%" />
 <img src="/freshman-handbook/uploads/po1-2.jpg" alt="po1-2" style="width:100%" />
