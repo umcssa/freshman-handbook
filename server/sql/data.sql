@@ -1,15 +1,15 @@
 INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange">1、填写在线DS-160非移民签证申请表，并打印出带有条形码“确认页”。</span></p>
-<p>DS-160在线填写网址：<a href="https://ceac.state.gov/genniv/default.aspx">https://ceac.state.gov/genniv/default.aspx</a></p>
+<p>DS-160在线填写网址：<a target="_blank" href="https://ceac.state.gov/genniv/default.aspx">https://ceac.state.gov/genniv/default.aspx</a></p>
 <p>【注意事项】：所有申请人包括儿童都必须在线提交DS-160表，并在去使领馆面谈的时候带好打印清楚的“确认页”。 确保所有信息均填写完整且正确无误再提交，提交后无法进行任何更改，要牢记DS-160编号以便预约面谈时间。</p>
 <br />
 <p><span style="color: orange">2、支付签证申请费。</span></p>
-<p>支付信息网址：<a href="http://www.ustraveldocs.com/cn_zh/cn-niv-paymentinfo.asp">http://www.ustraveldocs.com/cn_zh/cn-niv-paymentinfo.asp</a></p>
+<p>支付信息网址：<a target="_blank" href="http://www.ustraveldocs.com/cn_zh/cn-niv-paymentinfo.asp">http://www.ustraveldocs.com/cn_zh/cn-niv-paymentinfo.asp</a></p>
 <p>【注意事项】：支付完成后，要打印收据编号并妥善保管。一旦丢失，将无法替换。如不提供收据编号，将无法进行预约。</p>
 <br />
 <p><span style="color: orange">3、预约面谈时间。</span></p>
 <p>通过支付费用时用到的凭证登录个人资料页面。</p>
 <p>登录一下网址，进入系统之后，即可看到控制面板。</p>
-<p><a href="https://cgifederal.secure.force.com/?language=Chinese%20%28Simplified%29&country=China">https://cgifederal.secure.force.com/?language=Chinese%20%28Simplified%29&country=China</a></p>
+<p><a target="_blank" href="https://cgifederal.secure.force.com/?language=Chinese%20%28Simplified%29&country=China">https://cgifederal.secure.force.com/?language=Chinese%20%28Simplified%29&country=China</a></p>
 <p>点击左手 侧菜单上的“安排面谈时间”(ScheduleAppointment)，启动预约安排流程。</p>
 <p>预约需要提供的材料：</p>
 <p>（1）护照号码；（2）签证申请缴费收据上的编号；（3）DS-160确认页上的十(10)位条形码编号。</p>
@@ -17,7 +17,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <br />
 <p><span style="color: orange">4、到预约地点进行面试。</span></p>
 <p>按照约定的时间到使/领事馆进行面谈。请随身携带一份预约单打印件、DS-160确认页打印件、（一张最近六个月内的近照以及所有新旧护照）。如缺少上述任何材料，申请将不予受理。符合条件的申请人可以申请免面谈，详细情况参见网页：</p>
-<p><a href="http://www.ustraveldocs.com/cn_zh/cn-niv-visarenew.asp">http://www.ustraveldocs.com/cn_zh/cn-niv-visarenew.asp</a></p>
+<p><a target="_blank" href="http://www.ustraveldocs.com/cn_zh/cn-niv-visarenew.asp">http://www.ustraveldocs.com/cn_zh/cn-niv-visarenew.asp</a></p>
 <p>注意：面签当天不可以带手机书包等除签证材料以外的任何物品。可以找人同行，在使馆外帮忙拿随身物品；或者找门口私人存包处代保管。</p>
 <br />
 <p><span style="color: orange">5、领取护照和签证。</span></p>
@@ -26,38 +26,38 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 '),
 ('签证所需材料', '<p>1、非移民签证电子申请表(DS-160)。</p>
 <p>2、前往美国旅行的有效护照，有效期需超出在美预定停留期至少六个月。如果护照中包含的人数多于一人，则每个签证申请人都需要提交单独的申请。</p>
-<p>3、一张在最近六个月内拍摄的2英寸x2英寸（5厘米x5厘米）照片。有关照片格式的说明，参见网页：<a href="http://www.ustraveldocs.com/cn_zh/cn-niv-photoinfo.asp">http://www.ustraveldocs.com/cn_zh/cn-niv-photoinfo.asp</a> （也可以在网页提交电子版）</p>
+<p>3、一张在最近六个月内拍摄的2英寸x2英寸（5厘米x5厘米）照片。有关照片格式的说明，参见网页：<a target="_blank" href="http://www.ustraveldocs.com/cn_zh/cn-niv-photoinfo.asp">http://www.ustraveldocs.com/cn_zh/cn-niv-photoinfo.asp</a> （也可以在网页提交电子版）</p>
 <p>4、美国学校或项目提供的I-20表。</p>
 <p>5、SEVIS(I-901)缴费收据（证明申请人已缴纳SEVIS费用），具体见网址：</p>
-<p><a href="http://www.ustraveldocs.com/cn_zh/cn-niv-visafeeinfo.asp#SEVIS%E8%B4%B9"> http://www.ustraveldocs.com/cn_zh/cn-niv-visafeeinfo.asp#SEVIS%E8%B4%B9 </a></p>
+<p><a target="_blank" href="http://www.ustraveldocs.com/cn_zh/cn-niv-visafeeinfo.asp#SEVIS%E8%B4%B9"> http://www.ustraveldocs.com/cn_zh/cn-niv-visafeeinfo.asp#SEVIS%E8%B4%B9 </a></p>
 <p>6、 除上述材料以外，申请人还应出示面谈预约单。</p>
 <p style="color: red">具体准备材料内容，以官网给出清单为准。</p>
 <br />
 <p style="color: orange">【支持性文件】</p>
 <p>还可以向签证官提供其他支持性文件，支持性文件是签证官在面谈时需要考虑的因素之一。</p>
-<p>点击下面网址查看所需支持性文件详情：<a href="http://www.ustraveldocs.com/cn_zh/cn-niv-typefandm.asp#%E6%94%AF%E6%8C%81%E6%80%A7%E6%96%87%E4%BB%B6">http://www.ustraveldocs.com/cn_zh/cn-niv-typefandm.asp#%E6%94%AF%E6%8C%81%E6%80%A7%E6%96%87%E4%BB%B6</a></p>
+<p>点击下面网址查看所需支持性文件详情：<a target="_blank" href="http://www.ustraveldocs.com/cn_zh/cn-niv-typefandm.asp#%E6%94%AF%E6%8C%81%E6%80%A7%E6%96%87%E4%BB%B6">http://www.ustraveldocs.com/cn_zh/cn-niv-typefandm.asp#%E6%94%AF%E6%8C%81%E6%80%A7%E6%96%87%E4%BB%B6</a></p>
 <p style="color: red">注意：请勿使用虚假材料。欺骗或歪曲事实可能导致永久拒签。</p>
 <p style="font-size:50%;">（资料来自：http://jingyan.baidu.com/article/d3b74d64bec95e1f77e609b3.html）</p>
 <br />
 '),
-('机场', '<p>离安娜堡最近的两个大型机场为<span style="color: orange">底特律机场——DTW</span>和<span style="color: orange">芝加哥奥黑尔机场——ORD</span>。底特律机场离安娜堡约半个小时车程, 芝加哥奥黑尔机场离安娜堡将近4个小时火车车程。从底特律到北京或上海有达美航空Delta Air Lines直达的航班,也可以在首尔或东京转机去底特律。从芝加哥到北京，上海或香港有美国航空American Airlines、美联航United Airlines直达的航班，也可以在首尔或东京转机去芝加哥然后再乘坐美国铁路Amtrak到安娜堡。 美国铁路Amtrak网址：<a href="www.amtrak.com">www.amtrak.com</a></p>
+('机场', '<p>离安娜堡最近的两个大型机场为<span style="color: orange">底特律机场——DTW</span>和<span style="color: orange">芝加哥奥黑尔机场——ORD</span>。底特律机场离安娜堡约半个小时车程, 芝加哥奥黑尔机场离安娜堡将近4个小时火车车程。从底特律到北京或上海有达美航空Delta Air Lines直达的航班,也可以在首尔或东京转机去底特律。从芝加哥到北京，上海或香港有美国航空American Airlines、美联航United Airlines直达的航班，也可以在首尔或东京转机去芝加哥然后再乘坐美国铁路Amtrak到安娜堡。 美国铁路Amtrak网址：<a target="_blank" href="www.amtrak.com">www.amtrak.com</a></p>
 <p>（<span style="color: red">特别提示</span>：初来乍到的大家对美国交通情况不大了解的，还是选择直飞比较保险一点）</p>
 '),
 ('机票预订', '<p>常见的订机票网站包括：</p>
-<p>(1) <span style="color: orange">Expedia</span>：<a href="www.expedia.com">www.expedia.com</a></p>
-<p>(2) <span style="color: orange">Travelocity</span>：<a href="www.travelocity.com">www.travelocity.com</a></p>
-<p>(3) <span style="color: orange">Kayak</span>：<a href="www.kayak.com">www.kayak.com</a></p>
-<p>(4) <span style="color: orange">Student Universe</span>（经常会有低价学生票放出，需要注册并证明学生身份）：<a href="www.studentuniverse.com">www.studentuniverse.com</a></p>
-<p>(5) <span style="color: orange">Skyscannner</span>：<a href="www.skyscanner.com">www.skyscanner.com</a></p>
-<p>(6) <span style="color: orange">Google flight</span>: <a href="www.google.com/flights/">www.google.com/flights/</a></p>
+<p>(1) <span style="color: orange">Expedia</span>：<a target="_blank" href="www.expedia.com">www.expedia.com</a></p>
+<p>(2) <span style="color: orange">Travelocity</span>：<a target="_blank" href="www.travelocity.com">www.travelocity.com</a></p>
+<p>(3) <span style="color: orange">Kayak</span>：<a target="_blank" href="www.kayak.com">www.kayak.com</a></p>
+<p>(4) <span style="color: orange">Student Universe</span>（经常会有低价学生票放出，需要注册并证明学生身份）：<a target="_blank" href="www.studentuniverse.com">www.studentuniverse.com</a></p>
+<p>(5) <span style="color: orange">Skyscannner</span>：<a target="_blank" href="www.skyscanner.com">www.skyscanner.com</a></p>
+<p>(6) <span style="color: orange">Google flight</span>: <a target="_blank" href="www.google.com/flights/">www.google.com/flights/</a></p>
 '),
 ('行李规格', '<p style="color: orange">各航空公司对于托运行李数量及大小均有不同的限制： </p>
 <p>国内的航空公司（国航，东航，南航，海航）：经济舱一般可以免费托运两件行李，如果有航空公司金卡或乘坐公务或头等舱则可以托运三件。 </p>
 <p><span style="color: orange">美国的航空公司</span>（达美航空Delta，美国航空American Airlines，美国联合航空United Airlines）： <span style="color: red">经济舱一般可以免费托运一至两件行李</span>，超出的第一件一般收取100美元左右的费用，第二件则会收取200美元左右。如果有航空公司金卡或乘坐公务或头等舱一般可以额外托运一件。 </p>
 <p style="color: orange">各大航空公司行李规格的链接： </p>
-<p>· 达美航空: <a href="http://www.delta.com/content/www/en_US/traveling-with-us/baggage/before-your-trip/checked.html">http://www.delta.com/content/www/en_US/traveling-with-us/baggage/before-your-trip/checked.html</a></p>
-<p>· 美国航空: <a href="http://www.aa.com/i18n/travelInformation/baggage/baggageAllowance.jsp">http://www.aa.com/i18n/travelInformation/baggage/baggageAllowance.jsp</a></p>
-<p>· 美国联合航空: <a href="http://www.united.com/CMS/en-US/travel/Pages/BaggageChecked.aspx">http://www.united.com/CMS/en-US/travel/Pages/BaggageChecked.aspx</a></p>
+<p>· 达美航空: <a target="_blank" href="http://www.delta.com/content/www/en_US/traveling-with-us/baggage/before-your-trip/checked.html">http://www.delta.com/content/www/en_US/traveling-with-us/baggage/before-your-trip/checked.html</a></p>
+<p>· 美国航空: <a target="_blank" href="http://www.aa.com/i18n/travelInformation/baggage/baggageAllowance.jsp">http://www.aa.com/i18n/travelInformation/baggage/baggageAllowance.jsp</a></p>
+<p>· 美国联合航空: <a target="_blank" href="http://www.united.com/CMS/en-US/travel/Pages/BaggageChecked.aspx">http://www.united.com/CMS/en-US/travel/Pages/BaggageChecked.aspx</a></p>
 <p><span style="color: red">特别提示</span>: 航空公司的行李政策会发生变动，在每次出行之前请仔细阅读行李政策;</p>
 <p><span style="color: red">行李超重罚款非常严格，大家务必根据官网查清重量，按规定收拾自己的行李。</span>很多生活用品美帝买的又便宜又好用，如果不确定是不是需要的话，可以在新生群里询问学长学姐。</p>
 <br />
@@ -103,16 +103,16 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>图为“小红本”和“小黄本”</p>
 <br />
 '),
-('医疗保险', '<p>密西根大学要求所有学生拥有医疗保险。如果你在入学之前没有医疗保险，到学校报到当天学校会把你自动加入到学校为国际学生提供的医疗保险里边 (U-M International Student/Scholar Health Insurance Plan)。 如果你在入学之前有保险并且不打算再加入到学校提供的保险里, 那么你现有的保险需要符合学校的规定, 请详见: <a href="http://internationalcenter.umich.edu/healthins/waiver.html#standards">http://internationalcenter.umich.edu/healthins/waiver.html#standards</a> </p>
-<p>并且完成不参加医疗保险计划的申请表格, 详见: <a href="http://internationalcenter.umich.edu/healthins/forms/IntlIns_WaiverForm.pdf">http://internationalcenter.umich.edu/healthins/forms/IntlIns_WaiverForm.pdf</a> </p>
+('医疗保险', '<p>密西根大学要求所有学生拥有医疗保险。如果你在入学之前没有医疗保险，到学校报到当天学校会把你自动加入到学校为国际学生提供的医疗保险里边 (U-M International Student/Scholar Health Insurance Plan)。 如果你在入学之前有保险并且不打算再加入到学校提供的保险里, 那么你现有的保险需要符合学校的规定, 请详见: <a target="_blank" href="http://internationalcenter.umich.edu/healthins/waiver.html#standards">http://internationalcenter.umich.edu/healthins/waiver.html#standards</a> </p>
+<p>并且完成不参加医疗保险计划的申请表格, 详见: <a target="_blank" href="http://internationalcenter.umich.edu/healthins/forms/IntlIns_WaiverForm.pdf">http://internationalcenter.umich.edu/healthins/forms/IntlIns_WaiverForm.pdf</a> </p>
 <br />
 <p>学校提供的医疗保险计划不包含牙科咨询所产生的费用, 同学们可以根据自己的需要额外购买相应的保险。</p>
 '),
 ('学费', '<p>密西根大学每一个学院收取不同金额的学费，具体请详见：</p>
-<p><a href="http://www.ro.umich.edu/tuition/tuition-fees.php#fullterm">http://www.ro.umich.edu/tuition/tuition-fees.php#fullterm</a></p>
+<p><a target="_blank" href="http://www.ro.umich.edu/tuition/tuition-fees.php#fullterm">http://www.ro.umich.edu/tuition/tuition-fees.php#fullterm</a></p>
 <p>缴费的最好方式是到安娜堡之后开户转账，学费截止日期大约在选课后一个月。</p>
 <p>另外,学校还会向学生强制收取一部分Mandatory Fees,其中包括选课费,学生政府费用等等。缴费的方法有几种, 网上转账, 当面提交现金/支票, 或者邮寄支票。</p>
-<p>具体请详见: <a href="http://www.finance.umich.edu/finops/student/payments">http://www.finance.umich.edu/finops/student/payments</a></p>
+<p>具体请详见: <a target="_blank" href="http://www.finance.umich.edu/finops/student/payments">http://www.finance.umich.edu/finops/student/payments</a></p>
 '),
 ('Mandatory Immigration Check-In', '<p>所有学生和访问学者到达 Ann Arbor 之后都需要完成 immigration check-in 的手续（除了持有非 UM 签发的 DS-2019 的 J-1 student）。研究生和访问学者都需要提前与 I-Center 预约，再前往 I-Center 办理 Check-In。本科生不需要特别前往 I-Center 因为 Check-In 已包含在 Orientation 的活动中。</p>
 <br />
@@ -771,22 +771,22 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 ('服装', '<p>对于那些穿衣服比较随性的同学来说，可以就近到 Meijer 和 Walmart 购买服装。这些超市服装种类款式 都比较少，主要以休闲运动装为主，很耐穿，价格也相对便宜。</p>
 <p>另外在S. StateSt. 附近有American Apparel, Urban Outfitters, Bivouac, Orchid Lane, Sole Sisters, Pitaya等服装店。</p>
 <br />
-<p>如果需要买比较漂亮的衣服，可以去比较近的 Briarwood Mall ，位于 Elsenhower Rd，可以在 Michigan Union 乘坐 AATA 的 6 路公车到 Briarwood Mall 站下车。 这个 Mall 内有四家比较大的 店，Sears, JCpenny, Marshll Field, Von Maur，也有 Gap, Sunglass hut, Coach, J. Crew, D.O.C., Body Shop 等品牌的专卖店。Store directory 可以在以下链接查到 <a href="http://www.shopbriarwood.com/IM/">http://www.shopbriarwood.com/IM/</a>。</p>
+<p>如果需要买比较漂亮的衣服，可以去比较近的 Briarwood Mall ，位于 Elsenhower Rd，可以在 Michigan Union 乘坐 AATA 的 6 路公车到 Briarwood Mall 站下车。 这个 Mall 内有四家比较大的 店，Sears, JCpenny, Marshll Field, Von Maur，也有 Gap, Sunglass hut, Coach, J. Crew, D.O.C., Body Shop 等品牌的专卖店。Store directory 可以在以下链接查到 <a target="_blank" href="http://www.shopbriarwood.com/IM/">http://www.shopbriarwood.com/IM/</a>。</p>
 <br />
-<p>开车沿着  23  号  Highway 一直往北开上大约一个小时，就能看到美国中西部最大的服装  Birch  Run  Outlet 。那里集中了 170 多家品牌的专卖店，如 Adidas, Gap, Nautica, Nike, Polo, Timberland, Sony, Reebok， GNC 等。各种服装，皮具，化妆品，床上用品，厨具，药品，礼品，体育用品等都可以在那里买到。除了种 类齐全以外，Birch Run 的东西的价格也大大低于 local 店。在那里，几乎每天都有各种 sale。尤其是法定节 假日，Birch Run 更是购物的理想场所。具体信息可以查阅以下链接 <a href="http://www.primeoutlets.com/cntrdefault.asp?cntrid=1015">http://www.primeoutlets.com/cntrdefault.asp?cntrid=1015</a>。</p>
+<p>开车沿着  23  号  Highway 一直往北开上大约一个小时，就能看到美国中西部最大的服装  Birch  Run  Outlet 。那里集中了 170 多家品牌的专卖店，如 Adidas, Gap, Nautica, Nike, Polo, Timberland, Sony, Reebok， GNC 等。各种服装，皮具，化妆品，床上用品，厨具，药品，礼品，体育用品等都可以在那里买到。除了种 类齐全以外，Birch Run 的东西的价格也大大低于 local 店。在那里，几乎每天都有各种 sale。尤其是法定节 假日，Birch Run 更是购物的理想场所。具体信息可以查阅以下链接 <a target="_blank" href="http://www.primeoutlets.com/cntrdefault.asp?cntrid=1015">http://www.primeoutlets.com/cntrdefault.asp?cntrid=1015</a>。</p>
 <br />
-<p>另外一家比较高档的大型购物中心是 Somerset ，它是美国中西部最大的购物中心之一，位于 2800 W BigBeaver Rd, Troy, MI 48084。由于比较远，需要自行开车才能到达。具体可登陆 <a href="http://www.thesomersetcollection.com/directory">http://www.thesomersetcollection.com/directory</a>。</p>
+<p>另外一家比较高档的大型购物中心是 Somerset ，它是美国中西部最大的购物中心之一，位于 2800 W BigBeaver Rd, Troy, MI 48084。由于比较远，需要自行开车才能到达。具体可登陆 <a target="_blank" href="http://www.thesomersetcollection.com/directory">http://www.thesomersetcollection.com/directory</a>。</p>
 '),
 ('电器和文具', '<p>Circuit City，Best Buy 和 COMPUSA 是专门经营家用电器，电脑及相关电子产品的连锁店。如果你喜欢看 电视或者球赛，别忘记在这里 check out 一台大电视哦。Circuit City 在 Washtenaw Ave 上的 Arborland Mall 里，Best Buy 和 Compusa 都在Lohr Rd上。</p>
-<p>网址分别是：<a href="http://www.circuitcity.com">http://www.circuitcity.com</a></p>
-<p>		<a href="http://www.bestbuy.com">http://www.bestbuy.com</a></p>
-<p>		<a href="http://www.compusa.com">http://www.compusa.com</a></p>
+<p>网址分别是：<a target="_blank" href="http://www.circuitcity.com">http://www.circuitcity.com</a></p>
+<p>		<a target="_blank" href="http://www.bestbuy.com">http://www.bestbuy.com</a></p>
+<p>		<a target="_blank" href="http://www.compusa.com">http://www.compusa.com</a></p>
 <p>在中校 union 旁边有 computer showcase，主营笔记本电脑及配件。若 Apple, H, Dell 品牌的电脑需要维修也可以在这里维修。</p>
-<p>网址为：<a href="http://showcase.itcs.umich.edu/contact/">http://showcase.itcs.umich.edu/contact/</a></p>
+<p>网址为：<a target="_blank" href="http://showcase.itcs.umich.edu/contact/">http://showcase.itcs.umich.edu/contact/</a></p>
 <p>如果你想买文具，办公用品等呢，可以去 OfficeMax, Staples, OfficeDepot。</p>
-<p>其具体地址参见它们的网站：<a href="http://www.officemax.com">http://www.officemax.com</a></p>
-<p>				    <a href="http://www.staples.com">http://www.staples.com</a></p>
-<p>			   	    <a href="http://www.officedepot.com">http://www.officedepot.com</a>。</p>
+<p>其具体地址参见它们的网站：<a target="_blank" href="http://www.officemax.com">http://www.officemax.com</a></p>
+<p>				    <a target="_blank" href="http://www.staples.com">http://www.staples.com</a></p>
+<p>			   	    <a target="_blank" href="http://www.officedepot.com">http://www.officedepot.com</a>。</p>
 '),
 ('网购', '<p>若你有拥有美元账户的借记卡或者贷记卡，就可在网上购物。在繁忙的学习生活中，网购不失为一种省时省 力省钱的好途径。大型综合类网购网站中最为出色的两家可以总结为 amazon 和 ebay。</p>
 <br />
@@ -812,25 +812,25 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>Rave Motion Pictures</p>
 <p>地址: 4100 Carpenter Road</p>
 <p>价格：5-20 美元</p>
-<p>Web Page: <a href="http://www.movietickets.com/house_detail.asp?house_id=34592#.UdPILz7N-sc">http://www.movietickets.com/house_detail.asp?house_id=34592#.UdPILz7N-sc</a></p>
+<p>Web Page: <a target="_blank" href="http://www.movietickets.com/house_detail.asp?house_id=34592#.UdPILz7N-sc">http://www.movietickets.com/house_detail.asp?house_id=34592#.UdPILz7N-sc</a></p>
 <br />
 <p>Quality 16</p>
 <p>地址: 3686 Jackson Road, Ann Arbor, MI</p>
 <p>价格：5-20 美元</p>
-<p>Web Page: <a href="http://www.gqti.com">http://www.gqti.com</a></p>
+<p>Web Page: <a target="_blank" href="http://www.gqti.com">http://www.gqti.com</a></p>
 <br />
 <p>2. 上映经典电影的影院</p>
 <p>State Theater</p>
 <p>地址: 233 S State St, Ann Arbor, MI</p>
 <p>价格：2-7 美元</p>
-<p>Web Page: <a href="www.michtheater.org/state">www.michtheater.org/state</a></p>
+<p>Web Page: <a target="_blank" href="www.michtheater.org/state">www.michtheater.org/state</a></p>
 <br />
 <p>Michigan Theater</p>
 <p>地址: 603 E Liberty St, Ann Arbor, MI</p>
 <p>价格：2-7美元</p>
-<p>Web Page: <a href="www.michtheater.org">www.michtheater.org</a></p>
+<p>Web Page: <a target="_blank" href="www.michtheater.org">www.michtheater.org</a></p>
 '),
-('健身场所', '<p>密大的学习强度和难度在美国都是非常有名的，因此，拥有一个健康的身体成了每个密大学子在前往知识道 路上的必要条件。学校提供了各种体育设施供同学们在课余时间锻炼身体，其中，CCRB 和 NCRB 是最完善 的，同学们最常去的室内综合性运动场地。里面有室内跑道，器械健身，游泳池，篮球，排球，羽毛球，乒 乓球，壁球场等等。作为密大的学生，同学们只要交了学费即可持 Mcard 免费进入这些场馆锻炼身体。各个 场馆的开放时间请参见以下网址：<a href="http://www.recsports.umich.edu/facilities/bldghours.html">http://www.recsports.umich.edu/facilities/bldghours.html</a></p>
+('健身场所', '<p>密大的学习强度和难度在美国都是非常有名的，因此，拥有一个健康的身体成了每个密大学子在前往知识道 路上的必要条件。学校提供了各种体育设施供同学们在课余时间锻炼身体，其中，CCRB 和 NCRB 是最完善 的，同学们最常去的室内综合性运动场地。里面有室内跑道，器械健身，游泳池，篮球，排球，羽毛球，乒 乓球，壁球场等等。作为密大的学生，同学们只要交了学费即可持 Mcard 免费进入这些场馆锻炼身体。各个 场馆的开放时间请参见以下网址：<a target="_blank" href="http://www.recsports.umich.edu/facilities/bldghours.html">http://www.recsports.umich.edu/facilities/bldghours.html</a></p>
 <br />
 <br />
 <p>中校区</p>
@@ -845,7 +845,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>(734) 763-4560</p>
 <br />
 <br />
-<p>场馆开放时间请参考 ：<a href="http://recsports.umich.edu/facilities/bldghours.html">http://recsports.umich.edu/facilities/bldghours.html</a></p>
+<p>场馆开放时间请参考 ：<a target="_blank" href="http://recsports.umich.edu/facilities/bldghours.html">http://recsports.umich.edu/facilities/bldghours.html</a></p>
 <br />
 <p>南校区</p>
 <p>Intramural Sports Building (IM Building) </p>
