@@ -99,7 +99,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 '),
 ('体检和疫苗', '<p>一般来说，在拿到大使馆的签证以后就可以开始办理出境体检表和疫苗表了。密西根大学并没有强制要求的疫苗。</p>
 <p>体检的地点一般是当地的<span style="color: red">国际旅行健康中心（出入境检验检疫）</span>，体检项目包括：X光检查、心电图、血液检查和全身检查等。体检完成后健康中心会出具<span style="color: red">健康检查证明书</span>（即“小红本”）。而“小黄本”则是指国际疫苗接种证明（密西根大学对小黄本没有强制要求）。</p>
-<img src="/freshman-handbook/uploads/qw1.tiff" alt="qw1" style="width:100%" />
+<img src="/freshman-handbook/uploads/qw1.jpg" alt="qw1" style="width:100%" />
 <p>图为“小红本”和“小黄本”</p>
 <br />
 '),
@@ -287,7 +287,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：1330 Hill St.</p>
 <p>简介：全女生的宿舍楼，不提供给大一新生。是一个比较小的co-op house，大约有25人。成员需要承担做饭，清扫等工作。需要单独申请。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa9.tiff" alt="qa9" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa9.jpg" alt="qa9" style="width:100%" />
 <p style="font-size:50%;">（图片来源：michigantoday.umich.edu/）</p>
 <br />
 <br />
@@ -336,7 +336,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：623 Oxford Road</p>
 <p>简介：由八幢小楼组成的学生宿舍，主要是新生住在这里，房型主要是 double 和 suite。附近可以乘 Oxford 线的 Blue Bus 去中校，如果走路需要五到十分钟。有自己新装修的食堂，而且伙食不错。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa15.tiff" alt="qa15" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa15.jpg" alt="qa15" style="width:100%" />
 <p style="font-size:50%;">(图片来源：freshmansupport.com)</p>
 <p></p>
 '),
@@ -373,7 +373,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>20. Northwood IV&V</p>
 <p>地址：Cram Place Community Center, 2150 Cram Place 简介：属于townhouse，提供给研究生，无家具设备，有地下室和储藏间。坐公交车比较麻烦，最好是有车会方便许多。周边有孩子常去的 playground，以及各种运动场地。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa20.tiff" alt="qa20" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa20.jpg" alt="qa20" style="width:100%" />
 <p style="font-size:50%;">（图片来源：studentlife.umich.edu）</p>
 <br />
 '),
@@ -489,7 +489,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>简介：First Year Experience 严格来说不算是 Learning Community。从Orientation，到宿舍的各种活动，都算是First Year Experience的一部分。其中，ALA 171 “Making the Most of Michigan” 是一个为大一新生提供的课程，课程通常在各个宿舍中进行，旨在帮助新生了解学校并更好地利用学校资源。</p>
 <p>项目要求：无</p>
 <p>FAQ：<a target="_blank" href="http://housing.umich.edu/fye/faq">http://housing.umich.edu/fye/faq</a> </p>
-<img src="/freshman-handbook/uploads/qs11.tiff" alt="qs11" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs11.jpg" alt="qs11" style="width:100%" />
 <p style="font-size:50%;">（图片来源：https://www.facebook.com/LifeAtBarbourNewberry）</p>
 <br />
 '),
@@ -519,7 +519,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://onsp.umich.edu/mentorship/about">http://onsp.umich.edu/mentorship/about</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="http://onsp.umich.edu/mentorship/apply">http://onsp.umich.edu/mentorship/apply</a> </p>
-<img src="/freshman-handbook/uploads/qs14.tiff" alt="qs14" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs14.jpg" alt="qs14" style="width:100%" />
 <p style="font-size:50%;">（图片来源：http://onsp.umich.edu/mentorship/events）</p>
 <br />
 '),
@@ -655,7 +655,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：价格偏高。</p>
 <p>网址：<a target="_blank" href="http://www.sterlinghousing.com/ann-arbor-mi/sterling-arbor-blu/">http://www.sterlinghousing.com/ann-arbor-mi/sterling-arbor-blu/</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as9.tiff" alt="as9" style="width:100%" />
+<img src="/freshman-handbook/uploads/as9.jpg" alt="as9" style="width:100%" />
 <p style="font-size:50%;">（图片来源：http://www.sterlinghousing.com）</p>
 <br />
 '),
@@ -696,7 +696,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：离车站较远，价格偏高，房屋设施一般。</p>
 <p>网址：<a target="_blank" href="http://www.hurontowers.com/index.html">http://www.hurontowers.com/index.html</a></p>
 <p>推荐指数：三颗星</p>
-<img src="/freshman-handbook/uploads/as12.tiff" alt="as12" style="width:100%" />
+<img src="/freshman-handbook/uploads/as12.jpg" alt="as12" style="width:100%" />
 <p style="font-size:50%;">（图片来源：http://www.michiganmodern.org）</p>
 '),
 ('校外租房信息', '<p>1. 房屋信息网站及论坛：</p>
@@ -953,7 +953,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <br />
 '),
 ('安娜说话剧社 (Thus Spoke Ann Arbor)', '<p>	密西根大学安娜说话剧社成立于2013年11月，旨在采用话剧的艺术表现手法，打造中国文化品牌。我社是密西根大学的非营利性学生话剧社团，也是密西根大学最大的华人社团之一。这里聚集了一批热爱话剧并且投身于话剧艺术的人们。从演出到宣传稿，从幕后制作到活动组织，我们欢迎各个专业的才子。安娜说为大家提供了一个了解参与话剧并且一起进行课余活动的平台，社团不仅每学期举办Acting Workshop, 剧本朗读会，戏剧观摩等活动，并在每年举办小剧场和年度大戏的演出。我社成立至今出品了《恋爱的犀牛》、《思凡》、《日出》、《无人生还》的年度大戏，且在小剧场演出中出品过近十部作品。安娜说给密西根安娜堡地区的华人群体带来了精彩的文化盛宴，也吸引了各国观众更多的了解中文话剧。在安娜说，我们不仅是一个精彩出色的社团，更是一个温暖的大家庭。在日后，我们将呈现更多风格和更精致的作品，也期待更多话剧爱好者加入我们的大家庭。</p>
-<img src="/freshman-handbook/uploads/po1-1.tiff" alt="po1-1" style="width:100%" />
+<img src="/freshman-handbook/uploads/po1-1.jpg" alt="po1-1" style="width:100%" />
 <img src="/freshman-handbook/uploads/po1-2.jpg" alt="po1-2" style="width:100%" />
 <img src="/freshman-handbook/uploads/po1-3.jpg" alt="po1-3" style="width:100%" />
 <img src="/freshman-handbook/uploads/po1-4.jpg" alt="po1-4" style="width:100%" />
@@ -977,7 +977,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 ('HKSA', '<p>Hong Kong student association aims to introduce Hong Kong culture to students, strengthens bonding between members and provides member with both cultural and social events.</p>
 <br />
 <p>香港學生會的宗旨是介紹香港文化，建立成員間的友誼，並提供文化和社交活動給會員。</p>
-<img src="/freshman-handbook/uploads/po5.tiff" alt="po5" style="width:100%" />
+<img src="/freshman-handbook/uploads/po5.jpg" alt="po5" style="width:100%" />
 '),
 ('Michigan Chinese Business Club (MCBC)', '<p>	MCBC致力于帮助广大中国及华裔学生寻找工作机会，提供一个知识与经验分享的平台。自创立以来，MCBC飞速发展，成为了第一个也是唯一被ROSS商学院认可、专业为中国学生服务的商学社团。我们已连续两年举办国际职业峰会，邀请到了高盛、麦肯锡、摩根大通、安永等的学长学姐们传授经验。加入MCBC，你可以参与商业案例与股市走向分析，以及各种讲座来提升你的软实力。你还将获得一对一的免费导师辅导，手把手教你写简历，建立只属于你的职业规划。2015-16 Ross商学院申请季我们的application workshop更是达到了100%的录取率！了解更多详情请参加位于Ross的Fall Festival，选择加入我们吧！</p>
 <img src="/freshman-handbook/uploads/po6.jpg" alt="po6" style="width:100%" />
