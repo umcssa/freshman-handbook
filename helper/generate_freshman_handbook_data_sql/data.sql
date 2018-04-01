@@ -734,8 +734,19 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>2. Ann Arbor 本地销售二手家具的商店，查看商家信息请去往以下链接：</p>
 <p>	<a target="_blank" href="http://www.yellowpages.com/ann-arbor-mi/used-furniture">http://www.yellowpages.com/ann-arbor-mi/used-furniture</a> </p>
 '),
-('水、电、网及电视信号办理', '水、电、网及电视信号办理
-文章内容'),
+('水、电、网及电视信号办理', '<p>1. 水</p>
+<p>房屋用水不管是 apartment 还是 house 一般都会包在房费里，不需要自己办理</p>
+<br />
+<p>2. 电</p>
+<p>有的 apartment 和 house 会根据每月用电情况收费，比如按四居室的 apartment 来说， 一般情况下每人每月所交电费在$20-$30左右</p>
+<p>DTE 提供房屋用电用气，可自行搜索了解更多细节</p>
+<br />
+<p>3. 网及电视信号</p>
+<p>大多数 apartment 会把网络收费包括在月租里面</p>
+<p>少数 apartment 会对房间内的网络另外收费，不包括在房费里</p>
+<p>如果是住 house，网络就很可能要自己办理，主要的公司有：Comcast，地址如下：</p>
+<p><a target="_blank" href="http://www.comcast.com/corporate/shop/products/local/Michigan/MI/Ann_Arbor.html">http://www.comcast.com/corporate/shop/products/local/Michigan/MI/Ann_Arbor.html</a></p>
+'),
 ('外国超市', '<p>Ann Arbor 地区比较著名的综合性超市包括 Kroger, Meijer, Walmart, Target 等等。</p>
 <br />
 <p>1. Kroger Plymouth Rd 分店是离北校区最近的 24 小时营业的大超市。坐校车 Northwood 到北校区的 McIntyre Dr.站，向北穿过 Plymouth Road，就可以看见位于 Plymouth Mall 中心的 Kroger 了。亦可搭乘 AATA 的 2 路公共汽车到 Plymouth Mall 站（学生持 Mcard 免费乘车）。你可以在那里买到一些急需的生 活东西，比如蔬菜，水果，肉类，饮料（购买含酒精饮料需要出示证明你年满 21 岁的 ID），厨房用品，洗 发水等等。Kroger 在 Packard Road, Carpenter Road, Industrial Road 上还有其它几个分店。其详细地址 和营业时间可以在 Kroger 的网页上查到：<a target="_blank" href="http://www.kroger.com/">http://www.kroger.com/</a>。</p>
