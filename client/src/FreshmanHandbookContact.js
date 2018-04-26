@@ -26,7 +26,7 @@ const reactStretchableButtonStyles = {
 export default class FreshmanHandbookContact extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {wechatAccountVisible: false,wechatGroupVisible: false,shareLinkVisible: false};
+        this.state = {wechatAccountVisible: false, wechatGroupVisible: false, shareLinkVisible: false};
     }
 
     render() {
@@ -46,15 +46,15 @@ export default class FreshmanHandbookContact extends React.Component {
                                                 }}
                                                 componentDisplayed={<Icon type="usergroup-add" style={{fontSize: 22}}/>}
                                                 componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>加入新生群</span>}/>
-                        <CopyToClipboard text={window.location.href}>
-                            <ReactStretchableButton key="share" {...reactStretchableButtonStyles} stretchPadding={20}
-                                                    onClick={() => {
-                                                        this.setState({shareLinkVisible: true});
-                                                    }}
-                                                    componentDisplayed={<Icon type="share-alt" style={{fontSize: 22}}/>}
-                                                    componentToDisplay={<span
-                                                        style={{whiteSpace: 'nowrap'}}>分享本文链接</span>}/>
-                        </CopyToClipboard>
+
+                        <ReactStretchableButton key="share" {...reactStretchableButtonStyles} stretchPadding={20}
+                                                onClick={() => {
+                                                    this.setState({shareLinkVisible: true});
+                                                }}
+                                                componentDisplayed={<Icon type="share-alt" style={{fontSize: 22}}/>}
+                                                componentToDisplay={<span
+                                                    style={{whiteSpace: 'nowrap'}}>分享本文链接</span>}/>
+
                         <ReactStretchableButton key="download" {...reactStretchableButtonStyles} stretchPadding={20}
                                                 onClick={() => {
                                                     window.location.href = '/freshman-handbook/uploads/新生手册.pdf/';
@@ -97,17 +97,17 @@ export default class FreshmanHandbookContact extends React.Component {
                     <img style={{width: '100%'}} src={wechatGroup}/>
                 </Modal>
                 <Modal
-                    title="链接已复制到剪贴板"
+                    title="分享本文链接"
                     visible={this.state.shareLinkVisible}
                     onCancel={() => {
                         this.setState({shareLinkVisible: false});
                     }}
                     footer={
-                        <Button type="primary" onClick={() => {
-                            this.setState({shareLinkVisible: false});
-                        }}>
-                            OK
-                        </Button>
+                        <CopyToClipboard text={window.location.href}>
+                            <Button type="primary">
+                                复制链接到剪贴板
+                            </Button>
+                        </CopyToClipboard>
                     }
                 >
                     <Input value={window.location.href} onFocus={(event) => {
