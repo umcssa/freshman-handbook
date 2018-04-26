@@ -4,6 +4,8 @@ import ReactStretchableButton from 'react-stretchable-button';
 import {Icon, Modal, Button, Input} from 'antd';
 import QueueAnim from 'rc-queue-anim';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
+import wechatAccount from './images/wechat-account.png';
+import wechatGroup from './images/wechat-group.jpg';
 
 const contactStyle = {
     position: 'fixed',
@@ -24,7 +26,7 @@ const reactStretchableButtonStyles = {
 export default class FreshmanHandbookContact extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {shareLinkVisible: false};
+        this.state = {wechatAccountVisible: false,wechatGroupVisible: false,shareLinkVisible: false};
     }
 
     render() {
@@ -33,15 +35,20 @@ export default class FreshmanHandbookContact extends React.Component {
                 <div style={contactStyle}>
                     <QueueAnim>
                         <ReactStretchableButton key="wechat" {...reactStretchableButtonStyles}
+                                                onClick={() => {
+                                                    this.setState({wechatAccountVisible: true});
+                                                }}
                                                 componentDisplayed={<Icon type="wechat" style={{fontSize: 22}}/>}
                                                 componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>微信公众号</span>}/>
                         <ReactStretchableButton key="group" {...reactStretchableButtonStyles}
+                                                onClick={() => {
+                                                    this.setState({wechatGroupVisible: true});
+                                                }}
                                                 componentDisplayed={<Icon type="usergroup-add" style={{fontSize: 22}}/>}
                                                 componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>加入新生群</span>}/>
                         <CopyToClipboard text={window.location.href}>
                             <ReactStretchableButton key="share" {...reactStretchableButtonStyles} stretchPadding={20}
                                                     onClick={() => {
-                                                        console.log(window.location.href);
                                                         this.setState({shareLinkVisible: true});
                                                     }}
                                                     componentDisplayed={<Icon type="share-alt" style={{fontSize: 22}}/>}
@@ -58,7 +65,39 @@ export default class FreshmanHandbookContact extends React.Component {
                     </QueueAnim>
                 </div>
                 <Modal
-                    title="已复制本文链接到剪贴板"
+                    title="微信公众号"
+                    visible={this.state.wechatAccountVisible}
+                    onCancel={() => {
+                        this.setState({wechatAccountVisible: false});
+                    }}
+                    footer={
+                        <Button type="primary" onClick={() => {
+                            this.setState({wechatAccountVisible: false});
+                        }}>
+                            OK
+                        </Button>
+                    }
+                >
+                    <img style={{width: '100%'}} src={wechatAccount}/>
+                </Modal>
+                <Modal
+                    title="加入新生群"
+                    visible={this.state.wechatGroupVisible}
+                    onCancel={() => {
+                        this.setState({wechatGroupVisible: false});
+                    }}
+                    footer={
+                        <Button type="primary" onClick={() => {
+                            this.setState({wechatGroupVisible: false});
+                        }}>
+                            OK
+                        </Button>
+                    }
+                >
+                    <img style={{width: '100%'}} src={wechatGroup}/>
+                </Modal>
+                <Modal
+                    title="链接已复制到剪贴板"
                     visible={this.state.shareLinkVisible}
                     onCancel={() => {
                         this.setState({shareLinkVisible: false});
