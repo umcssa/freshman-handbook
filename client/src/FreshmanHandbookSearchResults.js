@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {Card} from 'antd';
 import {connect} from "react-redux";
 
-const cardStyle = {width: 240, height: 400, display: 'inline-block', margin: 20};
+const cardStyle = {width: 240, height: 360, overflow: 'hidden', display: 'inline-block', margin: 20};
 
 
 class FreshmanHandbookSearchResults extends React.Component {
