@@ -35,19 +35,16 @@ export default class FreshmanHandbookSearchResults extends React.Component {
                     overflowX: 'auto',
                     overflowY: 'hidden'
                 }}>
-                    <Card
-                        hoverable
-                        style={cardStyle}
-                        cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"/>}
-                    >
+                    <Card title="Card title" style={cardStyle} hoverable>
+                        <p>Card content</p>
+                        <p>Card content</p>
+                        <p>Card content</p>
                     </Card>
-                    <Card
-                        hoverable
-                        style={cardStyle}
-                        cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"/>}
-                    >
+                    <Card title="Card title" style={cardStyle} hoverable>
+                        <p>Card content</p>
+                        <p>Card content</p>
+                        <p>Card content</p>
                     </Card>
-
                 </div>
             </div>
         );
