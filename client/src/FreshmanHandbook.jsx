@@ -15,7 +15,7 @@ import FreshmanHandbookContact from './FreshmanHandbookContact';
 import FreshmanHandbookSection from './FreshmanHandbookSection';
 import FreshmanHandbookPrevNext from './FreshmanHandbookPrevNext';
 import FreshmanHandbookSectionStart from './FreshmanHandbookSectionStart';
-import FreshmanHandbookSearch from './FreshmanHandbookSearch';
+import FreshmanHandbookSearchResults from './FreshmanHandbookSearchResults';
 
 const $ = require('jquery');
 
@@ -89,8 +89,11 @@ class FreshmanHandbook extends React.Component {
                         marginBottom: 50,
                         backgroundColor: '#ffffff',
                     }, boxShadowStyle, centerParentStyle)}>
-                        <FreshmanHandbookSearch
+                        <Search
                             style={Object.assign({width: 'calc(100% - 50px)'}, centerChildStyle)}
+                            placeholder="请输入关键词"
+                            onSearch={value => console.log(value)}
+                            enterButton
                         />
                     </div>
                     <div style={{
@@ -129,6 +132,7 @@ class FreshmanHandbook extends React.Component {
                        component={FreshmanHandbookPrevNext}/>
                 <Route strict exact path={`${this.props.match.url}:menu/`}
                        component={FreshmanHandbookSectionStart}/>
+                <FreshmanHandbookSearchResults/>
                 <FreshmanHandbookContact/>
             </div>
         );
