@@ -126,6 +126,10 @@ export default (state, action) => {
             return {...state, openKeys: action.openKeys};
         case ActionTypes.UPDATECONTENT:
             return {...state, contentDict: {...state.contentDict, [action.title]: action.content}};
+        case ActionTypes.ENDSEARCH:
+            return {...state, searchResults: [], searchResultsVisible: false};
+        case ActionTypes.BEGINSEARCH:
+            return {...state, searchResults: [], searchResultsVisible: true};
         default:
             return state;
     }

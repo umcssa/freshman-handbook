@@ -92,7 +92,10 @@ class FreshmanHandbook extends React.Component {
                         <Search
                             style={Object.assign({width: 'calc(100% - 50px)'}, centerChildStyle)}
                             placeholder="请输入关键词"
-                            onSearch={value => console.log(value)}
+                            onSearch={value => {
+                                this.props.onBeginSearch();
+                                console.log(value);
+                            }}
                             enterButton
                         />
                     </div>
@@ -148,6 +151,9 @@ function mapDispatchToProps(dispatch) {
     return {
         updateKeys: (pathname) => {
             dispatch(Actions.updateKeys(pathname));
+        },
+        onBeginSearch: () => {
+            dispatch(Actions.beginSearch());
         }
     }
 }

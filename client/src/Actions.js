@@ -1,19 +1,5 @@
 import * as ActionTypes from './ActionTypes'
 
-export const increment = (counterCaption) => {
-    return {
-        type: ActionTypes.INCREMENT,
-        counterCaption: counterCaption
-    };
-};
-
-export const decrement = (counterCaption) => {
-    return {
-        type: ActionTypes.DECREMENT,
-        counterCaption: counterCaption
-    };
-};
-
 export const updateKeys = (pathname) => {
     return {
         type: ActionTypes.UPDATEKEYS,
@@ -33,5 +19,17 @@ export const updateContent = (title, content) => {
         type: ActionTypes.UPDATECONTENT,
         title: title,
         content: content
+    }
+};
+
+export const endSearch = () => {
+    return {
+        type: ActionTypes.ENDSEARCH
+    }
+};
+
+export const beginSearch = () => {
+    return {
+        type: ActionTypes.BEGINSEARCH
     }
 };

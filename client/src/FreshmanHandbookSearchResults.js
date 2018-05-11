@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Card} from 'antd';
 import {connect} from "react-redux";
+import * as Actions from "./Actions";
 
 const cardStyle = {width: 240, height: 360, overflow: 'hidden', display: 'inline-block', margin: 20};
 
@@ -20,11 +21,10 @@ class FreshmanHandbookSearchResults extends React.Component {
                     left: 0,
                     right: 0,
                     bottom: 0,
-                    backgroundColor: 'rgba(200,200,200,0.5)'
+                    backgroundColor: 'rgba(200,200,200,0.5)',
+                    display: this.props.searchResultsVisible ? 'block' : 'none'
                 }}
-                onClick={() => {
-                    console.log('cancel');
-                }}
+                onClick={this.props.onEndSearch}
             >
                 <div style={{
                     position: 'absolute',
@@ -51,11 +51,16 @@ class FreshmanHandbookSearchResults extends React.Component {
 function mapStateToProps(state) {
     return {
         searchResults: state.searchResults,
+        searchResultsVisible: state.searchResultsVisible,
     }
 }
 
 function mapDispatchToProps(dispatch) {
-    return {}
+    return {
+        onEndSearch: () => {
+            dispatch(Actions.endSearch());
+        }
+    }
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(FreshmanHandbookSearchResults);
