@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Card} from 'antd';
+import {connect} from "react-redux";
 
-const cardStyle = {width: 240, display: 'inline-block', margin: 20};
+const cardStyle = {width: 240, height: 400, display: 'inline-block', margin: 20};
 
 
-export default class FreshmanHandbookSearchResults extends React.Component {
+class FreshmanHandbookSearchResults extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -35,18 +36,26 @@ export default class FreshmanHandbookSearchResults extends React.Component {
                     overflowX: 'auto',
                     overflowY: 'hidden'
                 }}>
-                    <Card title="Card title" style={cardStyle} hoverable>
-                        <p>Card content</p>
-                        <p>Card content</p>
-                        <p>Card content</p>
-                    </Card>
-                    <Card title="Card title" style={cardStyle} hoverable>
-                        <p>Card content</p>
-                        <p>Card content</p>
-                        <p>Card content</p>
-                    </Card>
+                    {this.props.searchResults.map((item) => (
+                        <Card title={item[0]} style={cardStyle} hoverable>
+                            <div dangerouslySetInnerHTML={{__html: item[1]}}></div>
+                        </Card>
+                    ))}
                 </div>
             </div>
         );
     }
 }
+
+
+function mapStateToProps(state) {
+    return {
+        searchResults: state.searchResults,
+    }
+}
+
+function mapDispatchToProps(dispatch) {
+    return {}
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(FreshmanHandbookSearchResults);

@@ -74,6 +74,7 @@ const initValues = {
     contentDict: {},
     prevLink: '',
     nextLink: '',
+    searchResults: [['Card Title','<p>Card content</p><p>Card content</p><p>Card content</p>']],
 };
 
 const store = createStore(reducer, initValues);
