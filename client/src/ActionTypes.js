@@ -4,6 +4,8 @@ export const UPDATEOPENKEYS = 'updateOpenKeys';
 
 export const UPDATECONTENT = 'updateContent';
 
-export const ENDSEARCH = 'endSearch';
-
 export const BEGINSEARCH = 'beginSearch';
+
+export const UPDATESEARCH = 'updateSearch';
+
+export const ENDSEARCH = 'endSearch';

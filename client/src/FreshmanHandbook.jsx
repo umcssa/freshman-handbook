@@ -95,6 +95,7 @@ class FreshmanHandbook extends React.Component {
                             onSearch={value => {
                                 this.props.onBeginSearch();
                                 console.log(value);
+                                this.props.updateSearch([['Card Title', '<p>Card content</p><p>Card content</p><p>Card content</p>']]);
                             }}
                             enterButton
                         />
@@ -154,6 +155,9 @@ function mapDispatchToProps(dispatch) {
         },
         onBeginSearch: () => {
             dispatch(Actions.beginSearch());
+        },
+        updateSearch: (searchResults) => {
+            dispatch(Actions.updateSearch(searchResults))
         }
     }
 }

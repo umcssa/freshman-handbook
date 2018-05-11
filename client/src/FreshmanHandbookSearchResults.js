@@ -36,8 +36,8 @@ class FreshmanHandbookSearchResults extends React.Component {
                     overflowX: 'auto',
                     overflowY: 'hidden'
                 }}>
-                    {this.props.searchResults.map((item) => (
-                        <Card title={item[0]} style={cardStyle} hoverable>
+                    {this.props.searchResults.map((item, index) => (
+                        <Card key={index} title={item[0]} style={cardStyle} hoverable>
                             <div dangerouslySetInnerHTML={{__html: item[1]}}></div>
                         </Card>
                     ))}

@@ -130,6 +130,8 @@ export default (state, action) => {
             return {...state, searchResults: [], searchResultsVisible: false};
         case ActionTypes.BEGINSEARCH:
             return {...state, searchResults: [], searchResultsVisible: true};
+        case ActionTypes.UPDATESEARCH:
+            return {...state, searchResults: action.searchResults};
         default:
             return state;
     }

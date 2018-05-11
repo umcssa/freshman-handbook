@@ -22,14 +22,21 @@ export const updateContent = (title, content) => {
     }
 };
 
-export const endSearch = () => {
-    return {
-        type: ActionTypes.ENDSEARCH
-    }
-};
-
 export const beginSearch = () => {
     return {
         type: ActionTypes.BEGINSEARCH
+    }
+};
+
+export const updateSearch = (searchResults) => {
+    return {
+        type: ActionTypes.UPDATESEARCH,
+        searchResults: searchResults,
+    }
+};
+
+export const endSearch = () => {
+    return {
+        type: ActionTypes.ENDSEARCH
     }
 };
