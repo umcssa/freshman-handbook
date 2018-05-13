@@ -19,6 +19,9 @@ import FreshmanHandbookSearchResults from './FreshmanHandbookSearchResults';
 
 const $ = require('jquery');
 
+const apiRootPath = '/api/freshman-handbook/';
+// const apiRootPath = 'http://localhost:8002/api/freshman-handbook/';
+
 const Search = Input.Search;
 
 const boxShadowStyle = {
@@ -94,8 +97,12 @@ class FreshmanHandbook extends React.Component {
                             placeholder="请输入关键词"
                             onSearch={value => {
                                 this.props.onBeginSearch();
-                                console.log(value);
-                                this.props.updateSearch([['Card Title', '<p>Card content</p><p>Card content</p><p>Card content</p>']]);
+                                $.ajax({
+                                    method: 'GET',
+                                    url: `${apiRootPath}search/?q=${encodeURIComponent(value)}`,
+                                }).done((msg) => {
+                                    this.props.updateSearch(JSON.parse(msg));
+                                });
                             }}
                             enterButton
                         />
