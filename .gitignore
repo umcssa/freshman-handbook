@@ -15,3 +15,6 @@ bundle.js.map
 cookies.txt
 *.pem
 helper/fetch/data/*/*.html
+
+input/
+output*/

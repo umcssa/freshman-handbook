@@ -14,4 +14,5 @@ def get_search_results():
     # input: a string of user input keywords
     # output: e.g. [['Title', '<p>content</p><p>content</p>'], ['Title', '<p>content</p><p>content</p>']]
     keywords = flask.request.args.get('q')
+    return json.dumps(fh.app.config['INVERTED_INDEX'])
     return json.dumps([['Card Title', '<p>Card content</p><p>Card content</p><p>Card content</p>']])

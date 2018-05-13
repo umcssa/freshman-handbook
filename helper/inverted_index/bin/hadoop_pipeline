@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Has to be set so that we can run hadoop
+export JAVA_HOME=/usr/lib/jvm/java-7-oracle
+
+# The path to the hadoop/ folder
+HADOOP_DIR=index/hadoop
+# The path to the pipeline executables
+EXEC_DIR=index/hadoop/exec
+
+./bin/generate_input.py
+
+rm -rf $HADOOP_DIR/output0
+
+hadoop \
+  jar $HADOOP_DIR/hadoop-streaming-2.7.2.jar \
+  -D mapreduce.job.maps=10 \
+  -D mapreduce.job.reduces=10 \
+  -input $HADOOP_DIR/input \
+  -output $HADOOP_DIR/output0 \
+  -mapper $EXEC_DIR/map0.py \
+  -reducer $EXEC_DIR/reduce0.py \
+
+rm -rf $HADOOP_DIR/output1
+
+hadoop \
+  jar $HADOOP_DIR/hadoop-streaming-2.7.2.jar \
+  -D mapreduce.job.maps=10 \
+  -D mapreduce.job.reduces=10 \
+  -input $HADOOP_DIR/output0 \
+  -output $HADOOP_DIR/output1 \
+  -mapper $EXEC_DIR/map1.py \
+  -reducer $EXEC_DIR/reduce1.py \
+
+rm -rf $HADOOP_DIR/output2
+
+hadoop \
+  jar $HADOOP_DIR/hadoop-streaming-2.7.2.jar \
+  -D mapreduce.job.maps=10 \
+  -D mapreduce.job.reduces=10 \
+  -input $HADOOP_DIR/output1 \
+  -output $HADOOP_DIR/output2 \
+  -mapper $EXEC_DIR/map2.py \
+  -reducer $EXEC_DIR/reduce2.py \
+
+rm -rf $HADOOP_DIR/output
+
+hadoop \
+  jar $HADOOP_DIR/hadoop-streaming-2.7.2.jar \
+  -D mapreduce.job.maps=10 \
+  -D mapreduce.job.reduces=1 \
+  -input $HADOOP_DIR/output2 \
+  -output $HADOOP_DIR/output \
+  -mapper $EXEC_DIR/map3.py \
+  -reducer $EXEC_DIR/reduce3.py \

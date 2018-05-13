@@ -29,3 +29,17 @@ STATIC_FOLDER = os.path.join(
     os.path.dirname(os.path.dirname(os.path.realpath(__file__))),
     '../client/build/static'
 )
+
+
+INVERTED_INDEX_FILE_PATH = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.realpath(__file__))),
+    '../helper/inverted_index/index/hadoop/output/part-00000')
+
+INVERTED_INDEX = {}
+f = open(INVERTED_INDEX_FILE_PATH)
+for line in f.readlines():
+    tokens = line.split()
+    word = tokens[0]
+    INVERTED_INDEX[word] = [float(tokens[1]), {}]
+    for i in range(2, len(tokens), 3):
+        INVERTED_INDEX[word][1][int(tokens[i])] = [int(tokens[i + 1]), float(tokens[i + 2])]
