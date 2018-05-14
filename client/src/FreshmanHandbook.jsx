@@ -137,7 +137,7 @@ class FreshmanHandbook extends React.Component {
                     height: '100%',
                     width: (this.props.width > 768 ? (this.props.width - 420 - 200) : this.props.width),
                     paddingTop: 96,
-                    paddingBottom: 50,
+                    paddingBottom: (this.props.width > 576 ? 50 : 20),
                     paddingLeft: (this.props.width > 768 ? 0 : (this.props.width > 576 ? 50 : 20)),
                     paddingRight: (this.props.width > 768 ? 0 : (this.props.width > 576 ? 50 : 20)),
                     verticalAlign: 'top',

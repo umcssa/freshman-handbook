@@ -18,7 +18,7 @@ const contactStyle = {
 const contactStyleMobile = {
     position: 'fixed',
     right: 0,
-    bottom: 30,
+    bottom: 0,
     height: 300
 };
 
