@@ -131,8 +131,32 @@ export default (state, action) => {
         case ActionTypes.BEGINSEARCH:
             return {...state, searchResults: [], searchResultsVisible: true};
         case ActionTypes.UPDATESEARCH:
+            action.searchResults.forEach(function (item) {
+                item.push(get_path(item[0], state.hierarchy));
+            });
             return {...state, searchResults: action.searchResults};
         default:
             return state;
     }
+}
+
+function get_path(title, hierarchy) {
+    let path = '';
+    hierarchy.forEach((menu) => {
+        const menuTitle = menu[0];
+        menu[1].forEach((subMenu) => {
+            if (subMenu[1]) {
+                subMenu[1].forEach((option) => {
+                    if (option[0] === title) {
+                        path = `${menu[0]}/${subMenu[0]}/${option[0]}/`;
+                    }
+                });
+            } else {
+                if (subMenu[0] === title) {
+                    path = `${menu[0]}/${subMenu[0]}/`;
+                }
+            }
+        });
+    });
+    return path;
 }

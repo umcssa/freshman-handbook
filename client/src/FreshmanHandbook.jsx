@@ -147,7 +147,9 @@ class FreshmanHandbook extends React.Component {
                        component={FreshmanHandbookPrevNext}/>
                 <Route strict exact path={`${this.props.match.url}:menu/`}
                        component={FreshmanHandbookSectionStart}/>
-                <FreshmanHandbookSearchResults/>
+                <FreshmanHandbookSearchResults
+                    match={this.props.match}
+                    history={this.props.history}/>
                 <FreshmanHandbookContact/>
             </div>
         );

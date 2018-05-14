@@ -74,7 +74,7 @@ const initValues = {
     contentDict: {},
     prevLink: '',
     nextLink: '',
-    searchResults: [], // [['Card Title','<p>Card content</p><p>Card content</p><p>Card content</p>']],
+    searchResults: [], // [['Card Title','<p>Card content</p><p>Card content</p><p>Card content</p>', link]],
     searchResultsVisible: false,
 };
 

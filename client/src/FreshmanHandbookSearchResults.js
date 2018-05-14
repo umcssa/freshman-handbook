@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Link} from 'react-router-dom';
 import {Card} from 'antd';
 import {connect} from "react-redux";
 import * as Actions from "./Actions";
@@ -45,9 +46,11 @@ class FreshmanHandbookSearchResults extends React.Component {
                     overflowY: 'hidden'
                 }}>
                     {this.props.searchResults.map((item, index) => (
-                        <Card key={index} title={item[0]} style={cardStyle} hoverable>
-                            <div dangerouslySetInnerHTML={{__html: item[1]}}></div>
-                        </Card>
+                        <Link to={`${this.props.match.url}${item[2]}`}>
+                            <Card key={index} title={item[0]} style={cardStyle} hoverable>
+                                <div dangerouslySetInnerHTML={{__html: item[1]}}></div>
+                            </Card>
+                        </Link>
                     ))}
                 </div>
             </div>
