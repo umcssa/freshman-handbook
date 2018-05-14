@@ -6,7 +6,7 @@ import {
 import * as Actions from './Actions.js';
 import {connect} from 'react-redux';
 import {Scrollbars} from 'react-custom-scrollbars';
-import {Input} from 'antd';
+import {Input, Button, Icon} from 'antd';
 import RateMyProfessorNavbar from './RateMyProfessorNavbar';
 import RateMyProfessorNavbarCollapse from './RateMyProfessorNavbarCollapse';
 import FreshmanHandbookSidebar from './FreshmanHandbookSidebar';
@@ -43,6 +43,9 @@ const centerChildStyle = {
 class FreshmanHandbook extends React.Component {
     constructor(props, context) {
         super(props, context);
+        this.state = {
+            collapsed: true,
+        };
         this.updateDimensions = this.updateDimensions.bind(this);
     }
 
@@ -74,13 +77,51 @@ class FreshmanHandbook extends React.Component {
                 {this.props.width < 992 ? <RateMyProfessorNavbarCollapse/> : <RateMyProfessorNavbar/>}
                 <Route strict exact path={`${this.props.match.url}:menu/`}
                        component={FreshmanHandbookSection}/>
+
                 <div style={{
+                    display: 'inline-block',
+                    height: '100%',
+                    width: (this.props.width > 768 ? (this.props.width - 420 - 200) : this.props.width),
+                    paddingTop: 96,
+                    paddingBottom: 50,
+                    paddingLeft: (this.props.width > 768 ? 0 : 50),
+                    paddingRight: (this.props.width > 768 ? 0 : 50),
+                    verticalAlign: 'top',
+                }}>
+                    <Route strict exact path={`${this.props.match.url}:menu/:title/`}
+                           component={FreshmanHandbookArticle}/>
+                    <Route strict exact path={`${this.props.match.url}:menu/:submenu/:title/`}
+                           component={FreshmanHandbookArticle}/>
+
+                </div>
+
+
+                <Route strict exact path={`${this.props.match.url}:menu/:title/`}
+                       component={FreshmanHandbookPrevNext}/>
+                <Route strict exact path={`${this.props.match.url}:menu/:submenu/:title/`}
+                       component={FreshmanHandbookPrevNext}/>
+                <Route strict exact path={`${this.props.match.url}:menu/`}
+                       component={FreshmanHandbookSectionStart}/>
+
+                <div style={this.props.width > 768 ? {
                     display: 'inline-block',
                     height: '100%',
                     width: 420,
                     padding: 50,
                     paddingTop: 96,
                     verticalAlign: 'top'
+                } : {
+                    position: 'absolute',
+                    height: '100%',
+                    width: 420,
+                    maxWidth: '100%',
+                    top: 0,
+                    left: this.state.collapsed ? -420 : 0,
+                    padding: 50,
+                    paddingTop: 96,
+                    verticalAlign: 'top',
+                    backgroundColor: 'rgba(200,200,200,0.5)',
+                    transition: 'left .5s'
                 }}>
                     <div style={Object.assign({
                         height: 75,
@@ -123,26 +164,15 @@ class FreshmanHandbook extends React.Component {
                         </Scrollbars>
                     </div>
                 </div>
-                <div style={{
-                    display: 'inline-block',
-                    height: '100%',
-                    width: this.props.width - 420 - 200,
-                    paddingTop: 96,
-                    paddingBottom: 50,
-                    verticalAlign: 'top',
-                }}>
-                    <Route strict exact path={`${this.props.match.url}:menu/:title/`}
-                           component={FreshmanHandbookArticle}/>
-                    <Route strict exact path={`${this.props.match.url}:menu/:submenu/:title/`}
-                           component={FreshmanHandbookArticle}/>
 
-                </div>
-                <Route strict exact path={`${this.props.match.url}:menu/:title/`}
-                       component={FreshmanHandbookPrevNext}/>
-                <Route strict exact path={`${this.props.match.url}:menu/:submenu/:title/`}
-                       component={FreshmanHandbookPrevNext}/>
-                <Route strict exact path={`${this.props.match.url}:menu/`}
-                       component={FreshmanHandbookSectionStart}/>
+                <Button type="primary" onClick={() => {
+                    this.setState({
+                        collapsed: !this.state.collapsed,
+                    });
+                }} style={{position: 'fixed', top: 96, left: 0}}>
+                    <Icon type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}/>
+                </Button>
+
                 <FreshmanHandbookSearchResults
                     match={this.props.match}
                     history={this.props.history}/>
