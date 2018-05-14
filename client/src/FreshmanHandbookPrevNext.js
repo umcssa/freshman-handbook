@@ -74,7 +74,11 @@ class FreshmanHandbookPrevNext extends React.Component {
 
     render() {
         return (
-            <div style={this.props.width > 768 ? prevNextStyle : prevNextStyleMobile}>
+            <div
+                style={Object.assign({}, this.props.width > 768 ? prevNextStyle : prevNextStyleMobile, this.props.height > 768 ? {} : {
+                    top: 96,
+                    transform: 'translate(0, 0)'
+                })}>
                 <Link to={this.props.prevLink}>
                     <div
                         style={Object.assign({}, this.props.width > 768 ? buttonStyle : buttonStyleMobile, this.state.hoverLeft && buttonHoverStyle, centerParentStyle)}
@@ -99,7 +103,8 @@ class FreshmanHandbookPrevNext extends React.Component {
                             this.setState({hoverRight: false});
                         }}
                     >
-                        <Icon type="right" style={Object.assign({}, this.props.width > 768 ? iconStyle : iconStyleMobile, centerChildStyle)}/>
+                        <Icon type="right"
+                              style={Object.assign({}, this.props.width > 768 ? iconStyle : iconStyleMobile, centerChildStyle)}/>
                     </div>
                 </Link>
             </div>
@@ -110,6 +115,7 @@ class FreshmanHandbookPrevNext extends React.Component {
 function mapStateToProps(state) {
     return {
         width: state.width,
+        height: state.height,
         prevLink: state.prevLink,
         nextLink: state.nextLink
     }
