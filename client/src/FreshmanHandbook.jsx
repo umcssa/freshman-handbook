@@ -72,11 +72,65 @@ class FreshmanHandbook extends React.Component {
 
 
     render() {
+        const searchDiv = (<div style={Object.assign({
+            height: 75,
+            width: '100%',
+            marginBottom: 50,
+            backgroundColor: '#ffffff',
+        }, boxShadowStyle, centerParentStyle)}>
+            <Search
+                style={Object.assign({width: 'calc(100% - 50px)'}, centerChildStyle)}
+                placeholder="请输入关键词"
+                onSearch={value => {
+                    this.props.onBeginSearch();
+                    $.ajax({
+                        method: 'GET',
+                        url: `${apiRootPath}search/?q=${encodeURIComponent(value)}`,
+                    }).done((msg) => {
+                        if (msg === '[]') {
+                            this.props.updateSearch([['没有找到相关文章', '请尝试使用其他关键词']]);
+                        } else {
+                            this.props.updateSearch(JSON.parse(msg));
+                        }
+                    });
+                }}
+                enterButton
+            />
+        </div>);
+
+        const sidebarDiv = (<div style={{
+            height: 'calc(100% - 125px)',
+            width: '100%'
+        }}>
+            <Scrollbars style={Object.assign({
+                height: '100%',
+                width: '100%',
+                backgroundColor: '#ffffff'
+            }, boxShadowStyle)} autoHide autoHideTimeout={0} autoHideDuration={250}>
+                <FreshmanHandbookSidebar
+                    match={this.props.match}
+                    history={this.props.history}
+                />
+            </Scrollbars>
+        </div>);
+
         return (
             <div style={{backgroundColor: '#f0f2f5', height: this.props.height}}>
                 {this.props.width < 992 ? <RateMyProfessorNavbarCollapse/> : <RateMyProfessorNavbar/>}
                 <Route strict exact path={`${this.props.match.url}:menu/`}
                        component={FreshmanHandbookSection}/>
+
+                {this.props.width > 768 ? <div style={{
+                    display: 'inline-block',
+                    height: '100%',
+                    width: 420,
+                    padding: 50,
+                    paddingTop: 96,
+                    verticalAlign: 'top'
+                }}>
+                    {searchDiv}
+                    {sidebarDiv}
+                </div> : ''}
 
                 <div style={{
                     display: 'inline-block',
@@ -84,8 +138,8 @@ class FreshmanHandbook extends React.Component {
                     width: (this.props.width > 768 ? (this.props.width - 420 - 200) : this.props.width),
                     paddingTop: 96,
                     paddingBottom: 50,
-                    paddingLeft: (this.props.width > 768 ? 0 : 50),
-                    paddingRight: (this.props.width > 768 ? 0 : 50),
+                    paddingLeft: (this.props.width > 768 ? 0 : (this.props.width > 576 ? 50 : 20)),
+                    paddingRight: (this.props.width > 768 ? 0 : (this.props.width > 576 ? 50 : 20)),
                     verticalAlign: 'top',
                 }}>
                     <Route strict exact path={`${this.props.match.url}:menu/:title/`}
@@ -103,14 +157,7 @@ class FreshmanHandbook extends React.Component {
                 <Route strict exact path={`${this.props.match.url}:menu/`}
                        component={FreshmanHandbookSectionStart}/>
 
-                <div style={this.props.width > 768 ? {
-                    display: 'inline-block',
-                    height: '100%',
-                    width: 420,
-                    padding: 50,
-                    paddingTop: 96,
-                    verticalAlign: 'top'
-                } : {
+                {this.props.width > 768 ? '' : <div style={{
                     position: 'absolute',
                     height: '100%',
                     width: 420,
@@ -123,55 +170,18 @@ class FreshmanHandbook extends React.Component {
                     backgroundColor: 'rgba(200,200,200,0.5)',
                     transition: 'left .5s'
                 }}>
-                    <div style={Object.assign({
-                        height: 75,
-                        width: '100%',
-                        marginBottom: 50,
-                        backgroundColor: '#ffffff',
-                    }, boxShadowStyle, centerParentStyle)}>
-                        <Search
-                            style={Object.assign({width: 'calc(100% - 50px)'}, centerChildStyle)}
-                            placeholder="请输入关键词"
-                            onSearch={value => {
-                                this.props.onBeginSearch();
-                                $.ajax({
-                                    method: 'GET',
-                                    url: `${apiRootPath}search/?q=${encodeURIComponent(value)}`,
-                                }).done((msg) => {
-                                    if (msg === '[]') {
-                                        this.props.updateSearch([['没有找到相关文章', '请尝试使用其他关键词']]);
-                                    } else {
-                                        this.props.updateSearch(JSON.parse(msg));
-                                    }
-                                });
-                            }}
-                            enterButton
-                        />
-                    </div>
-                    <div style={{
-                        height: 'calc(100% - 125px)',
-                        width: '100%'
-                    }}>
-                        <Scrollbars style={Object.assign({
-                            height: '100%',
-                            width: '100%',
-                            backgroundColor: '#ffffff'
-                        }, boxShadowStyle)} autoHide autoHideTimeout={0} autoHideDuration={250}>
-                            <FreshmanHandbookSidebar
-                                match={this.props.match}
-                                history={this.props.history}
-                            />
-                        </Scrollbars>
-                    </div>
-                </div>
+                    {searchDiv}
+                    {sidebarDiv}
+                </div>}
 
-                <Button type="primary" onClick={() => {
+                {this.props.width > 768 ? '' : <Button type="primary" onClick={() => {
                     this.setState({
                         collapsed: !this.state.collapsed,
                     });
                 }} style={{position: 'fixed', top: 96, left: 0}}>
                     <Icon type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}/>
-                </Button>
+                </Button>}
+
 
                 <FreshmanHandbookSearchResults
                     match={this.props.match}

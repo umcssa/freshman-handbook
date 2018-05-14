@@ -15,6 +15,16 @@ const cardStyle = {
     margin: 20
 };
 
+const cardStyleMobile = {
+    width: 240,
+    height: 360,
+    overflow: 'hidden',
+    display: 'block',
+    wordWrap: 'break-word',
+    whiteSpace: 'normal',
+    margin: 20
+};
+
 
 class FreshmanHandbookSearchResults extends React.Component {
     constructor(props) {
@@ -35,7 +45,7 @@ class FreshmanHandbookSearchResults extends React.Component {
                 }}
                 onClick={this.props.onEndSearch}
             >
-                <div style={{
+                <div style={this.props.width > 576 ? {
                     position: 'absolute',
                     top: '50%',
                     left: '50%',
@@ -44,10 +54,20 @@ class FreshmanHandbookSearchResults extends React.Component {
                     whiteSpace: 'nowrap',
                     overflowX: 'auto',
                     overflowY: 'hidden'
+                } : {
+                    position: 'absolute',
+                    top: '50%',
+                    left: '50%',
+                    maxHeight: '80%',
+                    transform: 'translate(-50%, -50%)',
+                    whiteSpace: 'nowrap',
+                    overflowX: 'hidden',
+                    overflowY: 'auto'
                 }}>
                     {this.props.searchResults.map((item, index) => (
                         <Link to={`${this.props.match.url}${item[2]}`}>
-                            <Card key={index} title={item[0]} style={cardStyle} hoverable>
+                            <Card key={index} title={item[0]}
+                                  style={this.props.width > 576 ? cardStyle : cardStyleMobile} hoverable>
                                 <div dangerouslySetInnerHTML={{__html: item[1]}}></div>
                             </Card>
                         </Link>
@@ -61,6 +81,7 @@ class FreshmanHandbookSearchResults extends React.Component {
 
 function mapStateToProps(state) {
     return {
+        width: state.width,
         searchResults: state.searchResults,
         searchResultsVisible: state.searchResultsVisible,
     }

@@ -21,6 +21,13 @@ const containerStyle = Object.assign({
     padding: 50
 }, boxShadowStyle);
 
+const containerStyleMobile = Object.assign({
+    width: '100%',
+    height: '100%',
+    backgroundColor: '#ffffff',
+    padding: 20
+}, boxShadowStyle);
+
 
 class FreshmanHandbookArticle extends React.Component {
     constructor(props) {
@@ -60,7 +67,7 @@ class FreshmanHandbookArticle extends React.Component {
 
     render() {
         return (
-            <div style={containerStyle}>
+            <div style={this.props.width > 576 ? containerStyle : containerStyleMobile}>
                 <div style={{width: '100%', height: 80}}>
                     <h1>
                         {this.props.selectedKey}
@@ -69,7 +76,8 @@ class FreshmanHandbookArticle extends React.Component {
                 </div>
                 <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
                     <Scrollbars style={{width: '100%', height: '100%'}}>
-                        <div dangerouslySetInnerHTML={{__html: this.props.selectedKey in this.props.contentDict ? this.props.contentDict[this.props.selectedKey] : ''}}></div>
+                        <div
+                            dangerouslySetInnerHTML={{__html: this.props.selectedKey in this.props.contentDict ? this.props.contentDict[this.props.selectedKey] : ''}}></div>
                     </Scrollbars>
                 </div>
             </div>
@@ -79,6 +87,7 @@ class FreshmanHandbookArticle extends React.Component {
 
 function mapStateToProps(state) {
     return {
+        width: state.width,
         selectedKey: state.selectedKey,
         contentDict: state.contentDict
     }

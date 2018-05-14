@@ -17,8 +17,8 @@ const prevNextStyleMobile = {
     position: 'fixed',
     top: '50%',
     right: 0,
-    height: 160,
-    width: 80,
+    height: 80,
+    width: 40,
     transform: 'translate(0, -50%)',
 };
 
@@ -59,6 +59,12 @@ const iconStyle = {
     opacity: 1
 };
 
+const iconStyleMobile = {
+    fontSize: 20,
+    color: '#ffffff',
+    opacity: 1
+};
+
 
 class FreshmanHandbookPrevNext extends React.Component {
     constructor(props) {
@@ -79,7 +85,8 @@ class FreshmanHandbookPrevNext extends React.Component {
                             this.setState({hoverLeft: false});
                         }}
                     >
-                        <Icon type="left" style={Object.assign({}, iconStyle, centerChildStyle)}/>
+                        <Icon type="left"
+                              style={Object.assign({}, this.props.width > 768 ? iconStyle : iconStyleMobile, centerChildStyle)}/>
                     </div>
                 </Link>
                 <Link to={this.props.nextLink}>
@@ -92,7 +99,7 @@ class FreshmanHandbookPrevNext extends React.Component {
                             this.setState({hoverRight: false});
                         }}
                     >
-                        <Icon type="right" style={Object.assign({}, iconStyle, centerChildStyle)}/>
+                        <Icon type="right" style={Object.assign({}, this.props.width > 768 ? iconStyle : iconStyleMobile, centerChildStyle)}/>
                     </div>
                 </Link>
             </div>

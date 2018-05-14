@@ -30,6 +30,14 @@ const reactStretchableButtonStyles = {
     width: [50, 150],
 };
 
+const reactStretchableButtonStylesMobile = {
+    style: {marginTop: 20, marginBottom: 20, marginLeft: 0, marginRight: 0},
+    buttonStyle: {backgroundColor: '#ffffff'},
+    alignRight: true,
+    height: 50,
+    width: [50, 150],
+};
+
 
 class FreshmanHandbookContact extends React.Component {
     constructor(props) {
@@ -42,34 +50,40 @@ class FreshmanHandbookContact extends React.Component {
             <div>
                 <div style={this.props.width > 576 ? contactStyle : contactStyleMobile}>
                     <QueueAnim>
-                        <ReactStretchableButton key="wechat" {...reactStretchableButtonStyles}
-                                                onClick={() => {
-                                                    this.setState({wechatAccountVisible: true});
-                                                }}
-                                                componentDisplayed={<Icon type="wechat" style={{fontSize: 22}}/>}
-                                                componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>微信公众号</span>}/>
-                        <ReactStretchableButton key="group" {...reactStretchableButtonStyles}
-                                                onClick={() => {
-                                                    this.setState({wechatGroupVisible: true});
-                                                }}
-                                                componentDisplayed={<Icon type="usergroup-add" style={{fontSize: 22}}/>}
-                                                componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>加入新生群</span>}/>
+                        <ReactStretchableButton
+                            key="wechat" {...(this.props.width > 576 ? reactStretchableButtonStyles : reactStretchableButtonStylesMobile)}
+                            onClick={() => {
+                                this.setState({wechatAccountVisible: true});
+                            }}
+                            componentDisplayed={<Icon type="wechat" style={{fontSize: 22}}/>}
+                            componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>微信公众号</span>}/>
+                        <ReactStretchableButton
+                            key="group" {...(this.props.width > 576 ? reactStretchableButtonStyles : reactStretchableButtonStylesMobile)}
+                            onClick={() => {
+                                this.setState({wechatGroupVisible: true});
+                            }}
+                            componentDisplayed={<Icon type="usergroup-add" style={{fontSize: 22}}/>}
+                            componentToDisplay={<span style={{whiteSpace: 'nowrap'}}>加入新生群</span>}/>
 
-                        <ReactStretchableButton key="share" {...reactStretchableButtonStyles} stretchPadding={20}
-                                                onClick={() => {
-                                                    this.setState({shareLinkVisible: true});
-                                                }}
-                                                componentDisplayed={<Icon type="share-alt" style={{fontSize: 22}}/>}
-                                                componentToDisplay={<span
-                                                    style={{whiteSpace: 'nowrap'}}>分享本文链接</span>}/>
+                        <ReactStretchableButton
+                            key="share" {...(this.props.width > 576 ? reactStretchableButtonStyles : reactStretchableButtonStylesMobile)}
+                            stretchPadding={20}
+                            onClick={() => {
+                                this.setState({shareLinkVisible: true});
+                            }}
+                            componentDisplayed={<Icon type="share-alt" style={{fontSize: 22}}/>}
+                            componentToDisplay={<span
+                                style={{whiteSpace: 'nowrap'}}>分享本文链接</span>}/>
 
-                        <ReactStretchableButton key="download" {...reactStretchableButtonStyles} stretchPadding={20}
-                                                onClick={() => {
-                                                    window.location.href = '/freshman-handbook/uploads/新生手册.pdf/';
-                                                }}
-                                                componentDisplayed={<Icon type="download" style={{fontSize: 22}}/>}
-                                                componentToDisplay={<span
-                                                    style={{whiteSpace: 'nowrap'}}>下载新生手册</span>}/>
+                        <ReactStretchableButton
+                            key="download" {...(this.props.width > 576 ? reactStretchableButtonStyles : reactStretchableButtonStylesMobile)}
+                            stretchPadding={20}
+                            onClick={() => {
+                                window.location.href = '/freshman-handbook/uploads/新生手册.pdf/';
+                            }}
+                            componentDisplayed={<Icon type="download" style={{fontSize: 22}}/>}
+                            componentToDisplay={<span
+                                style={{whiteSpace: 'nowrap'}}>下载新生手册</span>}/>
                     </QueueAnim>
                 </div>
                 <Modal
