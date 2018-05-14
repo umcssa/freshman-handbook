@@ -83,6 +83,7 @@ class FreshmanHandbook extends React.Component {
                 placeholder="请输入关键词"
                 onSearch={value => {
                     this.props.onBeginSearch();
+                    this.props.hideSidebar();
                     $.ajax({
                         method: 'GET',
                         url: `${apiRootPath}search/?q=${encodeURIComponent(value)}`,
@@ -163,7 +164,7 @@ class FreshmanHandbook extends React.Component {
                     width: 420,
                     maxWidth: '100%',
                     top: 0,
-                    left: this.state.collapsed ? -420 : 0,
+                    left: this.props.sidebarVisible ? 0 : -420,
                     padding: 50,
                     paddingTop: 96,
                     verticalAlign: 'top',
@@ -174,12 +175,8 @@ class FreshmanHandbook extends React.Component {
                     {sidebarDiv}
                 </div>}
 
-                {this.props.width > 768 ? '' : <Button type="primary" onClick={() => {
-                    this.setState({
-                        collapsed: !this.state.collapsed,
-                    });
-                }} style={{position: 'fixed', top: 96, left: 0}}>
-                    <Icon type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}/>
+                {this.props.width > 768 ? '' : <Button type="primary" onClick={this.props.toggleSidebar} style={{position: 'fixed', top: 96, left: 0}}>
+                    <Icon type={this.props.sidebarVisible ? 'menu-fold' : 'menu-unfold'}/>
                 </Button>}
 
 
@@ -194,7 +191,7 @@ class FreshmanHandbook extends React.Component {
 
 
 function mapStateToProps(state) {
-    return {width: state.width, height: state.height}
+    return {width: state.width, height: state.height, sidebarVisible: state.sidebarVisible};
 }
 
 function mapDispatchToProps(dispatch) {
@@ -210,6 +207,12 @@ function mapDispatchToProps(dispatch) {
         },
         updateSearch: (searchResults) => {
             dispatch(Actions.updateSearch(searchResults))
+        },
+        hideSidebar: () => {
+            dispatch(Actions.hideSidebar());
+        },
+        toggleSidebar: () => {
+            dispatch(Actions.toggleSidebar());
         }
     }
 }

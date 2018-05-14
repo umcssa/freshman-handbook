@@ -137,6 +137,12 @@ export default (state, action) => {
                 item.push(get_path(item[0], state.hierarchy));
             });
             return {...state, searchResults: action.searchResults};
+        case ActionTypes.SHOWSIDEBAR:
+            return {...state, sidebarVisible: true};
+        case ActionTypes.HIDESIDEBAR:
+            return {...state, sidebarVisible: false};
+        case ActionTypes.TOGGLESIDEBAR:
+            return {...state, sidebarVisible: !state.sidebarVisible};
         default:
             return state;
     }

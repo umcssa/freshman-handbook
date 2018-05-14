@@ -48,3 +48,21 @@ export const endSearch = () => {
         type: ActionTypes.ENDSEARCH
     }
 };
+
+export const showSidebar = () => {
+    return {
+        type: ActionTypes.SHOWSIDEBAR,
+    }
+};
+
+export const hideSidebar = () => {
+    return {
+        type: ActionTypes.HIDESIDEBAR,
+    }
+};
+
+export const toggleSidebar = () => {
+    return {
+        type: ActionTypes.TOGGLESIDEBAR,
+    }
+};

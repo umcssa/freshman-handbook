@@ -22,7 +22,7 @@ class FreshmanHandbookSidebar extends React.Component {
                     const optionList = subMenu[1].map((option) => {
                         return (
                             <Menu.Item key={option[0]}>
-                                <Link to={`${this.props.match.url}${menu[0]}/${subMenu[0]}/${option[0]}/`}>
+                                <Link to={`${this.props.match.url}${menu[0]}/${subMenu[0]}/${option[0]}/`} onClick={this.props.hideSidebar}>
                                     {option[0]}
                                 </Link>
                             </Menu.Item>);
@@ -31,7 +31,7 @@ class FreshmanHandbookSidebar extends React.Component {
                 } else {
                     return (
                         <Menu.Item key={subMenu[0]}>
-                            <Link to={`${this.props.match.url}${menu[0]}/${subMenu[0]}/`}>
+                            <Link to={`${this.props.match.url}${menu[0]}/${subMenu[0]}/`} onClick={this.props.hideSidebar}>
                                 {subMenu[0]}
                             </Link>
                         </Menu.Item>);
@@ -68,6 +68,9 @@ function mapDispatchToProps(dispatch) {
     return {
         onUpdateOpenKeys: (openKeys) => {
             dispatch(Actions.updateOpenKeys(openKeys));
+        },
+        hideSidebar: () => {
+            dispatch(Actions.hideSidebar());
         }
     }
 }

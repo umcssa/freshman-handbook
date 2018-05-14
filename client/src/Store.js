@@ -78,6 +78,7 @@ const initValues = {
     nextLink: '',
     searchResults: [], // [['Card Title','<p>Card content</p><p>Card content</p><p>Card content</p>', link]],
     searchResultsVisible: false,
+    sidebarVisible: false,
 };
 
 const store = createStore(reducer, initValues);
