@@ -69,10 +69,13 @@ class FreshmanHandbookArticle extends React.Component {
         return (
             <div style={this.props.width > 576 ? containerStyle : containerStyleMobile}>
                 <div style={{width: '100%', height: 80}}>
-                    <h1>
+                    {this.props.width > 576 ? <h1>
                         {this.props.selectedKey}
                         <Spin spinning={this.state.loading} style={{marginLeft: 20}}/>
-                    </h1>
+                    </h1> : <h3>
+                        {this.props.selectedKey}
+                        <Spin spinning={this.state.loading} style={{marginLeft: 20}}/>
+                    </h3>}
                 </div>
                 <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
                     <Scrollbars style={{width: '100%', height: '100%'}}>
