@@ -109,7 +109,7 @@ def get_search_results(keywords):
         # find all displayed intervals in search result's abstract
         intervals = []
         for keyword in keywords_dict:
-            intervals += [[m.start() - 20, m.end() + 20] for m in re.finditer(keyword, content)]
+            intervals += [[m.start() - 20, m.end() + 20] for m in re.finditer(keyword, content, re.IGNORECASE)]
 
         union_intervals = []
         for begin, end in sorted(intervals):
@@ -130,7 +130,9 @@ def get_search_results(keywords):
             map(lambda x: content[(x[0] if x[0] > 0 else 0):(x[1] if x[1] < len(content) else len(content))],
                 union_intervals)))
         for keyword in keywords_dict:
-            content = content.replace(keyword, '<b>{}</b>'.format(keyword))
+            replace_words = [content[m.start(): m.end()] for m in re.finditer(keyword, content, re.IGNORECASE)]
+            for replace_word in replace_words:
+                content = content.replace(replace_word, '<b>{}</b>'.format(replace_word))
         results.append([title, content])
     return json.dumps(results)
 
