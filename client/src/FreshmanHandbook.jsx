@@ -101,7 +101,11 @@ class FreshmanHandbook extends React.Component {
                                     method: 'GET',
                                     url: `${apiRootPath}search/?q=${encodeURIComponent(value)}`,
                                 }).done((msg) => {
-                                    this.props.updateSearch(JSON.parse(msg));
+                                    if (msg === '[]') {
+                                        this.props.updateSearch([['没有找到相关文章', '请尝试使用其他关键词']]);
+                                    } else {
+                                        this.props.updateSearch(JSON.parse(msg));
+                                    }
                                 });
                             }}
                             enterButton

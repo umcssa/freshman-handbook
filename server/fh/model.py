@@ -12,6 +12,7 @@ import jieba
 import fh
 import json
 import math
+from bs4 import BeautifulSoup
 from fh.api.invalid_usage import InvalidUsage
 
 
@@ -97,7 +98,40 @@ def get_search_results(keywords):
 
     results = []
     for hit in hits[:10]:
-        results.append([hit['docid'], '<p>doc id is {}</p>'.format(hit['docid'])])
+        title = fh.app.config['DOC_ID_DICT'][hit['docid']]
+        content = get_article_content(title)
+
+        # remove all html tags
+        soup = BeautifulSoup(content, "html.parser")
+        content = ''.join(soup.findAll(text=True))
+        content = re.sub(r'\s+', ' ', content)
+
+        # find all displayed intervals in search result's abstract
+        intervals = []
+        for keyword in keywords_dict:
+            intervals += [[m.start() - 20, m.end() + 20] for m in re.finditer(keyword, content)]
+
+        union_intervals = []
+        for begin, end in sorted(intervals):
+            if union_intervals and union_intervals[-1][1] >= begin - 1:
+                union_intervals[-1][1] = max(union_intervals[-1][1], end)
+            else:
+                union_intervals.append([begin, end])
+
+        print(union_intervals)
+
+        if union_intervals:
+            if union_intervals[0][0] > 0:
+                union_intervals = [[0, 0]] + union_intervals
+            if union_intervals[-1][1] < len(content):
+                union_intervals += [[len(content), len(content)]]
+
+        content = ' ...... '.join(list(
+            map(lambda x: content[(x[0] if x[0] > 0 else 0):(x[1] if x[1] < len(content) else len(content))],
+                union_intervals)))
+        for keyword in keywords_dict:
+            content = content.replace(keyword, '<b>{}</b>'.format(keyword))
+        results.append([title, content])
     return json.dumps(results)
 
 

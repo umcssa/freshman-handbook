@@ -18,7 +18,7 @@ id = 0
 for file in os.listdir(CONTENT_DIR):
     if file.endswith('.html'):
         soup = BeautifulSoup(open(os.path.join(CONTENT_DIR, file)).read(), "html.parser")
-        all_text = ''.join(soup.findAll(text=True))
+        all_text = ''.join(soup.findAll(text=True)) + (' ' + file[:-5]) * 3
         all_text = re.sub(r'\s+', ' ', all_text)
         f.write(str(id) + '\t' + file[:-5] + '\t' + all_text + '\n')
         id += 1

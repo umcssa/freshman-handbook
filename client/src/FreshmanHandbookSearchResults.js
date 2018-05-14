@@ -4,7 +4,15 @@ import {Card} from 'antd';
 import {connect} from "react-redux";
 import * as Actions from "./Actions";
 
-const cardStyle = {width: 240, height: 360, overflow: 'hidden', display: 'inline-block', margin: 20};
+const cardStyle = {
+    width: 240,
+    height: 360,
+    overflow: 'hidden',
+    display: 'inline-block',
+    wordWrap: 'break-word',
+    whiteSpace: 'normal',
+    margin: 20
+};
 
 
 class FreshmanHandbookSearchResults extends React.Component {
