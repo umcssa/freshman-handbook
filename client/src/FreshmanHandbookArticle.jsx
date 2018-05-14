@@ -68,19 +68,19 @@ class FreshmanHandbookArticle extends React.Component {
     render() {
         return (
             <div style={this.props.width > 576 ? containerStyle : containerStyleMobile}>
-                <div style={{width: '100%', height: 80}}>
-                    {this.props.width > 576 ? <h1>
-                        {this.props.selectedKey}
-                        <Spin spinning={this.state.loading} style={{marginLeft: 20}}/>
-                    </h1> : <h3>
-                        {this.props.selectedKey}
-                        <Spin spinning={this.state.loading} style={{marginLeft: 20}}/>
-                    </h3>}
-                </div>
+
+                {this.props.width > 576 ? <div style={{width: '100%', height: 80}}><h1>
+                    {this.props.selectedKey}
+                    <Spin spinning={this.state.loading} style={{marginLeft: 20}}/>
+                </h1></div> : <div style={{width: '100%', height: 60}}><h3>
+                    {this.props.selectedKey}
+                    <Spin spinning={this.state.loading} style={{marginLeft: 20}}/>
+                </h3></div>}
+
                 <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
                     <Scrollbars style={{width: '100%', height: '100%'}}>
-                        <div
-                            dangerouslySetInnerHTML={{__html: this.props.selectedKey in this.props.contentDict ? this.props.contentDict[this.props.selectedKey] : ''}}></div>
+                        <div style={{overflowWrap: 'break-word', wordWrap: 'break-word'}}
+                             dangerouslySetInnerHTML={{__html: this.props.selectedKey in this.props.contentDict ? this.props.contentDict[this.props.selectedKey] : ''}}></div>
                     </Scrollbars>
                 </div>
             </div>
