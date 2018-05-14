@@ -8,8 +8,17 @@ const prevNextStyle = {
     position: 'fixed',
     top: '50%',
     right: 0,
-    height:80,
-    width:160,
+    height: 80,
+    width: 160,
+    transform: 'translate(0, -50%)',
+};
+
+const prevNextStyleMobile = {
+    position: 'fixed',
+    top: '50%',
+    right: 0,
+    height: 160,
+    width: 80,
     transform: 'translate(0, -50%)',
 };
 
@@ -17,6 +26,14 @@ const buttonStyle = {
     display: 'inline-block',
     height: '100%',
     width: '50%',
+    backgroundColor: 'rgba(61,148,255,0.6)',
+    transition: 'background-color 0.25s'
+};
+
+const buttonStyleMobile = {
+    display: 'block',
+    height: '50%',
+    width: '100%',
     backgroundColor: 'rgba(61,148,255,0.6)',
     transition: 'background-color 0.25s'
 };
@@ -51,10 +68,10 @@ class FreshmanHandbookPrevNext extends React.Component {
 
     render() {
         return (
-            <div style={prevNextStyle}>
+            <div style={this.props.width > 768 ? prevNextStyle : prevNextStyleMobile}>
                 <Link to={this.props.prevLink}>
                     <div
-                        style={Object.assign({}, buttonStyle, this.state.hoverLeft && buttonHoverStyle, centerParentStyle)}
+                        style={Object.assign({}, this.props.width > 768 ? buttonStyle : buttonStyleMobile, this.state.hoverLeft && buttonHoverStyle, centerParentStyle)}
                         onMouseOver={() => {
                             this.setState({hoverLeft: true});
                         }}
@@ -67,7 +84,7 @@ class FreshmanHandbookPrevNext extends React.Component {
                 </Link>
                 <Link to={this.props.nextLink}>
                     <div
-                        style={Object.assign({}, buttonStyle, this.state.hoverRight && buttonHoverStyle, centerParentStyle)}
+                        style={Object.assign({}, this.props.width > 768 ? buttonStyle : buttonStyleMobile, this.state.hoverRight && buttonHoverStyle, centerParentStyle)}
                         onMouseOver={() => {
                             this.setState({hoverRight: true});
                         }}
@@ -85,14 +102,14 @@ class FreshmanHandbookPrevNext extends React.Component {
 
 function mapStateToProps(state) {
     return {
+        width: state.width,
         prevLink: state.prevLink,
         nextLink: state.nextLink
     }
 }
 
 function mapDispatchToProps(dispatch) {
-    return {
-    }
+    return {}
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(FreshmanHandbookPrevNext);

@@ -6,10 +6,18 @@ import QueueAnim from 'rc-queue-anim';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import wechatAccount from './images/wechat-account.png';
 import wechatGroup from './images/wechat-group.jpg';
+import {connect} from "react-redux";
 
 const contactStyle = {
     position: 'fixed',
     right: 20,
+    bottom: 30,
+    height: 300
+};
+
+const contactStyleMobile = {
+    position: 'fixed',
+    right: 0,
     bottom: 30,
     height: 300
 };
@@ -23,7 +31,7 @@ const reactStretchableButtonStyles = {
 };
 
 
-export default class FreshmanHandbookContact extends React.Component {
+class FreshmanHandbookContact extends React.Component {
     constructor(props) {
         super(props);
         this.state = {wechatAccountVisible: false, wechatGroupVisible: false, shareLinkVisible: false};
@@ -32,7 +40,7 @@ export default class FreshmanHandbookContact extends React.Component {
     render() {
         return (
             <div>
-                <div style={contactStyle}>
+                <div style={this.props.width > 576 ? contactStyle : contactStyleMobile}>
                     <QueueAnim>
                         <ReactStretchableButton key="wechat" {...reactStretchableButtonStyles}
                                                 onClick={() => {
@@ -118,3 +126,15 @@ export default class FreshmanHandbookContact extends React.Component {
         );
     }
 }
+
+function mapStateToProps(state) {
+    return {
+        width: state.width,
+    }
+}
+
+function mapDispatchToProps(dispatch) {
+    return {}
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(FreshmanHandbookContact);

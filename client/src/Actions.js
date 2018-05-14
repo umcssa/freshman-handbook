@@ -1,5 +1,13 @@
 import * as ActionTypes from './ActionTypes'
 
+export const resizeWindow = (width, height) => {
+    return {
+        type: ActionTypes.RESIZEWINDOW,
+        width: width,
+        height: height,
+    }
+};
+
 export const updateKeys = (pathname) => {
     return {
         type: ActionTypes.UPDATEKEYS,

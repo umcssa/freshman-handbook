@@ -2,6 +2,8 @@ import {createStore} from 'redux';
 import reducer from './Reducer';
 
 const initValues = {
+    width: '',
+    height: '',
     hierarchy: [
         ['出国前准备', [
             ['签证', [

@@ -4,6 +4,8 @@ export default (state, action) => {
     const {counterCaption} = action;
 
     switch (action.type) {
+        case ActionTypes.RESIZEWINDOW:
+            return {...state, width: action.width, height: action.height};
         case ActionTypes.UPDATEKEYS:
             const {pathname} = action;
             const split = pathname.split(/\//);

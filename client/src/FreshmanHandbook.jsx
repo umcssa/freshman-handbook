@@ -43,15 +43,11 @@ const centerChildStyle = {
 class FreshmanHandbook extends React.Component {
     constructor(props, context) {
         super(props, context);
-        this.state = {
-            width: '',
-            height: '',
-        };
         this.updateDimensions = this.updateDimensions.bind(this);
     }
 
     updateDimensions() {
-        this.setState({width: $(window).width(), height: $(window).height()});
+        this.props.resizeWindow($(window).width(), $(window).height());
     }
 
     componentWillMount() {
@@ -74,8 +70,8 @@ class FreshmanHandbook extends React.Component {
 
     render() {
         return (
-            <div style={{backgroundColor: '#f0f2f5', height: this.state.height}}>
-                {this.state.width < 992 ? <RateMyProfessorNavbarCollapse/> : <RateMyProfessorNavbar/>}
+            <div style={{backgroundColor: '#f0f2f5', height: this.props.height}}>
+                {this.props.width < 992 ? <RateMyProfessorNavbarCollapse/> : <RateMyProfessorNavbar/>}
                 <Route strict exact path={`${this.props.match.url}:menu/`}
                        component={FreshmanHandbookSection}/>
                 <div style={{
@@ -130,7 +126,7 @@ class FreshmanHandbook extends React.Component {
                 <div style={{
                     display: 'inline-block',
                     height: '100%',
-                    width: this.state.width - 420 - 200,
+                    width: this.props.width - 420 - 200,
                     paddingTop: 96,
                     paddingBottom: 50,
                     verticalAlign: 'top',
@@ -158,11 +154,14 @@ class FreshmanHandbook extends React.Component {
 
 
 function mapStateToProps(state) {
-    return {}
+    return {width: state.width, height: state.height}
 }
 
 function mapDispatchToProps(dispatch) {
     return {
+        resizeWindow: (width, height) => {
+            dispatch(Actions.resizeWindow(width, height));
+        },
         updateKeys: (pathname) => {
             dispatch(Actions.updateKeys(pathname));
         },

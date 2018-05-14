@@ -1,3 +1,5 @@
+export const RESIZEWINDOW = 'resizeWindow';
+
 export const UPDATEKEYS = 'updateKeys';
 
 export const UPDATEOPENKEYS = 'updateOpenKeys';
