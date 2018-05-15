@@ -99,7 +99,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 '),
 ('体检和疫苗', '<p>一般来说，在拿到大使馆的签证以后就可以开始办理出境体检表和疫苗表了。密西根大学并没有强制要求的疫苗。</p>
 <p>体检的地点一般是当地的<span style="color: red">国际旅行健康中心（出入境检验检疫）</span>，体检项目包括：X光检查、心电图、血液检查和全身检查等。体检完成后健康中心会出具<span style="color: red">健康检查证明书</span>（即“小红本”）。而“小黄本”则是指国际疫苗接种证明（密西根大学对小黄本没有强制要求）。</p>
-<img src="/freshman-handbook/uploads/qw1.jpg" alt="qw1" style="width:100%" />
+<img src="/freshman-handbook/uploads/qw1.jpg" alt="qw1" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p>图为“小红本”和“小黄本”</p>
 <br />
 '),
@@ -195,10 +195,10 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <br />
 <p>除了选课以外，<b>Wolverine Access</b> 还可以用来<span style="color:red">修改个人地址和电话信息，查看成绩，要求成绩单，支付学费保险等。</span></p>
 <p>进入Wolverine Access的页面（<a target="_blank" href="www.wolverineaccess.umich.edu">www.wolverineaccess.umich.edu</a>）之后，选择Students，便可以看到与学生生活息息相关的几大版块啦，如下图所示：</p>
-<img src="/freshman-handbook/uploads/qw2.png" alt="qw2" style="width:100%" />
+<img src="/freshman-handbook/uploads/qw2.png" alt="qw2" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p>根据自己需要选择点击链接进入，一般常用的就是Student Business啦。这里给大家简单介绍一下里面的主要内容：</p>
 <p> 1. 点Student Business之后就是这样啦~</p>
-<img src="/freshman-handbook/uploads/qw3.png" alt="qw3" style="width:100%" />
+<img src="/freshman-handbook/uploads/qw3.png" alt="qw3" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p>2. Student Center里面有各种基本信息，比如<ins>选课课表、账户余额、个人信息等等。</ins></p>
 <p>3. Payroll and Compensation的功能通常只有有校内工作的才会需要点击，可以查看自己的工资条以及绑定账户等信息。</p>
 <p>4. Class Search/Browses Catalog是选课必须用的网站。</p>
@@ -215,7 +215,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：541 Thompson Street</p>
 <p>简介：地理位置优越，楼下就是 Union，往北不远就是主要街区，离 law quad 很近。Union 门口有车站可以做 AATA 公交车刷学生卡去 Briarwood 和 Meijer 购物，也有 Blue Bus 的车站。住在这里的大部分是 Michigan Community Scholars Program 的学生。West Quad 没有食堂，一般去对面 South Quad 的食堂就餐。房间比较舒适宽敞。</p>
 <p>推荐指数：五颗星</p>
-<img src="/freshman-handbook/uploads/qa1.jpg" alt="qa1" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa1.jpg" alt="qa1" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：flickr.com）</p>
 <br />
 <br />
@@ -223,7 +223,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <br />
 <p>地址：701 East University Avenue 简介：住在EQ的大部分是 Residential College 的学生。RC系列课程的教室就在East Quad 内部，十分方便。地下室有音乐练习室，陶艺教室等。处于学校南部商业区核心地段，有各种日韩餐厅，快餐店，奶茶店，便利店，交通方便。East Quad有自己食堂，但星期一只提供素食。</p>
 <p>推荐指数：五颗星</p>
-<img src="/freshman-handbook/uploads/qa2.jpg" alt="qa2" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa2.jpg" alt="qa2" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：michigandaily.com）</p>
 <br />
 <br />
@@ -231,7 +231,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：600 E. Madison</p>
 <p>简介：中校区最大的宿舍，和 Union, West Quad 隔街相望，Honor Program 的学生也被分配到这里。食堂号称UMich最棒，地下有台球桌和乒乓球桌，顶楼有一个很大的电脑房，适合自习。2013年进行大规模翻修，2014年秋季再次开放。</p>
 <p>推荐指数：五颗星</p>
-<img src="/freshman-handbook/uploads/qa3.jpg" alt="qa3" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa3.jpg" alt="qa3" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：kkirwin.wixsite.com/dorm-sustainability）</p>
 <br />
 <br />
@@ -239,7 +239,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：105 South State Street</p>
 <p>简介：不提供给大一学生。宿舍宽敞明亮，有自己的食堂，Global Scholars Program, School of Information, 以及 Sweetland Writing Center 落户于此。靠近中校主要商业街道，步行五分钟即可抵达 CC Little 公交站。</p>
 <p>推荐指数：五颗星</p>
-<img src="/freshman-handbook/uploads/qa4.jpg" alt="qa4" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa4.jpg" alt="qa4" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：annarbor.com）</p>
 <p></p>
 <br />
@@ -248,7 +248,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：432 South State Street</p>
 <p>简介：全女生宿舍，毗邻 Union，对面是Angell hall。靠近中校商业街，交通方便，有自己的小食堂，房间较小，设施比较旧，但不妨碍正常使用。是Adelia Cheeve Program 的主要宿舍。地下室有舞蹈教室，楼内也有小厨房。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa5.jpg" alt="qa5" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa5.jpg" alt="qa5" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：freshmansupport.com）</p>
 <br />
 <br />
@@ -260,7 +260,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：915 Sybil St.</p>
 <p>简介：是全校最小的宿舍楼，只有大约75人。地理位置比较偏远，在偏南部的位置。有很多三人套间，有公共厨房，和简单娱乐设施如乒乓球桌。</p>
 <p>推荐指数：三颗星</p>
-<img src="/freshman-handbook/uploads/qa6.jpg" alt="qa6" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa6.jpg" alt="qa6" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：pinterest.com）</p>
 <br />
 <br />
@@ -269,7 +269,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：420 South State Street</p>
 <p>简介：紧挨 Helen Newberry，也是全女生的宿舍楼。地理位置优越，正对Angell hall，靠近中校商业区，有各种服装店，便利店，餐厅等。但是没有食堂，通常会去sq食堂就餐。历史悠久设施比较旧，没有空调但是有暖气。有钢琴室。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa7.jpg" alt="qa7" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa7.jpg" alt="qa7" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：wikimapia.org/）</p>
 <br />
 <br />
@@ -278,7 +278,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：906 South University</p>
 <p>简介：也是全女生的宿舍楼。地理位置优越，离Shapiro图书馆、法学院、Ross商学院很近，有食堂。历史悠久，是学校第一批建筑之一，设施比较旧，但装潢古典高雅，没有空调但是有暖气。时常举办不同主题的活动，传统活动包括每周五的下午茶和每周日的晚宴。楼内有食堂、活动室、跑步机、钢琴，楼后有专属的一片大草坪</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa8.jpg" alt="qa8" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa8.jpg" alt="qa8" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;" >（图片来源：cookies.studentorgs.umich.edu/）</p>
 <br />
 <br />
@@ -287,7 +287,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：1330 Hill St.</p>
 <p>简介：全女生的宿舍楼，不提供给大一新生。是一个比较小的co-op house，大约有25人。成员需要承担做饭，清扫等工作。需要单独申请。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa9.jpg" alt="qa9" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa9.jpg" alt="qa9" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：michigantoday.umich.edu/）</p>
 <br />
 <br />
@@ -297,7 +297,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：100 Observatory Street</p>
 <p>简介：设施很新，环境很好很温馨，study lounge 和休息室大气宽敞，房间大小适中，配备空调。宿舍没有自己的食堂，吃饭要去旁边的 Mojo 的 Market Place。有两个6人套间和一个8人套间提供。有舞蹈教室，音乐练习室等。</p>
 <p>推荐指数：四星半</p>
-<img src="/freshman-handbook/uploads/qa10.jpg" alt="qa10" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa10.jpg" alt="qa10" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：ids-troy.com/）</p>
 <br />
 <br />
@@ -305,7 +305,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：1300 E. Ann Street</p>
 <p>简介：和 Alice Lloyd 一样，也是翻新过不久，娱乐设施齐全，乒乓球，台球，桌上足球，游戏机应有尽有，房间舒适，大小适中，只有double和single，拥有公用厨房，但没有自己的食堂。门口有直达北校的公交车，也有到中校的commuter south，走到中校大概也只需要10min。是 Health Sciences Scholars Program (HSSP)项目的宿舍。</p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/qa11.jpg" alt="qa11" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa11.jpg" alt="qa11" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：ur.umich.edu）</p>
 <br />
 <br />
@@ -313,14 +313,14 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：200 Observatory Street</p>
 <p>简介：环境舒适，设施齐全，可以在 Market Place 和 Victors 用餐，靠近 CCRB 健身房，房间配备空调，Michigan Research Community 的同学都住在此宿舍，宿舍还提供公用厨房。</p>
 <p>推荐指数：四星半</p>
-<img src="/freshman-handbook/uploads/qa12.jpg" alt="qa12" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa12.jpg" alt="qa12" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：goodyclancy.com）</p>
 <p></p>
 <p>13. Mary Markley Hall</p>
 <p>地址：1503 Washington Heights</p>
 <p>简介：专门给大一新生提供宿舍，设施齐全，不是很新，周末随处可见去 party 的美国人，有自己的食堂，但因为提供数量有限，所以先到先得。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa13.jpg" alt="qa13" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa13.jpg" alt="qa13" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：campusinfo.umich.edu）</p>
 <br />
 <br />
@@ -328,7 +328,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：324 Observatory</p>
 <p>简介：公共区域和房间都很温馨舒适，60%的房间是 single，但不提供给大一学生。有公用厨房，study lounge 数个，没有自己的食堂，但离 Mojo 很近，离CCRB 也非常近。</p>
 <p>推荐指数：五颗星</p>
-<img src="/freshman-handbook/uploads/qa14.jpg" alt="qa14" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa14.jpg" alt="qa14" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：goodyclancy.com）</p>
 <br />
 <br />
@@ -336,7 +336,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：623 Oxford Road</p>
 <p>简介：由八幢小楼组成的学生宿舍，主要是新生住在这里，房型主要是 double 和 suite。附近可以乘 Oxford 线的 Blue Bus 去中校，如果走路需要五到十分钟。有自己新装修的食堂，而且伙食不错。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa15.jpg" alt="qa15" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa15.jpg" alt="qa15" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">(图片来源：freshmansupport.com)</p>
 <p></p>
 '),
@@ -345,21 +345,21 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：1931 Duffield St.</p>
 <p>简介：算是全校最老最大的宿舍之一，设施比较旧，房间大小适中，有台球桌和桌上足球，但都比较老了。有北校唯一的食堂，去年刚进行过改善，现在伙食很好（据说仅次于SQ），晚饭时间人很多。Lobby 旁边还有 Blue Apple 便利店，那儿的披萨有口皆碑。公交车站在宿舍后 面，爬个小山坡就到，早上上课时间乘车的学生非常多，经常会等一到两辆 Blue Bus 才能挤上车，但是可以倒走一站到Baits II，这样基本都能有座。宿舍在北校的山腰，步行五到十分钟能到北校工程学院各大楼，art school，music school， Pierpont，北校图书馆 Duderstadt，以及北校健身房 NCRB（NCRB正在装修，要到2018Fall才会重新营业）。Livng Arts 的学生被要求住在 Bursley。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa16.jpg" alt="qa16" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa16.jpg" alt="qa16" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：thetab.com/）</p>
 <br />
 <p>17. Baits Houses</p>
 <p>地址：1440 Hubbard</p>
 <p>简介：目前只开放Baits II，专门提供给大一学生的宿舍，房间多为 Suite，设施很新。靠近 Bursley Hall， 附近有 Baits 的公交站。没有自己的食堂，用餐需要到 Bursley 的食堂，但是宿舍内有厨房。离工院教学楼很近，离 NCRB 也很近（NCRB正在装修，要到2018Fall才会重新营业）。这里靠近北校的后山，山脚流淌着 Huron River，天气好的时候景色宜人。</p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/qa17.jpg" alt="qa17" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa17.jpg" alt="qa17" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：annarbor.com）</p>
 <br />
 <br />
 <p>18. Northwood III</p>
 <p>地址：Cram Place Community Center, 2150 Cram Place 简介：Apartment 性质，有独立厨房、卫生间，还有公共的客厅区域， 提供给转学生和研究生，步行五到十分钟可以到 NCRB（NCRB正在装修，要到2018Fall才会重新营业），离车站也比较近，有停车场区域。如果要再食堂用餐还得 去 Bursley。房屋周围有草坪和烧烤的地方。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa18.jpg" alt="qa18" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa18.jpg" alt="qa18" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：pinterest.com）</p>
 <br />
 <br />
@@ -367,13 +367,13 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>地址：Cram Place Community Center, 2150 Cram Place</p>
 <p>简介：Apartment 性质，配有家具，提供给研究生，有独立厨房和卫生间，可以选择单人间，或者有室友。公交站比较分散，所以交通方便程度根据宿舍位置而定。房屋周围有草坪和烧烤的地方，处在一个比较安静的社区。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa19.jpg" alt="qa19" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa19.jpg" alt="qa19" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：umaec.umich.edu）</p>
 <p></p>
 <p>20. Northwood IV&V</p>
 <p>地址：Cram Place Community Center, 2150 Cram Place 简介：属于townhouse，提供给研究生，无家具设备，有地下室和储藏间。坐公交车比较麻烦，最好是有车会方便许多。周边有孩子常去的 playground，以及各种运动场地。</p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/qa20.jpg" alt="qa20" style="width:100%" />
+<img src="/freshman-handbook/uploads/qa20.jpg" alt="qa20" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：studentlife.umich.edu）</p>
 <br />
 '),
@@ -394,7 +394,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://lsa.umich.edu/hssp/prospective-students/academic-offerings.html">http://lsa.umich.edu/hssp/prospective-students/academic-offerings.html</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="http://lsa.umich.edu/hssp/prospective-students/how-to-apply.html">http://lsa.umich.edu/hssp/prospective-students/how-to-apply.html</a> </p>
-<img src="/freshman-handbook/uploads/qs1.jpg" alt="qs1" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs1.jpg" alt="qs1" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://lsa.umich.edu/hssp）</p>
 <br />
 <p>02. Living Arts</p>
@@ -404,7 +404,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://www.livingarts.umich.edu/requirements.php">http://www.livingarts.umich.edu/requirements.ph</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="http://www.livingarts.umich.edu/apply.php">http://www.livingarts.umich.edu/apply.php</a> </p>
-<img src="/freshman-handbook/uploads/qs2.jpg" alt="qs2" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs2.jpg" alt="qs2" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;" >（图片来源：http://www.livingarts.umich.edu/prospective.php）</p>
 <br />
 <p>03. Lloyd Hall Scholars Program (LHSP)</p>
@@ -414,7 +414,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://lsa.umich.edu/lhsp/prospective-students/program-requirements.html">http://lsa.umich.edu/lhsp/prospective-students/program-requirements.html</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="http://lsa.umich.edu/lhsp/prospective-students/how-to-apply.html">http://lsa.umich.edu/lhsp/prospective-students/how-to-apply.html</a> </p>
-<img src="/freshman-handbook/uploads/qs3.jpg" alt="qs3" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs3.jpg" alt="qs3" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://lsa.umich.edu/lhsp）</p>
 <br />
 <p>04. Michigan Community Scholars Program (MCSP) </p>
@@ -424,7 +424,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="https://lsa.umich.edu/mcsp/prospective-students/program-requirements.html">https://lsa.umich.edu/mcsp/prospective-students/program-requirements.html</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="https://lsa.umich.edu/mcsp/prospective-students/how-to-apply.html">https://lsa.umich.edu/mcsp/prospective-students/how-to-apply.html</a> </p>
-<img src="/freshman-handbook/uploads/qs4.jpg" alt="qs4" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs4.jpg" alt="qs4" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：https://lsa.umich.edu/mcsp）</p>
 <br />
 <p>05. Michigan Research Community (MRC)</p>
@@ -434,7 +434,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://lsa.umich.edu/mrc/students/program-requirements.html">http://lsa.umich.edu/mrc/students/program-requirements.html</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="http://lsa.umich.edu/mrc/students/how-to-apply.html">http://lsa.umich.edu/mrc/students/how-to-apply.html</a> </p>
-<img src="/freshman-handbook/uploads/qs5.jpg" alt="qs5" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs5.jpg" alt="qs5" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://lsa.umich.edu/mrc）</p>
 <br />
 <p>06. Women In Science and Engineering Residence Program (WISE RP)</p>
@@ -444,7 +444,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://lsa.umich.edu/wiserp/prospective-students/program-requirements.html">http://lsa.umich.edu/wiserp/prospective-students/program-requirements.html</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="http://lsa.umich.edu/wiserp/prospective-students/how-to-apply.html">http://lsa.umich.edu/wiserp/prospective-students/how-to-apply.html</a> </p>
-<img src="/freshman-handbook/uploads/qs6.jpg" alt="qs6" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs6.jpg" alt="qs6" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://lsa.umich.edu/wiserp）</p>
 <p>07. LSA Honors Program</p>
 <p>面向：仅LSA学生</p>
@@ -453,7 +453,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://lsa.umich.edu/honors/current-students/academic-information/honors-requirements.html">http://lsa.umich.edu/honors/current-students/academic-information/honors-requirements.html</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="https://www.applytohonors.lsa.umich.edu/">https://www.applytohonors.lsa.umich.edu/</a> </p>
-<img src="/freshman-handbook/uploads/qs7.jpg" alt="qs7" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs7.jpg" alt="qs7" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://lsa.umich.edu/honors）</p>
 <br />
 <p>08. Residential College (RC)</p>
@@ -463,7 +463,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://lsa.umich.edu/rc/current-students/curriculum/requirements.html">http://lsa.umich.edu/rc/current-students/curriculum/requirements.html</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="http://lsa.umich.edu/rc/prospective-students/apply.html">http://lsa.umich.edu/rc/prospective-students/apply.html</a> </p>
-<img src="/freshman-handbook/uploads/qs8.jpg" alt="qs8" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs8.jpg" alt="qs8" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://arts.umich.edu/museums-cultural-attractions/rc-gallery/）</p>
 <p>09. Global Scholars Program (GSP)</p>
 <p>面向：全体大二、大三、大四学生</p>
@@ -471,7 +471,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://lsa.umich.edu/globalscholars/students/requirements---application.html">http://lsa.umich.edu/globalscholars/students/requirements---application.html</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="http://lsa.umich.edu/globalscholars/students/requirements---application.html">http://lsa.umich.edu/globalscholars/students/requirements---application.html</a> </p>
-<img src="/freshman-handbook/uploads/qs9.jpg" alt="qs9" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs9.jpg" alt="qs9" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://lsa.umich.edu/globalscholars）</p>
 <br />
 <p>10. Max Kade German Residence</p>
@@ -481,7 +481,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://lsa.umich.edu/german/undergraduate-students/max-kade-german-residence/how-to-apply.html">http://lsa.umich.edu/german/undergraduate-students/max-kade-german-residence/how-to-apply.html</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="http://lsa.umich.edu/german/undergraduate-students/max-kade-german-residence/how-to-apply.html">http://lsa.umich.edu/german/undergraduate-students/max-kade-german-residence/how-to-apply.html</a> </p>
-<img src="/freshman-handbook/uploads/qs10.jpg" alt="qs10" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs10.jpg" alt="qs10" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://lsa.umich.edu/german）</p>
 <br />
 <p>11. First Year Experience</p>
@@ -489,7 +489,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>简介：First Year Experience 严格来说不算是 Learning Community。从Orientation，到宿舍的各种活动，都算是First Year Experience的一部分。其中，ALA 171 “Making the Most of Michigan” 是一个为大一新生提供的课程，课程通常在各个宿舍中进行，旨在帮助新生了解学校并更好地利用学校资源。</p>
 <p>项目要求：无</p>
 <p>FAQ：<a target="_blank" href="http://housing.umich.edu/fye/faq">http://housing.umich.edu/fye/faq</a> </p>
-<img src="/freshman-handbook/uploads/qs11.jpg" alt="qs11" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs11.jpg" alt="qs11" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：https://www.facebook.com/LifeAtBarbourNewberry）</p>
 <br />
 '),
@@ -500,7 +500,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://lsa.umich.edu/csp/current-students/affiliating-with-csp.html">http://lsa.umich.edu/csp/current-students/affiliating-with-csp.html</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="http://lsa.umich.edu/csp/current-students/affiliating-with-csp.html">http://lsa.umich.edu/csp/current-students/affiliating-with-csp.html</a> </p>
-<img src="/freshman-handbook/uploads/qs12.jpg" alt="qs12" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs12.jpg" alt="qs12" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://lsa.umich.edu/csp）</p>
 <p>13. University Undergraduate Research Program (UROP)</p>
 <p>面向：全体本科生</p>
@@ -509,7 +509,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://lsa.umich.edu/urop/students.html">http://lsa.umich.edu/urop/students.html</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="http://lsa.umich.edu/urop/students.html">http://lsa.umich.edu/urop/students.html</a> </p>
-<img src="/freshman-handbook/uploads/qs13.jpg" alt="qs13" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs13.jpg" alt="qs13" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://lsa.umich.edu/urop/students/fall-winter-programs.html）</p>
 <br />
 <p>14. Mentorship Program</p>
@@ -519,7 +519,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><a target="_blank" href="http://onsp.umich.edu/mentorship/about">http://onsp.umich.edu/mentorship/about</a> </p>
 <p>申请信息：</p>
 <p><a target="_blank" href="http://onsp.umich.edu/mentorship/apply">http://onsp.umich.edu/mentorship/apply</a> </p>
-<img src="/freshman-handbook/uploads/qs14.jpg" alt="qs14" style="width:100%" />
+<img src="/freshman-handbook/uploads/qs14.jpg" alt="qs14" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://onsp.umich.edu/mentorship/events）</p>
 <br />
 '),
@@ -540,7 +540,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：房价偏贵。</p>
 <p>网址：<a target="_blank" href="http://www.zaragonplace.com">http://www.zaragonplace.com</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as1.jpg" alt="as1" style="width:100%" />
+<img src="/freshman-handbook/uploads/as1.jpg" alt="as1" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://collegestudentapartments.com）</p>
 <br />
 <p>02. Zaragon West</p>
@@ -553,7 +553,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：房价偏贵。</p>
 <p>网址：<a target="_blank" href="http://www.zaragonwest.com">http://www.zaragonwest.com</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as2.jpg" alt="as2" style="width:100%" />
+<img src="/freshman-handbook/uploads/as2.jpg" alt="as2" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://www.secondwavemedia.com）</p>
 <br />
 <p>03. University Towers
@@ -566,7 +566,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：设施比较旧，内部环境较差。</p>
 <p>网址：<a target="_blank" href="http://u-towers.com/">http://u-towers.com/</a> </p>
 <p>推荐指数：三颗星</p>
-<img src="/freshman-handbook/uploads/as3.jpg" alt="as3" style="width:100%" />
+<img src="/freshman-handbook/uploads/as3.jpg" alt="as3" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：https://www.apartments.com）</p>
 <br />
 <p>04. Landmark</p>
@@ -585,7 +585,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：价格偏高，到周末周围会比较吵闹，不适合喜欢安静的人居住。</p>
 <p>网址：<a target="_blank" href="https://www.americancampus.com/student-apartments/mi/ann-arbor/landmark">https://www.americancampus.com/student-apartments/mi/ann-arbor/landmark</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as4.jpg" alt="as4" style="width:100%" />
+<img src="/freshman-handbook/uploads/as4.jpg" alt="as4" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://www.annarbor.com）</p>
 <br />
 <p>05. Sterling 411 Lofts</p>
@@ -600,7 +600,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：周围没有 Blue Bus 车站。</p>
 <p>网址：<a target="_blank" href="http://www.4elevenlofts.com/">http://www.4elevenlofts.com/</a></p>
 <p>推荐指数：四星半</p>
-<img src="/freshman-handbook/uploads/as5.jpg" alt="as5" style="width:100%" />
+<img src="/freshman-handbook/uploads/as5.jpg" alt="as5" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：https://offcampushousing.umich.edu）</p>
 <br />
 <p>06. Tower Plaza</p>
@@ -612,7 +612,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：设施比较旧，但不影响美观和使用，价格贵。</p>
 <p>网址：<a target="_blank" href="http://www.towerplaza.net/index.html">http://www.towerplaza.net/index.html</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as6.jpg" alt="as6" style="width:100%" />
+<img src="/freshman-handbook/uploads/as6.jpg" alt="as6" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：https://en.m.wikipedia.org）</p>
 <br />
 <p>07. Varsity</p>
@@ -626,7 +626,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：价格偏高，周围没有 Blue Bus 车站。</p>
 <p>网址：<a target="_blank" href="http://www.varsityannarbor.com/">http://www.varsityannarbor.com/</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as7.jpg" alt="as7" style="width:100%" />
+<img src="/freshman-handbook/uploads/as7.jpg" alt="as7" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://www.annarbor.com）</p>
 <br />
 <p>08. Foundry Lofts</p>
@@ -640,7 +640,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：离中校稍远，周围没有公交车站。</p>
 <p>网址：<a target="_blank" href="https://www.foundryloftsannarbor.com/">https://www.foundryloftsannarbor.com/</a></p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as8.jpg" alt="as8" style="width:100%" />
+<img src="/freshman-handbook/uploads/as8.jpg" alt="as8" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://www.mlive.com）</p>
 <br />
 <p>09. Sterling Arbor Blu</p>
@@ -655,7 +655,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：价格偏高。</p>
 <p>网址：<a target="_blank" href="http://www.sterlinghousing.com/ann-arbor-mi/sterling-arbor-blu/">http://www.sterlinghousing.com/ann-arbor-mi/sterling-arbor-blu/</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as9.jpg" alt="as9" style="width:100%" />
+<img src="/freshman-handbook/uploads/as9.jpg" alt="as9" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://www.sterlinghousing.com）</p>
 <br />
 '),
@@ -670,7 +670,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：房屋位置有内圈和外圈，内圈只能看到 courtyard，采光差，房内灯光暗。</p>
 <p>网址：<a target="_blank" href="http://www.courtyardsapts.com/">http://www.courtyardsapts.com/</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as10.jpg" alt="as10" style="width:100%" />
+<img src="/freshman-handbook/uploads/as10.jpg" alt="as10" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：https://www.apartments.com）</p>
 <p>11. Willowtree Apartment & Towers</p>
 <p>地址：1819 Willowtree Lane</p>
@@ -682,7 +682,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：离中校很远，没有 Blue Bus,但不远有 AATA 的车站可以到中校，价格不算便宜。</p>
 <p>网址：<a target="_blank" href="https://www.americancampus.com/student-apartments/mi/ann-arbor/willowtree-apartments-towe">https://www.americancampus.com/student-apartments/mi/ann-arbor/willowtree-apartments-tower</a> </p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/as11.jpg" alt="as11" style="width:100%" />
+<img src="/freshman-handbook/uploads/as11.jpg" alt="as11" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：https://www.americancampus.com）</p>
 <br />
 <p>12. Huron Towers</p>
@@ -696,7 +696,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：离车站较远，价格偏高，房屋设施一般。</p>
 <p>网址：<a target="_blank" href="http://www.hurontowers.com/index.html">http://www.hurontowers.com/index.html</a></p>
 <p>推荐指数：三颗星</p>
-<img src="/freshman-handbook/uploads/as12.jpg" alt="as12" style="width:100%" />
+<img src="/freshman-handbook/uploads/as12.jpg" alt="as12" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://www.michiganmodern.org）</p>
 '),
 ('校外租房信息', '<p>1. 房屋信息网站及论坛：</p>
@@ -750,25 +750,25 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 ('外国超市', '<p>Ann Arbor 地区比较著名的综合性超市包括 Kroger, Meijer, Walmart, Target 等等。</p>
 <br />
 <p>1. Kroger Plymouth Rd 分店是离北校区最近的 24 小时营业的大超市。坐校车 Northwood 到北校区的 McIntyre Dr.站，向北穿过 Plymouth Road，就可以看见位于 Plymouth Mall 中心的 Kroger 了。亦可搭乘 AATA 的 2 路公共汽车到 Plymouth Mall 站（学生持 Mcard 免费乘车）。你可以在那里买到一些急需的生 活东西，比如蔬菜，水果，肉类，饮料（购买含酒精饮料需要出示证明你年满 21 岁的 ID），厨房用品，洗 发水等等。Kroger 在 Packard Road, Carpenter Road, Industrial Road 上还有其它几个分店。其详细地址 和营业时间可以在 Kroger 的网页上查到：<a target="_blank" href="http://www.kroger.com/">http://www.kroger.com/</a>。</p>
-<img src="/freshman-handbook/uploads/zx1.png" alt="zx1" style="width:100%" />
+<img src="/freshman-handbook/uploads/zx1.png" alt="zx1" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 <p>2. Meijer是一家犹太人开的综合性大型连锁超市。每年秋季开学的时候学校会组织大巴接送学生去购物，请新生们注意 orientation 上相关的信息。Ann Arbor 附近有三家 Meijer，分别位于 Carpenter Road，Ann Arbor-Saline Road 和 Jackson Road。虽然它们的距离都比 Kroger 较远，但是那里的东西价格相对便宜， 种类也齐全一些。周末经常会有降价销售活动，所以比较适合周末购物。另外 Meijer 是 24 小时开放的。它的网址是：<a target="_blank" href="http://www.meijer.com/">http://www.meijer.com/</a>。</p>
-<img src="/freshman-handbook/uploads/zx2.png" alt="zx2" style="width:100%" />
+<img src="/freshman-handbook/uploads/zx2.png" alt="zx2" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 <p>3. Walmart是全球销售量最高的综合性连锁超市，距离也比较远。相对 Meijer 来说，Walmart 的日用百货种类繁多，各种 size也相当齐备，所以经常都能在那里找到一些其它超市没有的东东。另外，由于大多数的百 货都是“Made in China”，所以价格极为便宜。离 Ann arbor 最近的一家 Walmart 位于 Ypsilanti 的 Ellsworth Road 上。Walmart 的网址是：<a target="_blank" href="http://www.walmart.com">http://www.walmart.com</a>。</p>
-<img src="/freshman-handbook/uploads/zx3.png" alt="zx3" style="width:100%" />
+<img src="/freshman-handbook/uploads/zx3.png" alt="zx3" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 <p>4. Sam’s Club是Walmart所属的‘山姆大叔俱乐部’。这里的东西一直以价格低廉，份量大而闻名，是喜欢居家过日子的人的最爱。在这里，你可以买到各种甜品，饮料，蔬菜，肉类，日用生活品和常见的保健药（比如说远远低于药店价格的鱼油，钙片和卵磷脂）。不过，唯一不好的地方就是你得先申请 membership 才能在 Sam’s Club 购物，年费从 30 美元到 100 美元不等。申请了卡之后还可以带你的朋友进去购物。 Ann arbor 附近的 Sam’s Club 位于 5450 Carpenter Road.其网址是：<a target="_blank" href="http://samsclub.com">http://samsclub.com</a>。</p>
-<img src="/freshman-handbook/uploads/zx4.png" alt="zx4" style="width:100%" />
+<img src="/freshman-handbook/uploads/zx4.png" alt="zx4" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 <p>5. Target是位于一个主要卖家居用品和少量电器的超市。相对于其它的大超市，这里的东西要   fancy   了许多，它以包装精美，质量好闻名。不过，正如你能猜到的那样，Target 东西的价格也比一般的超市高出一些。在 Ann Arbor 附近有两家，一家位于 2000 W Waters Road, 另一家位于 3749 Capenter Road。Target 的网址为: <a target="_blank" href="http://www.target.com">http://www.target.com</a>。</p>
-<img src="/freshman-handbook/uploads/zx5.png" alt="zx5" style="width:100%" />
+<img src="/freshman-handbook/uploads/zx5.png" alt="zx5" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 <p>6. CVS是位于中校校区内的一家中型超市，地理位置是它最大的优势。平时若没空去那些大型超市，CVS   也是一个选择。它提供普通日用品，食物等。地址为 209 South State Street, Ann Arbor, MI 48104。</p>
-<img src="/freshman-handbook/uploads/zx6.png" alt="zx6" style="width:100%" />
+<img src="/freshman-handbook/uploads/zx6.png" alt="zx6" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 <p>7. Walgreens也是位于中校校区内的一家超市，提供日用品，食物等。地址为317S. State St., Ann Arbor, MI.</p>
-<img src="/freshman-handbook/uploads/zx7.png" alt="zx7" style="width:100%" />
+<img src="/freshman-handbook/uploads/zx7.png" alt="zx7" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 '),
 ('中国超市', '<p>如果你想买有中国特色，美国超市很难买到的蔬菜（如莲藕，空心菜，苦瓜，冬瓜等），调料品（如各种调味酱，火锅底料等），食品（瓜子，雪米饼，八宝粥）以及中式的炒锅和电饭锅等，则要去中国店。</p>
@@ -804,11 +804,11 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>Amazon 是全球最大的 B2C 电商。货品齐全且价格公道。各种日用品，服装，电器，食物等都有供应。在美国 Amazon 网站上注册一个账号，并提供银行卡信息及送货信息就可开始购物了。需要注意的是这个 Amazon
     与国内亚马逊不可混用。学生凭学校邮箱可以免费获得 6 个月的 Prime 服务，到期后可以以学生价 继续订购此项服务。具体参考：
     https://www.amazon.com/gp/student/signup/info/ref=lp_student/188-5790946-9340369</p>
-<img src="/freshman-handbook/uploads/zc1.png" alt="zc1" style="display:block; width:500px; max-width: 80%; margin: 20px auto"/>
+<img src="/freshman-handbook/uploads/zc1.png" alt="zc1" style="display: block; width: 500px; max-width: 80%; margin: 20px auto"/>
 <br/>
 <p>ebay 与淘宝类似，增加了 auction 功能，就是以竞价的方式进行购买，可以买到非常便宜的商品。另外它的二手商品交易也很成熟健全。在购物之前需要注册易趣账号以及 paypal
     账号（相当于国内的支付宝），并提供银行卡信息和送货地址。</p>
-<img src="/freshman-handbook/uploads/zc2.png" alt="zc2" style="display:block; width:500px; max-width: 80%; margin: 20px auto"/>
+<img src="/freshman-handbook/uploads/zc2.png" alt="zc2" style="display: block; width: 500px; max-width: 80%; margin: 20px auto"/>
 <br/>
 <p>以上两个网站也是购买教科书的良好途径。Amazon 提供买与租两种方式。购买新书一般比书店便宜 20%以上，而二手书根据实际情况比新书进一步便宜 20%到 50%。学期末还可以将书卖回 amazon，账户内可以获
     得一定量的现金券，用于下次购物。若是租的话就更加便宜了，须在截止日前将书寄回，邮费由 amazon 承 担。Ebay 一样有新书以及二手书的出售，有些还有国际版出售，价格通常便宜一半以上。</p>
@@ -926,8 +926,8 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 '),
 ('Blue Bus & AATA Bus', '<p>学校校区间的交通很方便，Blue Bus 除了特殊节假日外，每天从早到半夜都有固定班次，校区之间按照路程 和人流量，交通时间在十到二十分钟不等。想去 Briarwood，Meijer，Walmart 的同学则需要乘坐 AATA Bus，可以刷 M-card 免费乘坐，每班车之间相隔大概半个小时。</p>
 <p>具体线路可通过下方这个APP进行查询</p>
-<img src="/freshman-handbook/uploads/pl1.png" alt="pl1" style="width:100%" />
-<img src="/freshman-handbook/uploads/pl2.png" alt="pl2" style="width:100%" />
+<img src="/freshman-handbook/uploads/pl1.png" alt="pl1" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/pl2.png" alt="pl2" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 '),
 ('Safe Ride & Taxi & 租车', '<p>对于没有车的同学，夜间出行或者去较远的地方，Safe Ride 和 Taxi 是合理的选择。</p>
 <br />
@@ -969,57 +969,57 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <br />
 '),
 ('安娜说话剧社 (Thus Spoke Ann Arbor)', '<p>	密西根大学安娜说话剧社成立于2013年11月，旨在采用话剧的艺术表现手法，打造中国文化品牌。我社是密西根大学的非营利性学生话剧社团，也是密西根大学最大的华人社团之一。这里聚集了一批热爱话剧并且投身于话剧艺术的人们。从演出到宣传稿，从幕后制作到活动组织，我们欢迎各个专业的才子。安娜说为大家提供了一个了解参与话剧并且一起进行课余活动的平台，社团不仅每学期举办Acting Workshop, 剧本朗读会，戏剧观摩等活动，并在每年举办小剧场和年度大戏的演出。我社成立至今出品了《恋爱的犀牛》、《思凡》、《日出》、《无人生还》的年度大戏，且在小剧场演出中出品过近十部作品。安娜说给密西根安娜堡地区的华人群体带来了精彩的文化盛宴，也吸引了各国观众更多的了解中文话剧。在安娜说，我们不仅是一个精彩出色的社团，更是一个温暖的大家庭。在日后，我们将呈现更多风格和更精致的作品，也期待更多话剧爱好者加入我们的大家庭。</p>
-<img src="/freshman-handbook/uploads/po1-1.jpg" alt="po1-1" style="width:100%" />
-<img src="/freshman-handbook/uploads/po1-2.jpg" alt="po1-2" style="width:100%" />
-<img src="/freshman-handbook/uploads/po1-3.jpg" alt="po1-3" style="width:100%" />
-<img src="/freshman-handbook/uploads/po1-4.jpg" alt="po1-4" style="width:100%" />
+<img src="/freshman-handbook/uploads/po1-1.jpg" alt="po1-1" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/po1-2.jpg" alt="po1-2" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/po1-3.jpg" alt="po1-3" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/po1-4.jpg" alt="po1-4" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 '),
 ('Dream Crops', '<p>	梦想行动密大分会（后简称梦想密大）是一个以服务全密大(华人)学生团体为主旨，为(中国)贫困乡村孩童集资捐书为目标的非盈利慈善组织。其资金来源包含《密大非诚勿扰》、《密大情人节单身派对》、《密大万圣节派对》等大型慈善活动，以及各项社区公益活动。梦想密大自成立以来高度弘扬和平、团结、尊重的组织风范，汇集密大各院系精英人才，通过其专业的活动筹办经验以及不断创新的组织理念，丰富密大学生的业余娱乐生活。梦想密大每年暑期组织学生去中国甘肃、河南、贵州三大省的各乡村站点进行专业的支教义工活动，致力于提升乡村孩童对书籍的关注度。梦想行动分会遍及北美各大学，包括弗吉尼亚、杜克、印第安纳、德克萨斯、多伦多、滑铁卢、麦吉尔和伦敦大学，在中国南京大学也有分会。</p>
-<img src="/freshman-handbook/uploads/po2.jpg" alt="po2" style="width:100%" />
+<img src="/freshman-handbook/uploads/po2.jpg" alt="po2" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 '),
 ('茉莉舞团：一双舞鞋 一个梦想', '<p>	茉莉舞团是一个基于美国密西根大学安娜堡的属于中国人的舞团。由海外留学生发起，吸收各地海外留学生，华侨，进行舞蹈艺术培训及舞蹈艺术演出。意于宣扬中国传统文化以及中国街舞文化，立志于以舞蹈的形式弘扬中国人的精神以及文化。以中国古典舞，现代舞为文化核心，同时发展及促进街舞，爵士舞，hiphop文化发展及与海外舞者的文化交流。</p>
 <p>	茉莉舞团虽创立短短两年之久，如今已在全美各地都有过表演经历，与多个大学均有合作。在2017年初甚至举办了一场属于自己的时长两小时的舞蹈盛宴。</p>
-<img src="/freshman-handbook/uploads/po3-1.png" alt="po3-1" style="width:100%" />
-<img src="/freshman-handbook/uploads/po3-2.jpg" alt="po3-2" style="width:100%" />
+<img src="/freshman-handbook/uploads/po3-1.png" alt="po3-1" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/po3-2.jpg" alt="po3-2" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 '),
 ('安娜贝拉 (Annappella)', '<p>	安娜贝拉（Annappella）是密西根大学第一个华人阿卡贝拉人声乐团，成立于2015年12月，旨在为热爱阿卡贝拉（无伴奏人声清唱）音乐形式的同学提供一个交流和演出平台，并通过训练高质量的演出团体，逐步推出视频录制作品、原创音乐和专场演出</p>
 <p>	安娜贝拉于2016年第一学期在中秋晚会上表演了“i want you back” 和 “honey I''m good”，下半学期中，安娜贝拉在密大春晚上表演了“伤心的人别听慢歌”，并在非诚勿扰表演了 “王妃” 跟 “本草纲目” </p>
 <p>	安娜贝拉创始团队不仅集合了有多年专业学习和合唱队经历、或在密大好声音等校园歌手比赛中表现精彩的音乐才子和编曲作曲小能手们，还有在团队组织、常务管理、文字宣传、摄影后期等方面有丰富经验的同学。我们的团队组织严肃，气氛活泼，出得厅堂，入得烤串，玩得起古典，飚得起BBox；画风丰富多变，欢迎热爱音乐和热爱阿卡贝拉的你的加入，带来更意想不到的精彩未来。</p>
 <p>	安娜贝拉今后将更活跃于微信公众号音乐视频的录制和推送，敬请关注。</p>
-<img src="/freshman-handbook/uploads/po4.jpg" alt="po4" style="width:100%" />
+<img src="/freshman-handbook/uploads/po4.jpg" alt="po4" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 '),
 ('HKSA', '<p>Hong Kong student association aims to introduce Hong Kong culture to students, strengthens bonding between members and provides member with both cultural and social events.</p>
 <br />
 <p>香港學生會的宗旨是介紹香港文化，建立成員間的友誼，並提供文化和社交活動給會員。</p>
-<img src="/freshman-handbook/uploads/po5.jpg" alt="po5" style="width:100%" />
+<img src="/freshman-handbook/uploads/po5.jpg" alt="po5" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 '),
 ('Michigan Chinese Business Club (MCBC)', '<p>	MCBC致力于帮助广大中国及华裔学生寻找工作机会，提供一个知识与经验分享的平台。自创立以来，MCBC飞速发展，成为了第一个也是唯一被ROSS商学院认可、专业为中国学生服务的商学社团。我们已连续两年举办国际职业峰会，邀请到了高盛、麦肯锡、摩根大通、安永等的学长学姐们传授经验。加入MCBC，你可以参与商业案例与股市走向分析，以及各种讲座来提升你的软实力。你还将获得一对一的免费导师辅导，手把手教你写简历，建立只属于你的职业规划。2015-16 Ross商学院申请季我们的application workshop更是达到了100%的录取率！了解更多详情请参加位于Ross的Fall Festival，选择加入我们吧！</p>
-<img src="/freshman-handbook/uploads/po6.jpg" alt="po6" style="width:100%" />
+<img src="/freshman-handbook/uploads/po6.jpg" alt="po6" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 '),
 ('中国经济发展协会 (ACED)', '<p>	中国经济发展协会（ACED）是ROSS商学院历史最悠久影响力最大成员最多的由华人创建的商业社团，也是唯一一个将商业与中国经济政治发展相结合，面向各种族各专业的中国主题社团。教育，职业与社交是贯穿ACED社团活动的三大主线。每周例会cover中国最热的商业经济政治话题，为社员营造无与伦比的独特视角观察中国经济洞悉中国未来，ACED更与中国工商银行（ICBC）合作，让成员与金融专家银行高管一起畅谈中国发展。ACED独特的职业培养团队由商院前辈提供interview，presentation,resume的workshop，为你走向职场铺路搭桥。ACED alumni遍及世界各500强企业，包括四大会计师事务所，高盛黑石麦肯锡，每年的ACED career fair都有alumni倾情回归，当面向你传授实习工作经验，手把手把你了解每一个你想了解从事的行业。ACED更是一个大家庭，是一个social networking的黄金平台，定期举办的social event让你了解不同背景的精英人才。对于有意申请ROSS的大一新生，ACED的前辈更是绝好的资源和导师，无私地为每一个申请者提供essay和application的建议和帮助。ACED每年举办WASSUP CHINA和商业挑战赛等大型活动，皆能吸引全校各社团各商业团队报名参加，更有商院老师莅临指导，影响力巨大。如果你想进入ACED，要通过非常selective admission process，去年录取率甚至低于ROSS商学院往年录取率，而进入ACED的大一新生的商院录取率极高。如果你是一个对中国对商业感兴趣，乐于迎接挑战做出改变的人，那你还在等什么，快抓住机会申请加入ACED吧！</p>
-<img src="/freshman-handbook/uploads/po7.jpg" alt="po7" style="width:100%" />
+<img src="/freshman-handbook/uploads/po7.jpg" alt="po7" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 '),
 ('中华创新与创业联盟 (CEN)', '<p>	中华创新与创业联盟（China Entrepreneur Network）密大分部创立于2009年。7年来，密大CEN本着助力学生成长的宗旨，提倡仁爱、探索、创新、实干的精神，致力于培养具有服务社会理想、具备专业知识素养的青年领袖，为学生们提供交流与实践的优质平台。</p>
 <p>	作为一个由学校官方认证的Ross Club，我们的绝大部分社员均就读于或已毕业于Ross商学院。密西根大学罗斯商学院（Ross School of Business）本科工商管理项目 US News 最新排名全美#4。2006年华尔街日报将其MBA项目评为全美#1。针对Ross商学院严苛的录取标准，我们将对活跃的新社员提供个性化的申请指导。同时，我们拥有大量优质校友资源，帮助社员在US/HK金融行业职位的激烈竞争中脱颖而出。</p>
 <p>	密大CEN定期邀请成功创业者及各行业领域高管、专家学者开展主题论坛，每周开办知识性的社团活动，帮助成员了解商业运营、金融、市场、政策、投资、企业管理等相关知识。此外，密大CEN举办的年度中华创业大赛 （China Business Challenge），更吸引了无数优秀高校学生投身到创新和创业的领域中。CEN在全球几十所优秀高校均设有分部，包括斯坦福大学、华盛顿大学、密西根州立大学、香港科技大学、西南交通大学等。</p>
-<img src="/freshman-handbook/uploads/po8.jpg" alt="po8" style="width:100%" />
+<img src="/freshman-handbook/uploads/po8.jpg" alt="po8" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 '),
 ('安城文化沙龙', '<p>	安城文化沙龙2008年首创于密西根大学，如今姊妹沙龙遍布北美多个城市，是一个相互拓展知识疆域的开放平台。往期精彩活动和嘉宾搜索微信公众平台“安城文化沙龙”。</p>
-<img src="/freshman-handbook/uploads/po9.jpg" alt="po9" style="width:100%" />
+<img src="/freshman-handbook/uploads/po9.jpg" alt="po9" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 '),
 ('VeryUS', '<p>	VeryUs舞团成立于2011年，成立至今已发展为30余人的华人女生舞团。基于美国密西根安娜堡大学，VeryUs舞团聚集着一群充满活力，热爱Kpop、Jazz、Power dance的女生们。她们舞蹈风格多样，舞团名称“VeryUs”谐音“various”，意指在密大好声音与春晚等大型舞台上，致力于尝试不同的舞蹈风格打造属于自己独一无二的风格，高质量完成每次的表演。</p>
 <p>	不硬性要求舞蹈基础，只需热爱舞蹈这一个基准便可加入。舞团的主要活动有定期的舞蹈排练以及大型活动演出。</p>
-<img src="/freshman-handbook/uploads/po10.jpg" alt="po10" style="width:100%" />
+<img src="/freshman-handbook/uploads/po10.jpg" alt="po10" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 '),
 ('密西根大学中国本科学生会', '<p>	CUSA由多位密西根大学安娜堡分校的学生成立于2010年。我们主要针对本科的华人和其他国籍的国际学生，在繁忙学业之余，为校园生活更添娱乐精神，并且在密大这个大团体中结交更多的挚友。CUSA是一个非盈利目的的学生组织，注册于密西根大学下。</p>
 <p>	在过去的几年中，我们成功的创造和实践了许多大大小小的活动，给学生们带来欢乐。欢迎同学们在即将来临的秋天，参与我们的活动，或者加入CUSA，成为我们的一员。</p>
-<img src="/freshman-handbook/uploads/po11.png" alt="po11" style="width:100%" />
+<img src="/freshman-handbook/uploads/po11.png" alt="po11" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <br />
 <br />
 ');
