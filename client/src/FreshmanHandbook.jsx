@@ -17,6 +17,7 @@ import FreshmanHandbookSection from './FreshmanHandbookSection';
 import FreshmanHandbookPrevNext from './FreshmanHandbookPrevNext';
 import FreshmanHandbookSectionStart from './FreshmanHandbookSectionStart';
 import FreshmanHandbookSearchResults from './FreshmanHandbookSearchResults';
+import FreshmanHandbookCredits from './FreshmanHandbookCredits';
 
 const $ = require('jquery');
 
@@ -150,7 +151,8 @@ class FreshmanHandbook extends React.Component {
                            component={FreshmanHandbookArticle}/>
                     <Route strict exact path={`${this.props.match.url}:menu/:submenu/:title/`}
                            component={FreshmanHandbookArticle}/>
-
+                    <Route strict exact path={`${this.props.match.url}credits/`}
+                           component={FreshmanHandbookCredits}/>
                 </div>
 
 
