@@ -127,12 +127,12 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 ('International Orientation', '<p>本科学生在开学前<span style="color:red">必须</span>参加 International Center 举办的迎新活动 (International Orientation)。<span style="color:red">研究生和交流访问学者并不做硬性要求，但也欢迎大家参加 Orientation 中的各类 workshops 以及 social events，也是结识小伙伴的大好机会。  </p>
 <p>开学后UM-CSSA会举办BBQ活动，活动信息请关注UM-CSSA公众号推送。</span></p>
 <p>本科学生必须前往 Wolverine Access → Undergraduate Orientation 页面注册 orientation 活动。（研究生和访问学者并不要求注册) 如果在刷新网页时页面无法显示，可联系 I-Center 寻求帮助。注册 Orientation 一般有两个选择，一个面向 transfer student，另一个面向 international student。<span style="color:red">在此建议大家选择 international orientation, 因为后者对于学校各项事宜的介绍更为全面完整。</span>在注册结束之后请密切关注 orientation 的时间表，做好参加活动的准备工作。Orientation 会持续 5-6 天，期间大家可以积极关注各类主题的 workshops 以及 social events，了解有关校园、选课、住宿等相关信息。
-<p><b>Orientation</b> 的详细信息可参考以下链接：  <a target="_blank" href="http://www.internationalcenter.umich.edu/events/orientation_events.html">http://www.internationalcenter.umich.edu/events/orientation_events.html </a></p>
+<p><b>Orientation</b> 的详细信息可参考以下链接：<a target="_blank" href="http://www.internationalcenter.umich.edu/events/orientation_events.html">http://www.internationalcenter.umich.edu/events/orientation_events.html </a></p>
 <p><b>I-Center Contact Information</b> (<span style="color:red">建议大家打电话联系 I-center 更有效率</span>)：
-<p>·地址: 1500 Student Activities Building, 515 E. Jefferson Street</p>
-<p>·电话: (734) 764-9310</p>
-<p>·E-mail: icenter@umich.edu</p>
-<p>·<a target="_blank" href="https://internationalcenter.umich.edu/about/services">https://internationalcenter.umich.edu/about/services</a></p>
+<p>· 地址: 1500 Student Activities Building, 515 E. Jefferson Street</p>
+<p>· 电话: (734) 764-9310</p>
+<p>· E-mail: icenter@umich.edu</p>
+<p>· <a target="_blank" href="https://internationalcenter.umich.edu/about/services">https://internationalcenter.umich.edu/about/services</a></p>
 <br />
 '),
 ('M-Card', '<p>M-Card 是 UM 的校园卡， 涵盖公交、住宿、体育馆、图书馆等多重功能。M-Card 在orientation的时候就可以领取。开学前学校会要求上传 M-card 上的相片。 </p>
@@ -752,28 +752,28 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>1. Kroger Plymouth Rd 分店是离北校区最近的 24 小时营业的大超市。坐校车 Northwood 到北校区的 McIntyre Dr.站，向北穿过 Plymouth Road，就可以看见位于 Plymouth Mall 中心的 Kroger 了。亦可搭乘 AATA 的 2 路公共汽车到 Plymouth Mall 站（学生持 Mcard 免费乘车）。你可以在那里买到一些急需的生 活东西，比如蔬菜，水果，肉类，饮料（购买含酒精饮料需要出示证明你年满 21 岁的 ID），厨房用品，洗 发水等等。Kroger 在 Packard Road, Carpenter Road, Industrial Road 上还有其它几个分店。其详细地址 和营业时间可以在 Kroger 的网页上查到：<a target="_blank" href="http://www.kroger.com/">http://www.kroger.com/</a>。</p>
 <img src="/freshman-handbook/uploads/zx1.png" alt="zx1" style="display: block; width: 300px; max-width: 80%; margin: 20px auto" />
 <br />
-<p>2. Meijer是一家犹太人开的综合性大型连锁超市。每年秋季开学的时候学校会组织大巴接送学生去购物，请新生们注意 orientation 上相关的信息。Ann Arbor 附近有三家 Meijer，分别位于 Carpenter Road，Ann Arbor-Saline Road 和 Jackson Road。虽然它们的距离都比 Kroger 较远，但是那里的东西价格相对便宜， 种类也齐全一些。周末经常会有降价销售活动，所以比较适合周末购物。另外 Meijer 是 24 小时开放的。它的网址是：<a target="_blank" href="http://www.meijer.com/">http://www.meijer.com/</a>。</p>
+<p>2. Meijer 是一家犹太人开的综合性大型连锁超市。每年秋季开学的时候学校会组织大巴接送学生去购物，请新生们注意 orientation 上相关的信息。Ann Arbor 附近有三家 Meijer，分别位于 Carpenter Road，Ann Arbor-Saline Road 和 Jackson Road。虽然它们的距离都比 Kroger 较远，但是那里的东西价格相对便宜， 种类也齐全一些。周末经常会有降价销售活动，所以比较适合周末购物。另外 Meijer 是 24 小时开放的。它的网址是：<a target="_blank" href="http://www.meijer.com/">http://www.meijer.com/</a>。</p>
 <img src="/freshman-handbook/uploads/zx2.png" alt="zx2" style="display: block; width: 300px; max-width: 80%; margin: 20px auto" />
 <br />
-<p>3. Walmart是全球销售量最高的综合性连锁超市，距离也比较远。相对 Meijer 来说，Walmart 的日用百货种类繁多，各种 size也相当齐备，所以经常都能在那里找到一些其它超市没有的东东。另外，由于大多数的百 货都是“Made in China”，所以价格极为便宜。离 Ann arbor 最近的一家 Walmart 位于 Ypsilanti 的 Ellsworth Road 上。Walmart 的网址是：<a target="_blank" href="http://www.walmart.com">http://www.walmart.com</a>。</p>
+<p>3. Walmart 是全球销售量最高的综合性连锁超市，距离也比较远。相对 Meijer 来说，Walmart 的日用百货种类繁多，各种 size也相当齐备，所以经常都能在那里找到一些其它超市没有的东东。另外，由于大多数的百 货都是“Made in China”，所以价格极为便宜。离 Ann arbor 最近的一家 Walmart 位于 Ypsilanti 的 Ellsworth Road 上。Walmart 的网址是：<a target="_blank" href="http://www.walmart.com">http://www.walmart.com</a>。</p>
 <img src="/freshman-handbook/uploads/zx3.png" alt="zx3" style="display: block; width: 300px; max-width: 80%; margin: 20px auto" />
 <br />
-<p>4. Sam’s Club是Walmart所属的‘山姆大叔俱乐部’。这里的东西一直以价格低廉，份量大而闻名，是喜欢居家过日子的人的最爱。在这里，你可以买到各种甜品，饮料，蔬菜，肉类，日用生活品和常见的保健药（比如说远远低于药店价格的鱼油，钙片和卵磷脂）。不过，唯一不好的地方就是你得先申请 membership 才能在 Sam’s Club 购物，年费从 30 美元到 100 美元不等。申请了卡之后还可以带你的朋友进去购物。 Ann arbor 附近的 Sam’s Club 位于 5450 Carpenter Road.其网址是：<a target="_blank" href="http://samsclub.com">http://samsclub.com</a>。</p>
+<p>4. Sam''s Club 是 Walmart 所属的“山姆大叔俱乐部”。这里的东西一直以价格低廉，份量大而闻名，是喜欢居家过日子的人的最爱。在这里，你可以买到各种甜品，饮料，蔬菜，肉类，日用生活品和常见的保健药（比如说远远低于药店价格的鱼油，钙片和卵磷脂）。不过，唯一不好的地方就是你得先申请 membership 才能在 Sam''s Club 购物，年费从 30 美元到 100 美元不等。申请了卡之后还可以带你的朋友进去购物。Ann Arbor 附近的 Sam''s Club 位于 5450 Carpenter Road。其网址是：<a target="_blank" href="http://samsclub.com">http://samsclub.com</a>。</p>
 <img src="/freshman-handbook/uploads/zx4.png" alt="zx4" style="display: block; width: 300px; max-width: 80%; margin: 20px auto" />
 <br />
-<p>5. Target是位于一个主要卖家居用品和少量电器的超市。相对于其它的大超市，这里的东西要   fancy   了许多，它以包装精美，质量好闻名。不过，正如你能猜到的那样，Target 东西的价格也比一般的超市高出一些。在 Ann Arbor 附近有两家，一家位于 2000 W Waters Road, 另一家位于 3749 Capenter Road。Target 的网址为: <a target="_blank" href="http://www.target.com">http://www.target.com</a>。</p>
+<p>5. Target 是位于一个主要卖家居用品和少量电器的超市。相对于其它的大超市，这里的东西要 fancy 了许多，它以包装精美，质量好闻名。不过，正如你能猜到的那样，Target 东西的价格也比一般的超市高出一些。在 Ann Arbor 附近有两家，一家位于 2000 W Waters Road, 另一家位于 3749 Capenter Road。Target 的网址为: <a target="_blank" href="http://www.target.com">http://www.target.com</a>。</p>
 <img src="/freshman-handbook/uploads/zx5.png" alt="zx5" style="display: block; width: 300px; max-width: 80%; margin: 20px auto" />
 <br />
-<p>6. CVS是位于中校校区内的一家中型超市，地理位置是它最大的优势。平时若没空去那些大型超市，CVS   也是一个选择。它提供普通日用品，食物等。地址为 209 South State Street, Ann Arbor, MI 48104。</p>
+<p>6. CVS 是位于中校校区内的一家中型超市，地理位置是它最大的优势。平时若没空去那些大型超市，CVS 也是一个选择。它提供普通日用品，食物等。地址为 209 South State Street, Ann Arbor, MI 48104。</p>
 <img src="/freshman-handbook/uploads/zx6.png" alt="zx6" style="display: block; width: 300px; max-width: 80%; margin: 20px auto" />
 <br />
-<p>7. Walgreens也是位于中校校区内的一家超市，提供日用品，食物等。地址为317S. State St., Ann Arbor, MI.</p>
+<p>7. Walgreens 也是位于中校校区内的一家超市，提供日用品，食物等。地址为 317S. State St., Ann Arbor, MI。</p>
 <img src="/freshman-handbook/uploads/zx7.png" alt="zx7" style="display: block; width: 300px; max-width: 80%; margin: 20px auto" />
 <br />
 '),
 ('中国超市', '<p>如果你想买有中国特色，美国超市很难买到的蔬菜（如莲藕，空心菜，苦瓜，冬瓜等），调料品（如各种调味酱，火锅底料等），食品（瓜子，雪米饼，八宝粥）以及中式的炒锅和电饭锅等，则要去中国店。</p>
 <br />
-<p>Ann Arbor 有两家比较大的中国店。一家是东华 (Way 1 Supermarket) ，位于 Kroger 东边，Plymouth Road 与 Nixon 交界处的Mall 里。另一家是华兴超市 (Hua Xing Asia Market)，位于 1867 Washtenaw Ave, Ypsilanti, MI, 48197。还有位于 4177Carpenter Rd, Ypsilanti, MI, 48197 的金港超市也可作为选择之一。</p>
+<p>Ann Arbor 有两家比较大的中国店。一家是东华 (Way 1 Supermarket) ，位于 Kroger 东边，Plymouth Road 与 Nixon 交界处的 Mall 里。另一家是华兴超市 (Hua Xing Asia Market)，位于 1867 Washtenaw Ave, Ypsilanti, MI, 48197。还有位于 4177 Carpenter Rd, Ypsilanti, MI, 48197 的金港超市也可作为选择之一。</p>
 <br />
 '),
 ('一元店', '<p>Dollar chain 和 Dollar tree 是卖厨房用具和小装饰品的连锁超市――也就是美国的“一元店”。所以在这儿你可以买到很多物美价廉的日常用品。在不少大超市的附近，都有这种一元店。所以你到超市去买东西之余，可以顺便去一元店逛逛哦。</p>
@@ -803,7 +803,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <br/>
 <p>Amazon 是全球最大的 B2C 电商。货品齐全且价格公道。各种日用品，服装，电器，食物等都有供应。在美国 Amazon 网站上注册一个账号，并提供银行卡信息及送货信息就可开始购物了。需要注意的是这个 Amazon
     与国内亚马逊不可混用。学生凭学校邮箱可以免费获得 6 个月的 Prime 服务，到期后可以以学生价 继续订购此项服务。具体参考：
-    https://www.amazon.com/gp/student/signup/info/ref=lp_student/188-5790946-9340369</p>
+    <a target="_blank" href="https://www.amazon.com/gp/student/signup/info/ref=lp_student/188-5790946-9340369">https://www.amazon.com/gp/student/signup/info/ref=lp_student/188-5790946-9340369</a></p>
 <img src="/freshman-handbook/uploads/zc1.png" alt="zc1" style="display: block; width: 300px; max-width: 80%; margin: 20px auto"/>
 <br/>
 <p>ebay 与淘宝类似，增加了 auction 功能，就是以竞价的方式进行购买，可以买到非常便宜的商品。另外它的二手商品交易也很成熟健全。在购物之前需要注册易趣账号以及 paypal
@@ -818,7 +818,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>不论在哪家网站上购物，退货政策都须事先了解好。Amazon 根据商品类别不同退货政策有所不同。有 prime 服务的用户可以享受更大范围的的免邮费退换货，而且通常由 amazon 直接销售的商品要比私人卖家挂在amazon
     上销售的商品退换货容易一些。Ebay 的退货政策是卖家制定的，在商品页面会有详细的说明。</p>
 '),
-('食材和药品', '<p>Joe Randazzos 是墨西哥人开的一个蔬菜水果超市，位于距离 Ann Arbor 大约有半个小时的车程的 Canton。 虽然远了一些，但是那里的蔬菜，水果种类繁多，价格也极为便宜，远远低于 Kroger 和 Meijer。如果你是 一个经常自己在家做饭的主，周末去 Randazzo 买菜应该是一个不错的选择。具体请见：www.-joerandazzos.com </p>
+('食材和药品', '<p>Joe Randazzos 是墨西哥人开的一个蔬菜水果超市，位于距离 Ann Arbor 大约有半个小时的车程的 Canton。 虽然远了一些，但是那里的蔬菜，水果种类繁多，价格也极为便宜，远远低于 Kroger 和 Meijer。如果你是 一个经常自己在家做饭的主，周末去 Randazzo 买菜应该是一个不错的选择。具体请见：<a target="_blank" href="www.joerandazzos.com">www.joerandazzos.com</a> </p>
 <br />
 <p>若需买药品，可以去 CVS pharmacy, Walgreen 等药店。一些普通的药品也可以在 Walmart 和 Meijer 等大型超市内购买。</p>
 '),
@@ -873,7 +873,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <br />
 <br />
 '),
-('音乐会', '<p>安娜堡拥有一个世界一流的音乐协会,University Music Society (UMS)。 每年的夏天，UMS 都会公布未来 一年的音乐会时间。一般地说，每年的演出从九月开始，到次年五月结束。 在这段时间内，全世界各国的音乐家，舞蹈家，戏剧家会安娜堡带来几十场不同领域，风格的演出，其中包括: 交响乐，室内乐，声乐，器乐， 舞蹈，话剧等等。 过去几年中，柏林爱乐乐团，俄罗斯国家交响乐团，荷兰阿姆斯特丹音乐厅交响乐团，维 也纳爱乐乐团，纽约爱乐乐团都曾在安娜堡的音乐厅受到听众热烈的欢迎。</p>
+('音乐会', '<p>安娜堡拥有一个世界一流的音乐协会,University Music Society (UMS)。 每年的夏天，UMS 都会公布未来 一年的音乐会时间。一般地说，每年的演出从九月开始，到次年五月结束。 在这段时间内，全世界各国的音乐家，舞蹈家，戏剧家会安娜堡带来几十场不同领域，风格的演出，其中包括: 交响乐，室内乐，声乐，器乐， 舞蹈，话剧等等。 过去几年中，柏林爱乐乐团，俄罗斯国家交响乐团，荷兰阿姆斯特丹音乐厅交响乐团，维也纳爱乐乐团，纽约爱乐乐团都曾在安娜堡的音乐厅受到听众热烈的欢迎。</p>
 <p>安娜堡音乐会的一个很大的好处是她的票价非常便宜,学生也能应付。九月初，UMS 开始预售票,这时候买票会便宜些。即使买不到也不要紧，在预售结束之后还会有的买，价钱也并不贵。 如果某场音乐会的票在演出前一天没有售罄，那么这些多余的票就会低价售出(比预售价还便宜)。 虽然来演出的乐团是最棒的，听众却仍旧可以穿着随便的入场。 你经常会看到学生们穿着休闲的JEANS从图书馆匆匆走来,也会看到穿着夜礼服的女士翩翩而至。</p>
 <br />
 <p>买票方法： </p>
