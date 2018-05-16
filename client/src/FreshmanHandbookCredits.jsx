@@ -2,7 +2,7 @@ import React from 'react';
 import * as Actions from './Actions.js';
 import {connect} from 'react-redux';
 import {Scrollbars} from 'react-custom-scrollbars';
-import wechatGroup from './images/wechat-group.jpg';
+import wechatGroupCrop from './images/wechat-group-crop.jpg';
 
 const $ = require('jquery');
 
@@ -88,7 +88,8 @@ class FreshmanHandbookCredits extends React.Component {
                             <h1>
                                 新生小助手
                             </h1>
-                            <img src={wechatGroup} style={{width: '100%'}}/>
+                            <br />
+                            <img src={wechatGroupCrop} style={{width: '100%'}}/>
                         </div>
                     </div>
                 </div>
