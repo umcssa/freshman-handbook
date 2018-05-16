@@ -1,8 +1,6 @@
 import * as ActionTypes from './ActionTypes';
 
 export default (state, action) => {
-    const {counterCaption} = action;
-
     switch (action.type) {
         case ActionTypes.RESIZEWINDOW:
             return {...state, width: action.width, height: action.height};
@@ -151,7 +149,6 @@ export default (state, action) => {
 function get_path(title, hierarchy) {
     let path = '';
     hierarchy.forEach((menu) => {
-        const menuTitle = menu[0];
         menu[1].forEach((subMenu) => {
             if (subMenu[1]) {
                 subMenu[1].forEach((option) => {

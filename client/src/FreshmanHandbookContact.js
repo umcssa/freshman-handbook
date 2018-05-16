@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import ReactStretchableButton from 'react-stretchable-button';
 import {Icon, Modal, Button, Input} from 'antd';
 import QueueAnim from 'rc-queue-anim';
@@ -100,7 +99,7 @@ class FreshmanHandbookContact extends React.Component {
                         </Button>
                     }
                 >
-                    <img style={{width: '100%'}} src={wechatAccount}/>
+                    <img style={{width: '100%'}} src={wechatAccount} alt="微信公众号"/>
                 </Modal>
                 <Modal
                     title="加入新生群"
@@ -116,7 +115,7 @@ class FreshmanHandbookContact extends React.Component {
                         </Button>
                     }
                 >
-                    <img style={{width: '100%'}} src={wechatGroup}/>
+                    <img style={{width: '100%'}} src={wechatGroup} alt="加入新生群"/>
                 </Modal>
                 <Modal
                     title="分享本文链接"

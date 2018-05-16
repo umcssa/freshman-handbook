@@ -4,15 +4,9 @@ import * as Actions from './Actions.js';
 import {connect} from 'react-redux';
 import Menu from 'antd/lib/menu';
 
-const $ = require('jquery');
-
 const SubMenu = Menu.SubMenu;
 
 class FreshmanHandbookSidebar extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         const menuList = this.props.hierarchy.map((menu) => {
             const menuTitle = menu[0];

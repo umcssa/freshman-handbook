@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {Link} from 'react-router-dom';
 import {Card} from 'antd';
 import {connect} from "react-redux";
@@ -27,10 +26,6 @@ const cardStyleMobile = {
 
 
 class FreshmanHandbookSearchResults extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div

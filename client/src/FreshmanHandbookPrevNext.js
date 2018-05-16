@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import * as Actions from './Actions.js';
 import {connect} from 'react-redux';
 import Icon from 'antd/lib/icon';
 

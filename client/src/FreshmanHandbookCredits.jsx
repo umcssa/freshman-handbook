@@ -1,15 +1,8 @@
 import React from 'react';
-import * as Actions from './Actions.js';
 import {connect} from 'react-redux';
-import {Link} from 'react-router-dom';
 import {Icon} from 'antd';
 import {Scrollbars} from 'react-custom-scrollbars';
 import wechatGroupCrop from './images/wechat-group-crop.jpg';
-
-const $ = require('jquery');
-
-const apiRootPath = '/api/freshman-handbook/';
-// const apiRootPath = 'http://localhost:8002/api/freshman-handbook/';
 
 const centerParentStyle = {
     position: 'relative'
@@ -59,10 +52,6 @@ const credits = ['zianke', 'zekunjia', 'jasonzhao1998', 'Iviaaa', 'baoyifei', 'y
 
 
 class FreshmanHandbookCredits extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div style={{
@@ -73,7 +62,7 @@ class FreshmanHandbookCredits extends React.Component {
 
                     <div style={{width: '100%', height: 80, textAlign: 'center'}}><h1>
                         贡献人员<a href="https://github.com/umcssa/freshman-handbook" style={{marginLeft: 20}}
-                               title="GitHub" target="_blank"><Icon type="github"/></a>
+                               title="GitHub" rel="noopener noreferrer" target="_blank"><Icon type="github"/></a>
                     </h1></div>
                     <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
                         <Scrollbars style={{width: '100%', height: '100%'}}>
@@ -95,7 +84,7 @@ class FreshmanHandbookCredits extends React.Component {
                                 新生小助手
                             </h1>
                             <br/>
-                            <img src={wechatGroupCrop} style={{width: '100%'}}/>
+                            <img src={wechatGroupCrop} style={{width: '100%'}} alt="新生小助手"/>
                         </div>
                     </div>
                 </div>
