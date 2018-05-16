@@ -2,6 +2,7 @@ import React from 'react';
 import {
     BrowserRouter as Router,
     Route,
+    Switch,
 } from 'react-router-dom';
 import * as Actions from './Actions.js';
 import {connect} from 'react-redux';
@@ -38,6 +39,8 @@ const centerChildStyle = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
 };
+
+const Empty = () => (<div></div>);
 
 
 class FreshmanHandbook extends React.Component {
@@ -155,8 +158,13 @@ class FreshmanHandbook extends React.Component {
                        component={FreshmanHandbookPrevNext}/>
                 <Route strict exact path={`${this.props.match.url}:menu/:submenu/:title/`}
                        component={FreshmanHandbookPrevNext}/>
-                <Route strict exact path={`${this.props.match.url}:menu/`}
-                       component={FreshmanHandbookSectionStart}/>
+                <Switch>
+                    <Route strict exact path={`${this.props.match.url}credits/`}
+                           component={Empty}/>
+                    <Route strict exact path={`${this.props.match.url}:menu/`}
+                           component={FreshmanHandbookSectionStart}/>
+                </Switch>
+
 
                 {this.props.width > 768 ? '' : <div style={{
                     position: 'absolute',
@@ -175,7 +183,8 @@ class FreshmanHandbook extends React.Component {
                     {sidebarDiv}
                 </div>}
 
-                {this.props.width > 768 ? '' : <Button type="primary" onClick={this.props.toggleSidebar} style={{position: 'fixed', top: 96, left: 0}}>
+                {this.props.width > 768 ? '' : <Button type="primary" onClick={this.props.toggleSidebar}
+                                                       style={{position: 'fixed', top: 96, left: 0}}>
                     <Icon type={this.props.sidebarVisible ? 'menu-fold' : 'menu-unfold'}/>
                 </Button>}
 
