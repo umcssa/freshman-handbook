@@ -1,6 +1,8 @@
 import React from 'react';
 import * as Actions from './Actions.js';
 import {connect} from 'react-redux';
+import {Link} from 'react-router-dom';
+import {Icon} from 'antd';
 import {Scrollbars} from 'react-custom-scrollbars';
 import wechatGroupCrop from './images/wechat-group-crop.jpg';
 
@@ -30,7 +32,8 @@ const containerStyle = Object.assign({
     width: '50%',
     height: '100%',
     backgroundColor: '#ffffff',
-    padding: 50
+    padding: 50,
+    position: 'relative',
 }, boxShadowStyle);
 
 const containerStyleBarcode = Object.assign({
@@ -40,14 +43,16 @@ const containerStyleBarcode = Object.assign({
     width: 'calc(50% - 50px)',
     height: '100%',
     backgroundColor: '#ffffff',
-    padding: 50
+    padding: 50,
+    position: 'relative',
 }, boxShadowStyle);
 
 const containerStyleMobile = Object.assign({
     width: '100%',
     height: '100%',
     backgroundColor: '#ffffff',
-    padding: 20
+    padding: 20,
+    position: 'relative',
 }, boxShadowStyle);
 
 const credits = ['zianke', 'zekunjia', 'jasonzhao1998'];
@@ -67,7 +72,7 @@ class FreshmanHandbookCredits extends React.Component {
                 <div style={this.props.width > 992 ? containerStyle : containerStyleMobile}>
 
                     <div style={{width: '100%', height: 80, textAlign: 'center'}}><h1>
-                        贡献人员
+                        贡献人员<a href="https://github.com/umcssa/freshman-handbook" style={{marginLeft: 10}} title="GitHub" target="_blank"><Icon type="github" style={{fontSize: 22}}/></a>
                     </h1></div>
                     <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
                         <Scrollbars style={{width: '100%', height: '100%'}}>
