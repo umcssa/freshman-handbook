@@ -39,6 +39,8 @@ const containerStyleMobile = Object.assign({
 }, boxShadowStyle);
 
 
+
+
 class FreshmanHandbookCredits extends React.Component {
     constructor(props) {
         super(props);
@@ -52,19 +54,20 @@ class FreshmanHandbookCredits extends React.Component {
             }}>
                 <div style={this.props.width > 992 ? containerStyle : containerStyleMobile}>
 
-                    <div style={{width: '100%', height: 80}}><h1>
+                    <div style={{width: '100%', height: 80, textAlign: 'center'}}><h1>
                         贡献人员
                     </h1></div>
                     <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
                         <Scrollbars style={{width: '100%', height: '100%'}}>
-                            <div style={{overflowWrap: 'break-word', wordWrap: 'break-word'}}>
-                                Content
+                            <div style={{overflowWrap: 'break-word', wordWrap: 'break-word', textAlign: 'center', fontSize: this.props.width > 576 ? 30 : 20}}>
+                                <p>zianke</p>
+                                <p>zekunjia</p>
+                                <p>jasonzhao1998</p>
                             </div>
                         </Scrollbars>
                     </div>
                 </div>
                 <div style={this.props.width > 992 ? containerStyleBarcode : {display: 'none'}}>
-
                     <div style={{width: '100%', height: 80}}><h1>
                         贡献人员
                     </h1></div>
