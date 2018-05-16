@@ -79,7 +79,7 @@ class FreshmanHandbookContact extends React.Component {
                             key="download" {...(this.props.width > 576 ? reactStretchableButtonStyles : reactStretchableButtonStylesMobile)}
                             stretchPadding={20}
                             onClick={() => {
-                                window.location.href = '/新生手册.pdf/';
+                                window.location.href = '/新生手册.pdf';
                             }}
                             componentDisplayed={<Icon type="download" style={{fontSize: 22}}/>}
                             componentToDisplay={<span
