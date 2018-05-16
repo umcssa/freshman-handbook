@@ -15,7 +15,17 @@ const boxShadowStyle = {
 };
 
 const containerStyle = Object.assign({
-    width: '100%',
+    display: 'inline-block',
+    width: '50%',
+    height: '100%',
+    backgroundColor: '#ffffff',
+    padding: 50
+}, boxShadowStyle);
+
+const containerStyleBarcode = Object.assign({
+    display: 'inline-block',
+    marginLeft: 50,
+    width: 'calc(50% - 50px)',
     height: '100%',
     backgroundColor: '#ffffff',
     padding: 50
@@ -36,17 +46,35 @@ class FreshmanHandbookCredits extends React.Component {
 
     render() {
         return (
-            <div style={this.props.width > 576 ? containerStyle : containerStyleMobile}>
+            <div style={{
+                width: '100%',
+                height: '100%',
+            }}>
+                <div style={this.props.width > 992 ? containerStyle : containerStyleMobile}>
 
-                <div style={{width: '100%', height: 80}}><h1>
-                    贡献人员
-                </h1></div>
-                <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
-                    <Scrollbars style={{width: '100%', height: '100%'}}>
-                        <div style={{overflowWrap: 'break-word', wordWrap: 'break-word'}}>
-                            Content
-                        </div>
-                    </Scrollbars>
+                    <div style={{width: '100%', height: 80}}><h1>
+                        贡献人员
+                    </h1></div>
+                    <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
+                        <Scrollbars style={{width: '100%', height: '100%'}}>
+                            <div style={{overflowWrap: 'break-word', wordWrap: 'break-word'}}>
+                                Content
+                            </div>
+                        </Scrollbars>
+                    </div>
+                </div>
+                <div style={this.props.width > 992 ? containerStyleBarcode : {display: 'none'}}>
+
+                    <div style={{width: '100%', height: 80}}><h1>
+                        贡献人员
+                    </h1></div>
+                    <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
+                        <Scrollbars style={{width: '100%', height: '100%'}}>
+                            <div style={{overflowWrap: 'break-word', wordWrap: 'break-word'}}>
+                                Content
+                            </div>
+                        </Scrollbars>
+                    </div>
                 </div>
             </div>
         );
@@ -60,8 +88,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-    return {
-    }
+    return {}
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(FreshmanHandbookCredits);
