@@ -55,7 +55,7 @@ const containerStyleMobile = Object.assign({
     position: 'relative',
 }, boxShadowStyle);
 
-const credits = ['zianke', 'zekunjia', 'jasonzhao1998'];
+const credits = ['zianke', 'zekunjia', 'jasonzhao1998', 'Iviaaa', 'baoyifei', 'yfzdq', 'yanyiju'];
 
 
 class FreshmanHandbookCredits extends React.Component {
@@ -72,7 +72,8 @@ class FreshmanHandbookCredits extends React.Component {
                 <div style={this.props.width > 992 ? containerStyle : containerStyleMobile}>
 
                     <div style={{width: '100%', height: 80, textAlign: 'center'}}><h1>
-                        贡献人员<a href="https://github.com/umcssa/freshman-handbook" style={{marginLeft: 20}} title="GitHub" target="_blank"><Icon type="github"/></a>
+                        贡献人员<a href="https://github.com/umcssa/freshman-handbook" style={{marginLeft: 20}}
+                               title="GitHub" target="_blank"><Icon type="github"/></a>
                     </h1></div>
                     <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
                         <Scrollbars style={{width: '100%', height: '100%'}}>
@@ -93,7 +94,7 @@ class FreshmanHandbookCredits extends React.Component {
                             <h1>
                                 新生小助手
                             </h1>
-                            <br />
+                            <br/>
                             <img src={wechatGroupCrop} style={{width: '100%'}}/>
                         </div>
                     </div>
