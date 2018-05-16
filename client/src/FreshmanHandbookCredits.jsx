@@ -82,7 +82,7 @@ class FreshmanHandbookCredits extends React.Component {
                                 textAlign: 'center',
                                 fontSize: this.props.width > 576 ? 30 : 20
                             }}>
-                                {credits.map((item) => (<p style={{marginBottom: 10}}>{item}</p>))}
+                                {credits.map((item) => (<p key={item} style={{marginBottom: 10}}>{item}</p>))}
                             </div>
                         </Scrollbars>
                     </div>
