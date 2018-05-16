@@ -38,7 +38,7 @@ const containerStyleMobile = Object.assign({
     padding: 20
 }, boxShadowStyle);
 
-
+const credits = ['zianke', 'zekunjia', 'jasonzhao1998'];
 
 
 class FreshmanHandbookCredits extends React.Component {
@@ -59,10 +59,13 @@ class FreshmanHandbookCredits extends React.Component {
                     </h1></div>
                     <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
                         <Scrollbars style={{width: '100%', height: '100%'}}>
-                            <div style={{overflowWrap: 'break-word', wordWrap: 'break-word', textAlign: 'center', fontSize: this.props.width > 576 ? 30 : 20}}>
-                                <p>zianke</p>
-                                <p>zekunjia</p>
-                                <p>jasonzhao1998</p>
+                            <div style={{
+                                overflowWrap: 'break-word',
+                                wordWrap: 'break-word',
+                                textAlign: 'center',
+                                fontSize: this.props.width > 576 ? 30 : 20
+                            }}>
+                                {credits.map((item) => (<p style={{marginBottom: 10}}>{item}</p>))}
                             </div>
                         </Scrollbars>
                     </div>
