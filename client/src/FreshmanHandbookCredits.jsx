@@ -72,7 +72,7 @@ class FreshmanHandbookCredits extends React.Component {
                 <div style={this.props.width > 992 ? containerStyle : containerStyleMobile}>
 
                     <div style={{width: '100%', height: 80, textAlign: 'center'}}><h1>
-                        贡献人员<a href="https://github.com/umcssa/freshman-handbook" style={{marginLeft: 10}} title="GitHub" target="_blank"><Icon type="github" style={{fontSize: 22}}/></a>
+                        贡献人员<a href="https://github.com/umcssa/freshman-handbook" style={{marginLeft: 20}} title="GitHub" target="_blank"><Icon type="github"/></a>
                     </h1></div>
                     <div style={{width: '100%', height: 'calc(100% - 80px)'}}>
                         <Scrollbars style={{width: '100%', height: '100%'}}>
