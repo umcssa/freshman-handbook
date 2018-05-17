@@ -40,7 +40,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p style="font-size:50%;">（资料来自：http://jingyan.baidu.com/article/d3b74d64bec95e1f77e609b3.html）</p>
 <br />
 '),
-('机场', '<p>离安娜堡最近的两个大型机场为<span style="color: orange">底特律机场——DTW</span>和<span style="color: orange">芝加哥奥黑尔机场——ORD</span>。底特律机场离安娜堡约半个小时车程, 芝加哥奥黑尔机场离安娜堡将近4个小时火车车程。从底特律到北京或上海有达美航空Delta Air Lines直达的航班,也可以在首尔或东京转机去底特律。从芝加哥到北京，上海或香港有美国航空American Airlines、美联航United Airlines直达的航班，也可以在首尔或东京转机去芝加哥然后再乘坐美国铁路Amtrak到安娜堡。 美国铁路Amtrak网址：<a target="_blank" href="www.amtrak.com">www.amtrak.com</a></p>
+('机场', '<p>离安娜堡最近的两个大型机场为<span style="color: orange">底特律机场——DTW</span>和<span style="color: orange">芝加哥奥黑尔机场——ORD</span>。底特律机场离安娜堡约半个小时车程, 芝加哥奥黑尔机场离安娜堡将近4个小时火车车程。从底特律到北京或上海有达美航空Delta Air Lines直达的航班,也可以在首尔或东京转机去底特律。从芝加哥到北京，上海或香港有美国航空American Airlines、美联航United Airlines直达的航班，也可以在首尔或东京转机去芝加哥然后再乘坐美国铁路Amtrak到安娜堡。 美国铁路Amtrak网址：<a target="_blank" href="https://www.amtrak.com">www.amtrak.com</a></p>
 <p>（<span style="color: red">特别提示</span>：初来乍到的大家对美国交通情况不大了解的，还是选择直飞比较保险一点）</p>
 '),
 ('机票预订', '<p>常见的订机票网站包括：</p>
@@ -194,7 +194,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>对于已经选满的课，如果在 waitlist 上也不用着急，在开学正式上课的时候向 professor 说明一下，一般都能够选进。</p>
 <br />
 <p>除了选课以外，<b>Wolverine Access</b> 还可以用来<span style="color:red">修改个人地址和电话信息，查看成绩，要求成绩单，支付学费保险等。</span></p>
-<p>进入Wolverine Access的页面（<a target="_blank" href="www.wolverineaccess.umich.edu">www.wolverineaccess.umich.edu</a>）之后，选择Students，便可以看到与学生生活息息相关的几大版块啦，如下图所示：</p>
+<p>进入Wolverine Access的页面（<a target="_blank" href="https://wolverineaccess.umich.edu">www.wolverineaccess.umich.edu</a>）之后，选择Students，便可以看到与学生生活息息相关的几大版块啦，如下图所示：</p>
 <img src="/freshman-handbook/uploads/qw2.png" alt="qw2" style="display: block; width: 650px; max-width: 80%; margin: 20px auto" />
 <p>根据自己需要选择点击链接进入，一般常用的就是Student Business啦。这里给大家简单介绍一下里面的主要内容：</p>
 <p> 1. 点Student Business之后就是这样啦~</p>
@@ -818,7 +818,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>不论在哪家网站上购物，退货政策都须事先了解好。Amazon 根据商品类别不同退货政策有所不同。有 prime 服务的用户可以享受更大范围的的免邮费退换货，而且通常由 amazon 直接销售的商品要比私人卖家挂在amazon
     上销售的商品退换货容易一些。Ebay 的退货政策是卖家制定的，在商品页面会有详细的说明。</p>
 '),
-('食材和药品', '<p>Joe Randazzos 是墨西哥人开的一个蔬菜水果超市，位于距离 Ann Arbor 大约有半个小时的车程的 Canton。 虽然远了一些，但是那里的蔬菜，水果种类繁多，价格也极为便宜，远远低于 Kroger 和 Meijer。如果你是 一个经常自己在家做饭的主，周末去 Randazzo 买菜应该是一个不错的选择。具体请见：<a target="_blank" href="www.joerandazzos.com">www.joerandazzos.com</a> </p>
+('食材和药品', '<p>Joe Randazzos 是墨西哥人开的一个蔬菜水果超市，位于距离 Ann Arbor 大约有半个小时的车程的 Canton。 虽然远了一些，但是那里的蔬菜，水果种类繁多，价格也极为便宜，远远低于 Kroger 和 Meijer。如果你是 一个经常自己在家做饭的主，周末去 Randazzo 买菜应该是一个不错的选择。具体请见：<a target="_blank" href="http://www.joerandazzos.com">www.joerandazzos.com</a> </p>
 <br />
 <p>若需买药品，可以去 CVS pharmacy, Walgreen 等药店。一些普通的药品也可以在 Walmart 和 Meijer 等大型超市内购买。</p>
 '),
@@ -839,12 +839,12 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>State Theater</p>
 <p>地址: 233 S State St, Ann Arbor, MI</p>
 <p>价格：2-7 美元</p>
-<p>Web Page: <a target="_blank" href="www.michtheater.org/state">www.michtheater.org/state</a></p>
+<p>Web Page: <a target="_blank" href="http://statetheatrea2.org">http://statetheatrea2.org</a></p>
 <br />
 <p>Michigan Theater</p>
 <p>地址: 603 E Liberty St, Ann Arbor, MI</p>
 <p>价格：2-7美元</p>
-<p>Web Page: <a target="_blank" href="www.michtheater.org">www.michtheater.org</a></p>
+<p>Web Page: <a target="_blank" href="http://www.michtheater.org">http://www.michtheater.org</a></p>
 '),
 ('健身场所', '<p>密大的学习强度和难度在美国都是非常有名的，因此，拥有一个健康的身体成了每个密大学子在前往知识道 路上的必要条件。学校提供了各种体育设施供同学们在课余时间锻炼身体，其中，CCRB 和 NCRB 是最完善 的，同学们最常去的室内综合性运动场地。里面有室内跑道，器械健身，游泳池，篮球，排球，羽毛球，乒 乓球，壁球场等等。作为密大的学生，同学们只要交了学费即可持 Mcard 免费进入这些场馆锻炼身体。各个 场馆的开放时间请参见以下网址：<a target="_blank" href="http://www.recsports.umich.edu/facilities/bldghours.html">http://www.recsports.umich.edu/facilities/bldghours.html</a></p>
 <br />
