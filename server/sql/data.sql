@@ -44,12 +44,12 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>（<span style="color: red">特别提示</span>：初来乍到的大家对美国交通情况不大了解的，还是选择直飞比较保险一点）</p>
 '),
 ('机票预订', '<p>常见的订机票网站包括：</p>
-<p>(1) <span style="color: orange">Expedia</span>：<a target="_blank" href="www.expedia.com">www.expedia.com</a></p>
-<p>(2) <span style="color: orange">Travelocity</span>：<a target="_blank" href="www.travelocity.com">www.travelocity.com</a></p>
-<p>(3) <span style="color: orange">Kayak</span>：<a target="_blank" href="www.kayak.com">www.kayak.com</a></p>
-<p>(4) <span style="color: orange">Student Universe</span>（经常会有低价学生票放出，需要注册并证明学生身份）：<a target="_blank" href="www.studentuniverse.com">www.studentuniverse.com</a></p>
-<p>(5) <span style="color: orange">Skyscannner</span>：<a target="_blank" href="www.skyscanner.com">www.skyscanner.com</a></p>
-<p>(6) <span style="color: orange">Google flight</span>: <a target="_blank" href="www.google.com/flights/">www.google.com/flights/</a></p>
+<p>(1) <span style="color: orange">Expedia</span>：<a target="_blank" href="https://www.expedia.com/">www.expedia.com</a></p>
+<p>(2) <span style="color: orange">Travelocity</span>：<a target="_blank" href="https://www.travelocity.com/">www.travelocity.com</a></p>
+<p>(3) <span style="color: orange">Kayak</span>：<a target="_blank" href="https://www.kayak.com/">www.kayak.com</a></p>
+<p>(4) <span style="color: orange">Student Universe</span>（经常会有低价学生票放出，需要注册并证明学生身份）：<a target="_blank" href="https://www.studentuniverse.com/">www.studentuniverse.com</a></p>
+<p>(5) <span style="color: orange">Skyscannner</span>：<a target="_blank" href="https://www.skyscanner.com/">www.skyscanner.com</a></p>
+<p>(6) <span style="color: orange">Google flight</span>: <a target="_blank" href="https://www.google.com/flights/">www.google.com/flights/</a></p>
 '),
 ('行李规格', '<p style="color: orange">各航空公司对于托运行李数量及大小均有不同的限制： </p>
 <p>国内的航空公司（国航，东航，南航，海航）：经济舱一般可以免费托运两件行李，如果有航空公司金卡或乘坐公务或头等舱则可以托运三件。 </p>
@@ -98,7 +98,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <br />
 '),
 ('体检和疫苗', '<p>一般来说，在拿到大使馆的签证以后就可以开始办理出境体检表和疫苗表了。密西根大学并没有强制要求的疫苗。</p>
-<p>体检的地点一般是当地的<span style="color: red">国际旅行健康中心（出入境检验检疫）</span>，体检项目包括：X光检查、心电图、血液检查和全身检查等。体检完成后健康中心会出具<span style="color: red">健康检查证明书</span>（即“小红本”）。而“小黄本”则是指国际疫苗接种证明（密西根大学对小黄本没有强制要求）。</p>
+<p>体检的地点一般是当地的<span style="color: red">国际旅行健康中心（原出入境检验检疫，现已并入海关）</span>，体检项目包括：X光检查、心电图、血液检查和全身检查等。体检完成后健康中心会出具<span style="color: red">健康检查证明书</span>（即“小红本”）。而“小黄本”则是指国际疫苗接种证明（密西根大学对小黄本没有强制要求）。</p>
 <img src="/freshman-handbook/uploads/qw1.jpg" alt="qw1" style="display: block; width: 500px; max-width: 80%; margin: 20px auto" />
 <p>图为“小红本”和“小黄本”</p>
 <br />
