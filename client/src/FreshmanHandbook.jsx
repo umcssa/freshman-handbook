@@ -193,7 +193,9 @@ class FreshmanHandbook extends React.Component {
                 <FreshmanHandbookSearchResults
                     match={this.props.match}
                     history={this.props.history}/>
-                <FreshmanHandbookContact/>
+                <FreshmanHandbookContact
+                    match={this.props.match}
+                    history={this.props.history}/>
             </div>
         );
     }
