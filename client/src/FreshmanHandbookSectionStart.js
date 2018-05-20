@@ -47,7 +47,7 @@ const titleStyle = {
     opacity: 1,
     margin: 0,
     padding: 0,
-    whiteSpace:'nowrap'
+    whiteSpace: 'nowrap'
 };
 
 const iconStyle = {
@@ -65,7 +65,7 @@ class FreshmanHandbookSectionStart extends React.Component {
 
     render() {
         return (
-            <Link to={this.props.nextLink}>
+            <Link to={this.props.sectionTitle ? this.props.nextLink : '/freshman-handbook/出国前准备/'}>
                 <div style={Object.assign({}, sectionStartStyle, this.state.hover && sectionStartHoverStyle)}
                      onMouseOver={() => {
                          this.setState({hover: true});
@@ -76,7 +76,8 @@ class FreshmanHandbookSectionStart extends React.Component {
                     <div
                         style={Object.assign({}, titleContainerStyle, centerParentStyle)}
                     >
-                        <span style={Object.assign({}, titleStyle, centerChildStyle)}>{this.props.sectionTitle}</span>
+                        <span
+                            style={Object.assign({}, titleStyle, centerChildStyle)}>{this.props.sectionTitle || '开始阅读'}</span>
                     </div>
                     <div
                         style={Object.assign({}, iconContainerStyle, centerParentStyle)}

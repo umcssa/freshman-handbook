@@ -10,7 +10,7 @@ class FreshmanHandbookSection extends React.Component {
                 left: 0,
                 width: '100%',
                 height: '100%',
-                backgroundImage: 'url(/freshman-handbook/uploads/' + this.props.sectionTitle + '.jpg)',
+                backgroundImage: 'url(/freshman-handbook/uploads/' + (this.props.sectionTitle || 'index') + '.jpg)',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center center'
