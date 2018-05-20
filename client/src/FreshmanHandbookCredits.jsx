@@ -48,7 +48,7 @@ const containerStyleMobile = Object.assign({
     position: 'relative',
 }, boxShadowStyle);
 
-const credits = ['柯子安', '小马', '罗子煊', 'jasonzhao1998', 'Kenzi Cheng', '【系统】玩家 肥lo 向您发送了一条好友请求', 'Laura Li', '苏文皓', '邵明朔', 'Yijun Yan', '包子', 'yfzdq'];
+const credits = ['柯子安', '小马', '罗子煊', 'Jason', 'Kenzi Cheng', 'lo', 'Laura Li', '苏文皓', '邵明朔', 'Yijun Yan', '包子', 'yfzdq'];
 
 
 class FreshmanHandbookCredits extends React.Component {
