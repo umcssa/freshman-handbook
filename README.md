@@ -1,7 +1,7 @@
 # Freshman Handbook
 A web application produced by the CSSA APPs development team, which provides useful information for freshman students at the University of Michigan, including course selection, student apartments, campus transportation, etc.
 
-## Website (Coming Soon)
+## Website
 [http://app.um-cssa.org/freshman-handbook/](http://app.um-cssa.org/freshman-handbook/)
 
 ## Development Setup
