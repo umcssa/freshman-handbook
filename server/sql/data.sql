@@ -51,19 +51,20 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>(5) <span style="color: orange">Skyscannner</span>：<a target="_blank" href="https://www.skyscanner.com/">www.skyscanner.com</a></p>
 <p>(6) <span style="color: orange">Google flight</span>: <a target="_blank" href="https://www.google.com/flights/">www.google.com/flights/</a></p>
 '),
-('从机场到学校的交通方式', '<p>Uber/Lift: 如果有同行的同学一起拼车可以选择使用这两个非常方便的叫车软件，从机场到校园费用大致为50-70美金。</p>
-<p>Michigan flyer: 网址：<a target="_blank" href="https://www.michiganflyer.com/">www.michiganflyer.com</a></p>
+('从机场到学校的交通方式', '<p>1. Uber/Lift: 如果有同行的同学一起拼车可以选择使用这两个非常方便的叫车软件，从机场到校园费用大致为50-70美金。</p>
+<p>2. Michigan flyer: 网址：<a target="_blank" href="https://www.michiganflyer.com/">www.michiganflyer.com</a></p>
 <p>对于没有车或没同伴的同学，乘坐Michigan flyer是个非常安全且价格划算的通行方式。提前网上预约单程每人12美金，可免费携带2个行李，多出的行李一个收费15美金。也可以在约定时间直接到车站，单程收费15美金，需注意要提前备好零钱，司机不会收20美金以上的纸币。Michigan Flyer每天有12-13趟班车来往于底特律机场——DTW和安娜堡之间，大约一小时一趟，停车地点有：<span style="color: orange">Blake Transit Center（中校）, Kensington, Detroit Metro Airport</span> 还有<span style="color: orange">East Lansing</span>。在网上订票的时候选取上车下车地点，乘车时间，航空公司以及乘车人数量。底特律机场有几个停靠站，Delta, Air France 和KLM在新航站楼，停靠的时候注意听车上的广播或询问司机以免坐错航站楼。
 <p>具体时间表和路线可在网上订票的时候看到：</p>
 <img src="/freshman-handbook/uploads/jc1.png" alt="jc1" style="display: inline; width 300px; max-width: 80%; margin: 20px auto" />
 <img src="/freshman-handbook/uploads/jc2.png" alt="jc2" style="display: inline; width 500px; max-width: 80%; margin: 20px auto" />
-<p>CSG AirBus: 网址：<a target="_blank" href="http://csgairbus.com/">csgairbus.com</a></p>
+<p>3. CSG AirBus: 网址：<a target="_blank" href="http://csgairbus.com/">csgairbus.com</a></p>
 <p>CSG Airbus是学校提供的巴士，在假期之前和学生返校时通行于U-M和底特律机场之间。<span style="color: orange">Airbus只在固定时间提供，暑假期间就没有</span>。建议在出行前到网站上查询，找到适合时间的班车。提前预约的话，单程价格为每人7美金，也可以按时到约定地点直接上车刷Mcard，11美金会记到学生账户。班车都在准确的时间开出，不会有Michigan time，建议提前五分钟到达停车地点。所有到机场的Airbus都会在三个地点pick up：北校是在Bursley的北部，Hill区域会在Alice Lloyd前方的southbound Observatory区域，中校是在State street上Law Quad街对面。机场接在North和McNamara Terminal都有，North Terminal的地点在Ground Transportation center，拿完行李后上两层电梯，过个天桥，下扶手电梯后可以在左侧看到车，McNamara Terminal的地点在五号Baggage Claim门口，详情见下图：</p>
 <img src="/freshman-handbook/uploads/jc3.png" alt="jc3" style="display: inline; width 300px; max-width: 80%; margin: 20px auto" />
 <img src="/freshman-handbook/uploads/jc4.png" alt="jc4" style="display: inline; width 300px; max-width: 80%; margin: 20px auto" />
 <img src="/freshman-handbook/uploads/jc5.png" alt="jc5" style="display: inline; width 300px; max-width: 80%; margin: 20px auto" />
 <img src="/freshman-handbook/uploads/jc6.png" alt="jc6" style="display: inline; width 300px; max-width: 80%; margin: 20px auto" />
-<img src="/freshman-handbook/uploads/jc7.png" alt="jc7" style="display: inline; width 300px; max-width: 80%; margin: 20px auto" />'),
+<img src="/freshman-handbook/uploads/jc7.png" alt="jc7" style="display: inline; width 300px; max-width: 80%; margin: 20px auto" />
+'),
 ('行李规格', '<p style="color: orange">各航空公司对于托运行李数量及大小均有不同的限制： </p>
 <p>国内的航空公司（国航，东航，南航，海航）：经济舱一般可以免费托运两件行李，如果有航空公司金卡或乘坐公务或头等舱则可以托运三件。 </p>
 <p><span style="color: orange">美国的航空公司</span>（达美航空Delta，美国航空American Airlines，美国联合航空United Airlines）： <span style="color: red">经济舱一般可以免费托运一至两件行李</span>，超出的第一件一般收取100美元左右的费用，第二件则会收取200美元左右。如果有航空公司金卡或乘坐公务或头等舱一般可以额外托运一件。 </p>
@@ -75,40 +76,69 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p><span style="color: red">行李超重罚款非常严格，大家务必根据官网查清重量，按规定收拾自己的行李。</span>很多生活用品美帝买的又便宜又好用，如果不确定是不是需要的话，可以在新生群里询问学长学姐。</p>
 <br />
 '),
-('起飞时建议随身携带的物品', '<p>(1) <span style="color: red">轻量的书或随身的游戏机</span>(用于长途飞行中的解闷)</p>
-<p> (2) <span style="color: red">独立包装的少量零食</span>(用于长途飞行中的解闷)</p>
-<p><span style="color: red">特别提示</span>：由于食物在美国入境环节存在风险, 建议零食量主要用于飞行途中使用。</p>
-<p>(3) <span style="color: red">长袖上衣</span>(飞机上保暖用)</p>
-<p> (4) <span style="color: red">文件包用于存放下面各项</span>（此文件包的设置目的在于, 尽量少地在旅程当中翻动包裹好的行李）:</p>
-<p>· 登机牌(填写入境卡须用到登机牌上信息, 如航班号,出发地等, 填写时注意大小写的要求) </p>
-<p>· 护照 · I-20表格 </p>
-<p>· 国际信用卡(如有) </p>
-<p>· 少量美金纸币和硬币(如有) </p>
-<p>· 抵美后即时联系人的联系方式</p>
-<br />
+('文具', '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<body>
+<p>(1) <span style="color: orange">书本</span>：专业书籍建议抵达美国后再购买，电子版的书籍可以在：<a target="_blank" href="http://libgen.io">libgen.io</a> 或 <a target="_blank" href="http://bookzz.org">bookzz.org</a> 上下载。</p>
+<p>(2) <span style="color: orange">计算器</span>：计算器包括两种: 只能四则运算的简单计算器, 和功能较为强大的科学计算器或工程计算器。后者以我们常见的德州科技TI-83, TI-89等为例。有些课程限制考生只能携带前者, 有些却不设限制。<span style="color: red">Ross BBA, 统计系, 数学系, 经济系的同学在此问题上较为切身。</span>前者在国内比较便宜, 在乎差价的同学可带, 但在学校里面的书店也有售。关于后者, 假若你在考SAT和AP时已配有, 即可携带.假若没有,可到美国等开学后买。这边网上购买一手或二手都非常便宜。Google, Walfram Alpha, 及一些特定的网站也可用于各种计算, 一般计算器只在考试时, 教授特别要求下才是必须的。</p>
+<p>(3) <span style="color: orange">笔</span>：对笔的牌子有偏好的同学可以提前在国内备好，三菱、斑马、凌美、百乐等牌子这边比较难买到。学艺术的可以提前问学长学姐需要带什么笔或工具，一般在国内买比较便宜。考试时用的2B铅笔可以带点，特别是国内卖的专门涂答题卡的笔。</p>
+<p>(4) <span style="color: orange">文件包</span>：<span style="color: red">文件包用于存放下面各项</span>（此文件包的设置目的在于, 尽量少地在旅程当中翻动包裹好的行李）:</p>
+<ul>
+  <li>登机牌(填写入境卡须用到登机牌上信息, 如航班号,出发地等, 填写时注意大小写的要求)</li>
+  <li>护照</li>
+  <li>I-20表格</li>
+  <li>国际信用卡(如有)</li>
+  <li>少量美金纸币和硬币(如有)</li>
+  <li>抵美后即时联系人的联系方式</li>
+</ul>
+<p>(5) <span style="color: orange">本子</span>：箱子能装得下或对本子有偏好的同学可以袋，这边的本子一个十几刀偏贵。</p>
+<p>(6) <span style="color: orange">小礼品</span>：根据需要带。可以在网上买些具有中国特色的小礼品，例如刺绣、小屏风、中国结等，可以过来送室友、朋友。</p>
+</body>
+</html>
 '),
-('非随身携带的日用品', '<p>(1) <span style="color: orange">牙膏牙刷漱口水</span>(转机和抵美后可在机场的洗手间使用，韩国、日本、香港特区的机场洗手间非常干净,可用于梳洗。但请谨记牙膏,漱口水需托运) </p>
-<p>(2) <span style="color: orange">建议餐具</span>(筷子汤匙比较推荐, 因为有别于刀/叉，筷子、汤匙可随身携带不需托运), 主要用于抵美后临时住宿的不时之需。 </p>
-<p>(3) 自己较为偏好<span style="color: orange">夏装</span>, 能装的话尽量多带, 由于刚到美国, 日程较为忙乱, 洗衣计划有别于在国内, 而且夏装较冬装轻便, 可以多带以备不时之需。 </p>
-<p>(4) <span style="color: orange">必要的冬装</span>, 羽绒服和外套均可。不要带太厚的毛衣和毛裤。可以带羊毛衫之类的东西。</p>
-<p> (5) 对寒假不打算回国的同学来说, <span style="color: orange">保暖内衣</span>较为推荐. 如寒假回国, 可考虑届时回美再携带以减轻第一程的行李负担。</p>
-<p>(6) <span style="color: orange">长/短袜</span>都建议多带</p>
-<p>(7) <span style="color: orange">牛仔裤</span>可以适量带</p>
-<p><span style="color: red">特别提示</span>：美国的牛仔裤(如Levi’s, Armani Exchange)的确比国内便宜(Levi’s正价大概在25-45美元不等), 但如遇上比如穿两次便需清洗的习惯, 牛仔裤磨损和下缘形变很快。国内带来的牛仔裤相对质量较好。另外, Versace, Evisu等一些品牌在学校的Shopping Mall均没有设置门店, 有特别偏好的同学或许需要自带, 否则或许要到Chicago或New York购买。 </p>
-<p>(8) <span style="color: orange">男生可带登山用的鞋</span>(如Lafuma, Timberland, Columbia等牌子的鞋), 女生也可以参照男生。</p>
-<p><span style="color: red">特别提示</span>：在美国, 白人女生主要以UGG, BearPaw等的毛质表面靴鞋为主流。女生可以考虑到美国后再选购冬季用鞋。如寒假有回国打算, 冬季用鞋可在届时再考虑, 12月中前学校内的积雪并不算严重。 </p>
-<p>(9) <span style="color: orange">专业书籍建议抵达美国后再购买。</span></p>
-<p>(10) <span style="color: orange">常用的药品可带, 但必须保证独立包装妥当, 如在包装表面有内容相关描述更好, 以备海关人员检查并防他们拆包。</span>(此处提及的药品, 有别于药材。药材在海关环节, 与食物, 如牛肉干等, 均属于相当敏感的物品, 不建议携带。一旦被确认违反相关入境条例, 罚款会不低于250美元, 并在入境记录系统里面留有案底, 假若违者是SSN持有者, SS记录也会受到影响。)</p>
-<p>(11) <span style="color: orange">电器方面。</span> 因电压为110V, 携带国内电器则需要配套变压器, 所以不建议携带。美国的电器比较便宜, 而且覆盖面广, 电饭锅等都会在超市有售, 不必担心。手提电脑的配套充电器内, 全部自带了变压器适应各个地区电压, 因此手提电脑并不需要额外的变压器。</p>
-<p>(12) <span style="color: orange">电器的配套物品:</span> 网线(有需要的同学可以带), 转换插头, 插座托板(对于合租校外住宅的同学尤其重要)。</p>
-<p>(13) <span style="color: orange">雨伞, 雨靴。</span>(8, 9月依然会有不定量降水)</p>
-<p>(14) <span style="color: orange">拖鞋, 运动鞋。</span>(一般来说一双即可, 假若没有款式上特别要求, 美国市场的价格要比国内的低很多, 折扣也更为常见)</p>
-<br />
+('衣服服饰', '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<body>
+<p>(1) <span style="color: orange">T-shirt</span>: 自己较为偏好夏装, 能装的话尽量多带, 由于刚到美国, 日程较为忙乱, 洗衣计划有别 于在国内, 而且夏装较冬装轻便, 可以多带以备不时之需。</p>
+<p>(2) <span style="color: orange">羽绒服</span>: 在outlet购买或者网购都比国内便宜。</p>
+<p>(3) <span style="color: orange">保暖内衣</span>： 对寒假不打算回国的同学来说, <span style="color: orange">保暖内衣</span>较为推荐. 如寒假回国, 可考虑届时回美再 携带以减轻第一程的行李负担。</p>
+<p>(4) <span style="color: orange">西装</span>：在美国出席正规场合必备。Michigan的订做服务相对国内大城市来说比较稀少, 如需特别订做, 请尽量在国内完成。同时, 高级的西服在Michigan内门店也非常少。 但一般的西装, 学校附近的Mall有售, 价格合理。</p>
+<p>(5) <span style="color: orange">袜子</span>：<span style="color: orange">长/短袜</span>都建议多带。</p>
+<p>(6) <span style="color: orange">牛仔裤</span>：可以适量带。</p>
+<p><span style="color: red">特别提示</span>：美国的牛仔裤(如Levi’s, Armani Exchange)的确比国内便宜(Levi’s正价大概在25-45美元不等), 但如遇上比如穿两次便需清洗的习惯, 牛仔裤磨损和下缘形变很快。国内带来的牛仔裤相对质量较好。另外, Versace, Evisu等一些品牌在学校的Shopping Mall均没有设置门店, 有特别偏好的同学或许需要自带, 否则或许要到Chicago或New York购买。</p> <p>(7) <span style="color: orange">鞋子</span>：男生可带登山用的鞋(如Lafuma, Timberland, Columbia等牌子的鞋), 女生也可以参照男生。</p>
+<p><span style="color: red">特别提示</span>:在美国, 白人女生主要以UGG, BearPaw等的毛质表面靴鞋为主流。女生可以考虑到美国后再选购冬季用鞋。如寒假有回国打算, 冬季用鞋可在届时再考虑, 12月 中前学校内的积雪并不算严重。 拖鞋, 运动鞋一般来说一双即可, 假若没有款式上特别要求, 美国市场的价格要 比国内的低很多, 折扣也更为常见)。</p>
+</body>
+</html>
+
 '),
-('选带项', '<p>(1) 计算器。计算器包括两种: 只能四则运算的简单计算器, 和功能较为强大的科学计算器或工程计算器。后者以我们常见的德州科技TI-83, TI-89等为例。有些课程限制考生只能携带前者, 有些却不设限制。<span style="color: red">Ross BBA, 统计系, 数学系, 经济系的同学在此问题上较为切身。</span>前者在国内比较便宜, 在乎差价的同学可带, 但在学校里面的书店也有售。关于后者, 假若你在考SAT和AP时已配有, 即可携带.假若没有,可到美国等开学后买。这边网上购买一手或二手都非常便宜。Google, Walfram Alpha, 及一些特定的网站也可用于各种计算, 一般计算器只在考试时, 教授特别要求下才是必须的。 </p>
-<p>(2) 西装。<span style="color: red">在美国出席正规场合必备。</span>Michigan的订做服务相对国内大城市来说比较稀少, 如需特别订做, 请尽量在国内完成。同时, 高级的西服在Michigan内门店也非常少。但一般的西装, 学校附近的Mall有售, 价格合理。 </p>
-<p>(3) 羽绒服在outlet购买或者网购都比国内便宜。</p>
-<br />
+('生活用品', '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<body>
+<p>(1) <span style="color: orange">床上用品</span>：喜欢鹅绒被，羽绒被等对被子有特殊偏好的同学可以带，被子可以抽真空装行李箱里，带着轻不占地。冬天室内都有暖气，不需要带太厚的被子。也可以到了以后在宜家购买。床单被罩和枕头这些占地方又不是买不到的东西不太建议带，完全可以orientation期间找一天去宜家买齐。<span style="color: red">宿舍床尺寸为twin extra</span>，与国内的单人床略有差异，购买时请留意。</p>
+<p>(2) <span style="color: orange">电器</span>: 因电压为110V, 携带国内电器则需要配套变压器, 所以不建议携带。美国的电器比较便宜, 而且覆盖面广, 电饭锅等都会在超市有售, 不必担心。手提电脑的配套充电器内, 全部自带了变压器适应各个地区电压, 因此手提电脑并不需要额外的变压器。</p>
+<p>(3) <span style="color: orange">电器的配套物品</span>: 网线(有需要的同学可以带), 转换插头, 插座托板(对于合租校外住宅的同学尤其重要)。</p>
+<p>(4) <span style="color: orange">牙膏牙刷漱口水</span>：转机和抵美后可在机场的洗手间使用，韩国、日本、香港特区的 机场洗手间非常干净,可用于梳洗。但请谨记牙膏,漱又水需托运。</p>
+<p>(5) <span style="color: orange">餐具</span>：筷子汤匙比较推荐, 因为有别于刀/叉，筷子、汤匙可随身携带不需托运, 主要用于抵美后临时住宿的不时之需。 </p>
+<p>(6) <span style="color: orange">雨伞</span>, 雨靴: 8, 9月依然会有不定量降水。</p>
+<p>(7) <span style="color: orange">电池</span>：<span style="color: red">尽量不要带</span>，这边的walgreen，cvs都可以买得到。</p>
+<p>(8) <span style="color: orange">衣架</span>：<span style="color: red">平时挂衣服的衣架不用带</span>，太占空间，这边宜家也可以买到，1刀10-20个，质量也很好。</p>
+<p>(9) <span style="color: orange">化妆品/护肤品</span>：习惯用亚洲牌子的同学一定要在国内买好，虽然亚马逊有时候也能买到，但价格普遍偏贵，日韩的面膜可以囤几盒。不介意牌子的同学可以直接买美国国产，超市里有欧莱雅，强生，aveeno，露华浓等都很好用，Mall里面也有科颜氏，Estee Lauder，dior等大牌，也可以直接网购，非常方便。</p>
+</body>
+</html>
+'),
+('药', '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<body>
+<p>常用的药品可带, 但必须保证独立包装妥当, 如在包装表面有内容相关描述更好, 以 备海关人员检查并防他们拆包。(此处提及的药品, 有别于药材。药材在海关环节, 与食 物, 如牛肉干等, 均属于相当敏感的物品, 不建议携带。一旦被确认违反相关入境条例, 罚款会不低于250美元, 并在入境记录系统里面留有案底, 假若违者是SSN持有者, SS记 录也会受到影响)</p>
+<p>(1) <span style="color: orange">风油精、双飞人</span>：安娜堡基本没蚊虫，但可以带一罐上课考试提神。</p>
+<p>(2) <span style="color: orange">抗生素</span>：一定要带，抗生素是处方药，这边儿大夫很少开抗生素类药，他们的策略是：多休息你自然会好的。</p>
+<p>(3) <span style="color: orange">眼药水</span>：可以备一瓶防疲劳的眼药水，带隐形眼镜的同学需要备好常用的眼药水。</p>
+<p>(4) <span style="color: orange">感冒药</span>：一定要带，这边儿感冒一般不给治，并且要预约也很麻烦，建议带些板蓝根，双黄连，抗病毒口服液，重感灵等。</p>
+<p>(5) <span style="color: orange">止痛药</span>：女生都记得备好。</p>
+<p>(6) <span style="color: orange">外用药</span>：经常运动的同学要备好万花油，活络油，云南白药等。</p>
+<p>(7) <span style="color: orange">过敏药</span>：过敏体质的同学可备好常用药以防万一。</p>
+</body>
+</html>
 '),
 ('体检和疫苗', '<p>一般来说，在拿到大使馆的签证以后就可以开始办理出境体检表和疫苗表了。密西根大学并没有强制要求的疫苗。</p>
 <p>体检的地点一般是当地的<span style="color: red">国际旅行健康中心（原出入境检验检疫，现已并入海关）</span>，体检项目包括：X光检查、心电图、血液检查和全身检查等。体检完成后健康中心会出具<span style="color: red">健康检查证明书</span>（即“小红本”）。而“小黄本”则是指国际疫苗接种证明（密西根大学对小黄本没有强制要求）。</p>
@@ -121,7 +151,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <br />
 <p>学校提供的医疗保险计划不包含牙科咨询所产生的费用, 同学们可以根据自己的需要额外购买相应的保险。</p>
 '),
-('学费+housing ddl', '<p>密西根大学每一个学院收取不同金额的学费，具体请详见：</p>
+('学费 + Housing DDL', '<p>密西根大学每一个学院收取不同金额的学费，具体请详见：</p>
 <p><a target="_blank" href="http://www.ro.umich.edu/tuition/tuition-fees.php#fullterm">http://www.ro.umich.edu/tuition/tuition-fees.php#fullterm</a></p>
 <p>缴费的最好方式是到安娜堡之后开户转账，学费截止日期大约在选课后一个月。</p>
 <p>另外,学校还会向学生强制收取一部分Mandatory Fees,其中包括选课费,学生政府费用等等。缴费的方法有几种, 网上转账, 当面提交现金/支票, 或者邮寄支票。</p>
@@ -703,7 +733,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：价格偏高。</p>
 <p>网址：<a target="_blank" href="https://www.americancampus.com/student-apartments/mi/ann-arbor/hub-ann-arbor#specials">https://www.americancampus.com/student-apartments/mi/ann-arbor/hub-ann-arbor#specials</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as10.jpg" alt="as10" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/as13.jpg" alt="as13" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://www.americancampus.com）</p>
 <br />
 <p>11. The Yard</p>
@@ -718,7 +748,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：离中校稍远，在 Main Street, 但周围有Shuttle</p>
 <p>网址：<a target="_blank" href="http://www.livetheyard.com">http://www.livetheyard.com</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as11.jpg" alt="as11" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/as14.jpg" alt="as14" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://www.livetheyard.com）</p>
 <br />
 <p>12. Six11</p>
@@ -731,7 +761,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：房型选择较少</p>
 <p>网址：<a target="_blank" href="http://www.livesix11.com">http://www.livesix11.com</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as12.jpg" alt="as12" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/as15.jpg" alt="as15" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://www.livesix11.com）</p>
 '),
 ('北校区房源', '<p>13. Courtyard</p>
@@ -758,7 +788,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>注意:该小区所有 apartment(三层联排) 的房型费用都包含电费和气费。Tower(五层楼房)则需要另附。 </p>
 <p>网址：<a target="_blank" href="https://www.americancampus.com/student-apartments/mi/ann-arbor/willowtree-apartments-towe">https://www.americancampus.com/student-apartments/mi/ann-arbor/willowtree-apartments-tower</a> </p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/as13.jpg" alt="as13" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/as11.jpg" alt="as11" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：https://www.americancampus.com）</p>
 <br />
 <p>15. Huron Towers</p>
@@ -785,7 +815,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：冬季供暖费用偏高(安娜堡普遍 2b2b 冬季每月可高达~$180)，面向树林的部分低楼层采光差、潮湿。</p>
 <p>网址：<a target="_blank" href="http://www.hurontowers.com/index.html">http://www.hurontowers.com/index.html</a></p>
 <p>推荐指数：三星半</p>
-<img src="/freshman-handbook/uploads/as12.jpg" alt="as12" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/as13.jpg" alt="as13" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
 '),
 ('校外租房信息', '<p>1. 房屋信息网站及论坛：</p>
 <p>WeHousing校外租房折扣信处平台：<a target="_blank" href="https://www.wehousing.com">https://www.wehousing.com</a> 提供校外热门公寓的独家国际生折扣和在线申请服务。</p>
@@ -868,69 +898,48 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 ('一元店', '<p>Dollar chain 和 Dollar tree 是卖厨房用具和小装饰品的连锁超市――也就是美国的“一元店”。所以在这儿你可以买到很多物美价廉的日常用品。在不少大超市的附近，都有这种一元店。所以你到超市去买东西之余，可以顺便去一元店逛逛哦。</p>
 <br />
 '),
-('文具', '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<body>
-<p>(1) <span style="color: orange">书本</span>：专业书籍建议抵达美国后再购买，电子版的书籍可以在：<a target="_blank" href="http://libgen.io">libgen.io</a> 或 <a target="_blank" href="http://bookzz.org">bookzz.org</a> 上下载。</p>
-<p>(2) <span style="color: orange">计算器</span>：计算器包括两种: 只能四则运算的简单计算器, 和功能较为强大的科学计算器或工程计算器。后者以我们常见的德州科技TI-83, TI-89等为例。有些课程限制考生只能携带前者, 有些却不设限制。<span style="color: red">Ross BBA, 统计系, 数学系, 经济系的同学在此问题上较为切身。</span>前者在国内比较便宜, 在乎差价的同学可带, 但在学校里面的书店也有售。关于后者, 假若你在考SAT和AP时已配有, 即可携带.假若没有,可到美国等开学后买。这边网上购买一手或二手都非常便宜。Google, Walfram Alpha, 及一些特定的网站也可用于各种计算, 一般计算器只在考试时, 教授特别要求下才是必须的。</p>
-<p>(3) <span style="color: orange">笔</span>：对笔的牌子有偏好的同学可以提前在国内备好，三菱、斑马、凌美、百乐等牌子这边比较难买到。学艺术的可以提前问学长学姐需要带什么笔或工具，一般在国内买比较便宜。考试时用的2B铅笔可以带点，特别是国内卖的专门涂答题卡的笔。</p>
-<p>(4) <span style="color: orange">文件包</span>：<span style="color: red">文件包用于存放下面各项</span>（此文件包的设置目的在于, 尽量少地在旅程当中翻动包裹好的行李）:</p>
-<ul>
-  <li>登机牌(填写入境卡须用到登机牌上信息, 如航班号,出发地等, 填写时注意大小写的要求)</li>
-  <li>护照</li>
-  <li>I-20表格</li>
-  <li>国际信用卡(如有)</li>
-  <li>少量美金纸币和硬币(如有)</li>
-  <li>抵美后即时联系人的联系方式</li>
-</ul>
-<p>(5) <span style="color: orange">本子</span>：箱子能装得下或对本子有偏好的同学可以袋，这边的本子一个十几刀偏贵。</p>
-<p>(6) <span style="color: orange">小礼品</span>：根据需要带。可以在网上买些具有中国特色的小礼品，例如刺绣、小屏风、中国结等，可以过来送室友、朋友。</p>
-</body>
-</html>
+('服装', '<p>对于那些穿衣服比较随性的同学来说，可以就近到 Meijer 和 Walmart 购买服装。这些超市服装种类款式 都比较少，主要以休闲运动装为主，很耐穿，价格也相对便宜。</p>
+<p>另外在S. StateSt. 附近有American Apparel, Urban Outfitters, Bivouac, Orchid Lane, Sole Sisters, Pitaya等服装店。</p>
+<br />
+<p>如果需要买比较漂亮的衣服，可以去比较近的 Briarwood Mall ，位于 Elsenhower Rd，可以在 Michigan Union 乘坐 AATA 的 6 路公车到 Briarwood Mall 站下车。 这个 Mall 内有四家比较大的 店，Sears, JCpenny, Marshll Field, Von Maur，也有 Gap, Sunglass hut, Coach, J. Crew, D.O.C., Body Shop 等品牌的专卖店。Store directory 可以在以下链接查到 <a target="_blank" href="http://www.shopbriarwood.com/IM/">http://www.shopbriarwood.com/IM/</a>。</p>
+<br />
+<p>开车沿着  23  号  Highway 一直往北开上大约一个小时，就能看到美国中西部最大的服装  Birch  Run  Outlet 。那里集中了 170 多家品牌的专卖店，如 Adidas, Gap, Nautica, Nike, Polo, Timberland, Sony, Reebok， GNC 等。各种服装，皮具，化妆品，床上用品，厨具，药品，礼品，体育用品等都可以在那里买到。除了种 类齐全以外，Birch Run 的东西的价格也大大低于 local 店。在那里，几乎每天都有各种 sale。尤其是法定节 假日，Birch Run 更是购物的理想场所。具体信息可以查阅以下链接 <a target="_blank" href="http://www.primeoutlets.com/cntrdefault.asp?cntrid=1015">http://www.primeoutlets.com/cntrdefault.asp?cntrid=1015</a>。</p>
+<br />
+<p>另外一家比较高档的大型购物中心是 Somerset ，它是美国中西部最大的购物中心之一，位于 2800 W BigBeaver Rd, Troy, MI 48084。由于比较远，需要自行开车才能到达。具体可登陆 <a target="_blank" href="http://www.thesomersetcollection.com/directory">http://www.thesomersetcollection.com/directory</a>。</p>
 '),
-('衣服服饰', '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<body>
-<p>(1) <span style="color: orange">T-shirt</span>: 自己较为偏好夏装, 能装的话尽量多带, 由于刚到美国, 日程较为忙乱, 洗衣计划有别 于在国内, 而且夏装较冬装轻便, 可以多带以备不时之需。</p>
-<p>(2) <span style="color: orange">羽绒服</span>: 在outlet购买或者网购都比国内便宜。</p>
-<p>(3) <span style="color: orange">保暖内衣</span>： 对寒假不打算回国的同学来说, <span style="color: orange">保暖内衣</span>较为推荐. 如寒假回国, 可考虑届时回美再 携带以减轻第一程的行李负担。</p>
-<p>(4) <span style="color: orange">西装</span>：在美国出席正规场合必备。Michigan的订做服务相对国内大城市来说比较稀少, 如需特别订做, 请尽量在国内完成。同时, 高级的西服在Michigan内门店也非常少。 但一般的西装, 学校附近的Mall有售, 价格合理。</p>
-<p>(5) <span style="color: orange">袜子</span>：<span style="color: orange">长/短袜</span>都建议多带。</p>
-<p>(6) <span style="color: orange">牛仔裤</span>：可以适量带。</p>
-<p><span style="color: red">特别提示</span>：美国的牛仔裤(如Levi’s, Armani Exchange)的确比国内便宜(Levi’s正价大概在25-45美元不等), 但如遇上比如穿两次便需清洗的习惯, 牛仔裤磨损和下缘形变很快。国内带来的牛仔裤相对质量较好。另外, Versace, Evisu等一些品牌在学校的Shopping Mall均没有设置门店, 有特别偏好的同学或许需要自带, 否则或许要到Chicago或New York购买。</p> <p>(7) <span style="color: orange">鞋子</span>：男生可带登山用的鞋(如Lafuma, Timberland, Columbia等牌子的鞋), 女生也可以参照男生。</p>
-<p><span style="color: red">特别提示</span>:在美国, 白人女生主要以UGG, BearPaw等的毛质表面靴鞋为主流。女生可以考虑到美国后再选购冬季用鞋。如寒假有回国打算, 冬季用鞋可在届时再考虑, 12月 中前学校内的积雪并不算严重。 拖鞋, 运动鞋一般来说一双即可, 假若没有款式上特别要求, 美国市场的价格要 比国内的低很多, 折扣也更为常见)。</p>
-</body>
-</html>
-
+('电器和文具', '<p>Circuit City，Best Buy 和 COMPUSA 是专门经营家用电器，电脑及相关电子产品的连锁店。如果你喜欢看 电视或者球赛，别忘记在这里 check out 一台大电视哦。Circuit City 在 Washtenaw Ave 上的 Arborland Mall 里，Best Buy 和 Compusa 都在Lohr Rd上。</p>
+<p>网址分别是：<a target="_blank" href="http://www.circuitcity.com">http://www.circuitcity.com</a></p>
+<p>		<a target="_blank" href="http://www.bestbuy.com">http://www.bestbuy.com</a></p>
+<p>		<a target="_blank" href="http://www.compusa.com">http://www.compusa.com</a></p>
+<p>在中校 union 旁边有 computer showcase，主营笔记本电脑及配件。若 Apple, H, Dell 品牌的电脑需要维修也可以在这里维修。</p>
+<p>网址为：<a target="_blank" href="http://showcase.itcs.umich.edu/contact/">http://showcase.itcs.umich.edu/contact/</a></p>
+<p>如果你想买文具，办公用品等呢，可以去 OfficeMax, Staples, OfficeDepot。</p>
+<p>其具体地址参见它们的网站：<a target="_blank" href="http://www.officemax.com">http://www.officemax.com</a></p>
+<p>				    <a target="_blank" href="http://www.staples.com">http://www.staples.com</a></p>
+<p>			   	    <a target="_blank" href="http://www.officedepot.com">http://www.officedepot.com</a>。</p>
 '),
-('生活用品', '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<body>
-<p>(1) <span style="color: orange">床上用品</span>：喜欢鹅绒被，羽绒被等对被子有特殊偏好的同学可以带，被子可以抽真空装行李箱里，带着轻不占地。冬天室内都有暖气，不需要带太厚的被子。也可以到了以后在宜家购买。床单被罩和枕头这些占地方又不是买不到的东西不太建议带，完全可以orientation期间找一天去宜家买齐。<span style="color: red">宿舍床尺寸为twin extra</span>，与国内的单人床略有差异，购买时请留意。</p>
-<p>(2) <span style="color: orange">电器</span>: 因电压为110V, 携带国内电器则需要配套变压器, 所以不建议携带。美国的电器比较便宜, 而且覆盖面广, 电饭锅等都会在超市有售, 不必担心。手提电脑的配套充电器内, 全部自带了变压器适应各个地区电压, 因此手提电脑并不需要额外的变压器。</p>
-<p>(3) <span style="color: orange">电器的配套物品</span>: 网线(有需要的同学可以带), 转换插头, 插座托板(对于合租校外住宅的同学尤其重要)。</p>
-<p>(4) <span style="color: orange">牙膏牙刷漱口水</span>：转机和抵美后可在机场的洗手间使用，韩国、日本、香港特区的 机场洗手间非常干净,可用于梳洗。但请谨记牙膏,漱又水需托运。</p>
-<p>(5) <span style="color: orange">餐具</span>：筷子汤匙比较推荐, 因为有别于刀/叉，筷子、汤匙可随身携带不需托运, 主要用于抵美后临时住宿的不时之需。 </p>
-<p>(6) <span style="color: orange">雨伞</span>, 雨靴: 8, 9月依然会有不定量降水。</p>
-<p>(7) <span style="color: orange">电池</span>：<span style="color: red">尽量不要带</span>，这边的walgreen，cvs都可以买得到。</p>
-<p>(8) <span style="color: orange">衣架</span>：<span style="color: red">平时挂衣服的衣架不用带</span>，太占空间，这边宜家也可以买到，1刀10-20个，质量也很好。</p>
-<p>(9) <span style="color: orange">化妆品/护肤品</span>：习惯用亚洲牌子的同学一定要在国内买好，虽然亚马逊有时候也能买到，但价格普遍偏贵，日韩的面膜可以囤几盒。不介意牌子的同学可以直接买美国国产，超市里有欧莱雅，强生，aveeno，露华浓等都很好用，Mall里面也有科颜氏，Estee Lauder，dior等大牌，也可以直接网购，非常方便。</p>
-</body>
-</html>
+('网购', '<p>若你有拥有美元账户的借记卡或者贷记卡，就可在网上购物。在繁忙的学习生活中，网购不失为一种省时省 力省钱的好途径。大型综合类网购网站中最为出色的两家可以总结为 amazon 和 ebay。</p>
+<br/>
+<p>Amazon 是全球最大的 B2C 电商。货品齐全且价格公道。各种日用品，服装，电器，食物等都有供应。在美国 Amazon 网站上注册一个账号，并提供银行卡信息及送货信息就可开始购物了。需要注意的是这个 Amazon
+    与国内亚马逊不可混用。学生凭学校邮箱可以免费获得 6 个月的 Prime 服务，到期后可以以学生价 继续订购此项服务。具体参考：
+    <a target="_blank" href="https://www.amazon.com/gp/student/signup/info/ref=lp_student/188-5790946-9340369">https://www.amazon.com/gp/student/signup/info/ref=lp_student/188-5790946-9340369</a></p>
+<img src="/freshman-handbook/uploads/zc1.png" alt="zc1" style="display: block; width: 300px; max-width: 80%; margin: 20px auto"/>
+<br/>
+<p>ebay 与淘宝类似，增加了 auction 功能，就是以竞价的方式进行购买，可以买到非常便宜的商品。另外它的二手商品交易也很成熟健全。在购物之前需要注册易趣账号以及 paypal
+    账号（相当于国内的支付宝），并提供银行卡信息和送货地址。</p>
+<img src="/freshman-handbook/uploads/zc2.png" alt="zc2" style="display: block; width: 300px; max-width: 80%; margin: 20px auto"/>
+<br/>
+<p>以上两个网站也是购买教科书的良好途径。Amazon 提供买与租两种方式。购买新书一般比书店便宜 20%以上，而二手书根据实际情况比新书进一步便宜 20%到 50%。学期末还可以将书卖回 amazon，账户内可以获
+    得一定量的现金券，用于下次购物。若是租的话就更加便宜了，须在截止日前将书寄回，邮费由 amazon 承 担。Ebay 一样有新书以及二手书的出售，有些还有国际版出售，价格通常便宜一半以上。</p>
+<br/>
+<p>另外大型购物超市 Target, Meijer, Kroger 等也都有在线购买服务。一些服装品牌如 A&F, Gap, Levi’s 等也 可以在官网上在线购买。</p>
+<br/>
+<p>不论在哪家网站上购物，退货政策都须事先了解好。Amazon 根据商品类别不同退货政策有所不同。有 prime 服务的用户可以享受更大范围的的免邮费退换货，而且通常由 amazon 直接销售的商品要比私人卖家挂在amazon
+    上销售的商品退换货容易一些。Ebay 的退货政策是卖家制定的，在商品页面会有详细的说明。</p>
 '),
-('药', '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<body>
-<p>常用的药品可带, 但必须保证独立包装妥当, 如在包装表面有内容相关描述更好, 以 备海关人员检查并防他们拆包。(此处提及的药品, 有别于药材。药材在海关环节, 与食 物, 如牛肉干等, 均属于相当敏感的物品, 不建议携带。一旦被确认违反相关入境条例, 罚款会不低于250美元, 并在入境记录系统里面留有案底, 假若违者是SSN持有者, SS记 录也会受到影响)</p>
-<p>(1) <span style="color: orange">风油精、双飞人</span>：安娜堡基本没蚊虫，但可以带一罐上课考试提神。</p>
-<p>(2) <span style="color: orange">抗生素</span>：一定要带，抗生素是处方药，这边儿大夫很少开抗生素类药，他们的策略是：多休息你自然会好的。</p>
-<p>(3) <span style="color: orange">眼药水</span>：可以备一瓶防疲劳的眼药水，带隐形眼镜的同学需要备好常用的眼药水。</p>
-<p>(4) <span style="color: orange">感冒药</span>：一定要带，这边儿感冒一般不给治，并且要预约也很麻烦，建议带些板蓝根，双黄连，抗病毒口服液，重感灵等。</p>
-<p>(5) <span style="color: orange">止痛药</span>：女生都记得备好。</p>
-<p>(6) <span style="color: orange">外用药</span>：经常运动的同学要备好万花油，活络油，云南白药等。</p>
-<p>(7) <span style="color: orange">过敏药</span>：过敏体质的同学可备好常用药以防万一。</p>
-</body>
-</html>
+('食材和药品', '<p>Joe Randazzos 是墨西哥人开的一个蔬菜水果超市，位于距离 Ann Arbor 大约有半个小时的车程的 Canton。 虽然远了一些，但是那里的蔬菜，水果种类繁多，价格也极为便宜，远远低于 Kroger 和 Meijer。如果你是 一个经常自己在家做饭的主，周末去 Randazzo 买菜应该是一个不错的选择。具体请见：<a target="_blank" href="http://www.joerandazzos.com">www.joerandazzos.com</a> </p>
+<br />
+<p>若需买药品，可以去 CVS pharmacy, Walgreen 等药店。一些普通的药品也可以在 Walmart 和 Meijer 等大型超市内购买。</p>
 '),
 ('电影院', '<p>安娜堡有多家电影院可以让同学们欣赏不同类型的电影。其中 Rave Motion Pictures 和 Quality 16 是上映 最新电影的影院，而 State Theater 和 Michigan theater 则是上映经典电影的影院，同学们可以依据自己的 喜好来选择。请记得带好学生证（Mcard）去看电影，会有 student discount 哟。</p>
 <br />
