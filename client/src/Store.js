@@ -22,7 +22,7 @@ const initValues = {
             ['体检 & 疫苗 & 医疗保险', [
                 ['体检和疫苗', 0],
                 ['医疗保险', 0]]],
-            ['学费+housing ddl', 0]]],
+            ['学费 + Housing DDL', 0]]],
         ['入学指南', [
             ['Mandatory Immigration Check-In', 0],
             ['International Orientation', 0],
