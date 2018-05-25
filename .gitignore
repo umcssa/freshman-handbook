@@ -16,5 +16,6 @@ cookies.txt
 *.pem
 helper/fetch/data/*/*.html
 
-input/
-output*/
+output0/
+output1/
+output2/
