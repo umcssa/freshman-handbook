@@ -733,7 +733,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：价格偏高。</p>
 <p>网址：<a target="_blank" href="https://www.americancampus.com/student-apartments/mi/ann-arbor/hub-ann-arbor#specials">https://www.americancampus.com/student-apartments/mi/ann-arbor/hub-ann-arbor#specials</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as13.jpg" alt="as13" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/as14.png" alt="as14" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://www.americancampus.com）</p>
 <br />
 <p>11. The Yard</p>
@@ -748,7 +748,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：离中校稍远，在 Main Street, 但周围有Shuttle</p>
 <p>网址：<a target="_blank" href="http://www.livetheyard.com">http://www.livetheyard.com</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as14.jpg" alt="as14" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/as15.jpg" alt="as15" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://www.livetheyard.com）</p>
 <br />
 <p>12. Six11</p>
@@ -761,7 +761,7 @@ INSERT INTO article VALUES ('签证申请流程', '<p><span style="color: orange
 <p>缺点：房型选择较少</p>
 <p>网址：<a target="_blank" href="http://www.livesix11.com">http://www.livesix11.com</a> </p>
 <p>推荐指数：四颗星</p>
-<img src="/freshman-handbook/uploads/as15.jpg" alt="as15" style="display: block; width: 400px; max-width: 80%; margin: 20px auto" />
+<img src="/freshman-handbook/uploads/as16.jpg" alt="as16" style="display: block; width: 350px; max-width: 80%; margin: 20px auto" />
 <p style="font-size:50%;">（图片来源：http://www.livesix11.com）</p>
 '),
 ('北校区房源', '<p>13. Courtyard</p>
