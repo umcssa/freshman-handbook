@@ -1,4 +1,6 @@
 # Freshman Handbook
+[![Build Status](https://travis-ci.com/umcssa/freshman-handbook.svg?branch=master)](https://travis-ci.com/umcssa/freshman-handbook)
+
 A web application produced by the CSSA APPs development team, which provides useful information for freshman students at the University of Michigan, including course selection, student apartments, campus transportation, etc.
 
 ## Website
